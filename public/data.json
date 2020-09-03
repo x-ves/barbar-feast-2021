@@ -1,0 +1,177 @@
+[
+        {
+            "id": 1,
+            "name": "Metsatöll",
+            "genre": "folk metal",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 2,
+            "name": "Kurjam",
+            "genre": "punk rock",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 3,
+            "name": "Herald",
+            "genre": "Heavy metal",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 4,
+            "name": "Goresoerd",
+            "genre": "Death / Groove metal",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 5,
+            "name": "Hetero",
+            "genre": "Hard rock",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 6,
+            "name": "Intact",
+            "genre": "Groove / Thrash / Heavy metal",
+            "country": "EST / FIN",
+            "imgUrl": ""
+        },
+        {
+            "id": 7,
+            "name": "Horror Dance Squad",
+            "genre": "Modern metal",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 8,
+            "name": "Redneck Rampage",
+            "genre": "Southern metal",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 9,
+            "name": "Nihilistikrypt",
+            "genre": "Death metal",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 10,
+            "name": "Boogie Company",
+            "genre": "Rockabilly",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 11,
+            "name": "Val Tvoar",
+            "genre": "Stoner metal",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 12,
+            "name": "Metallica Tribute",
+            "genre": "Heavy metal",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 13,
+            "name": "SOLD",
+            "genre": "Melodic metal",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 14,
+            "name": "Dreadpin",
+            "genre": "Progressive metal",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 15,
+            "name": "Abandoned Elysium",
+            "genre": "Extreme / Progressive / Technical metal",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 16,
+            "name": "Teravmoon",
+            "genre": "Superherocomedyrock",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 17,
+            "name": "KOLMTEIST",
+            "genre": "Rock",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 18,
+            "name": "Defeatem",
+            "genre": "Heavy / Thrash metal",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 19,
+            "name": "Ulguränd",
+            "genre": "Black / Heavy / Folk metal",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 20,
+            "name": "Desert Queen",
+            "genre": "Atmospheric Riff Rock",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 21,
+            "name": "Tapper",
+            "genre": "Pagan / Death / Black metal",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 22,
+            "name": "Riser",
+            "genre": "Thrash / Heavy / Hard rock",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 23,
+            "name": "No More Fridays",
+            "genre": "Hard rock",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 24,
+            "name": "DJ Taat",
+            "genre": "???",
+            "country": "EST",
+            "imgUrl": ""
+        },
+        {
+            "id": 25,
+            "name": "TBA",
+            "genre": "TBA",
+            "country": "TBA",
+            "imgUrl": ""
+        }
+]
