@@ -1,6 +1,9 @@
 {
+  "app": {
+    "title": "Barbar Feast 2021 | Virallinen"
+  },
     "nav": {
       "home": "Kotisivu",
-      "about": "Festivaalisti"
+      "about": "Festivaalista"
     }
   }

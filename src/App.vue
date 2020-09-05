@@ -9,9 +9,28 @@
 
 <script>
 import Nav from "@/components/Nav"
+import {
+  setDocumentDirectionPerLocale,
+  setDocumentTitle,
+  setDocumentLang
+} from "@/util/i18n/document"
 
 export default {
-  components: { Nav }
+  components: { Nav },
+  mounted() {
+    this.$watch(
+      "$i18n.locale",
+      (newLocale, oldLocale) => {
+        if (newLocale === oldLocale) {
+          return
+        }
+        setDocumentLang(newLocale);
+        setDocumentDirectionPerLocale(newLocale);
+        setDocumentTitle(this.$t("app.title"));
+      },
+      { immediate: true }
+    )
+  }
 }
 </script>
 

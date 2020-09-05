@@ -1,5 +1,5 @@
 export default {
-    et: "Eesti",
-    fi: "Suomi",
-    en: "English"
+    et: "EST",
+    fi: "FIN",
+    en: "ENG"
 }

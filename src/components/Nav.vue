@@ -25,7 +25,7 @@ export default {
   text-align: left;
   padding: 1rem;
   color: #42b983;
-  background-color: #3d536a;
+  background-color: #cacaca;
 }
 
 #nav a {
@@ -42,7 +42,7 @@ export default {
   text-align: left;
   padding: 1rem;
   color: #fff;
-  background-color: #3d536a;
+  background-color: #cacaca;
 }
 
 .nav__start,

@@ -13,3 +13,10 @@ export default {
     data: () => ({ locales: getSupportedLocales() })
 }
 </script>
+
+<style lang="css">
+    select {
+        border: none;
+        padding: 0.2rem;
+    }
+</style>

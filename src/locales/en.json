@@ -1,4 +1,7 @@
 {
+  "app": {
+    "title": "Barbar Feast 2021 | Official"
+  },
   "nav": {
     "home": "Home",
     "about": "About"
