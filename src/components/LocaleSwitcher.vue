@@ -17,6 +17,19 @@ export default {
 <style lang="css">
     select {
         border: none;
-        padding: 0.2rem;
+        padding: 10px;
+        color: white;
+        background: none;
+        font-size: 1rem;
+    }
+
+    select:hover {
+        cursor: pointer;
+        background-color:  rgba(46, 111, 168, 0.333);
+    }
+
+    option {
+        background-color: white;
+        color: black;
     }
 </style>

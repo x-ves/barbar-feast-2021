@@ -1,7 +1,8 @@
 {
   "app": {
     "title": "Barbar Feast 2021 | Virallinen",
-    "slogan": "Kolme päivää Virolaista lämmitystä"
+    "slogan": "Kolme päivää Virolaista lämmitystä",
+    "lineup": "Esiintyjät"
   },
     "nav": {
       "home": "Kotisivu",

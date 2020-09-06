@@ -1,7 +1,8 @@
 {
   "app": {
     "title": "Barbar Feast 2021 | Official",
-    "slogan": "Three days of true Estonian heat"
+    "slogan": "Three days of true Estonian heat",
+    "lineup": "Lineup"
   },
   "nav": {
     "home": "Home",
