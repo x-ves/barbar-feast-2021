@@ -10,7 +10,6 @@
 <script>
 import Nav from "@/components/Nav"
 import {
-  setDocumentDirectionPerLocale,
   setDocumentTitle,
   setDocumentLang
 } from "@/util/i18n/document"
@@ -25,7 +24,6 @@ export default {
           return
         }
         setDocumentLang(newLocale);
-        setDocumentDirectionPerLocale(newLocale);
         setDocumentTitle(this.$t("app.title"));
       },
       { immediate: true }
@@ -35,29 +33,23 @@ export default {
 </script>
 
 <style lang="scss">
-body {
-  margin: 0;
-}
 
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-}
-#app .container {
-  padding: 1rem;
-}
-
-#nav {
-
-  a {
-    font-weight: bold;
-    color: rgb(238, 238, 238);
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+  * {
+    box-sizing: border-box;
   }
-}
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+  }
+
+  #app {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #1b3752;
+  }
+  #app .container {
+    padding: 1rem;
+  }
+
 </style>

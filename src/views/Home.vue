@@ -1,6 +1,9 @@
 <template>
   <div class="home">
-    <h1>Barbar Feast 2021</h1>
+    <div class="welcome">
+      <h1>Barbar Feast 2021</h1>
+      <span>{{ $t("app.slogan") }}</span>
+    </div>
     <Cards />
   </div>
 </template>
@@ -16,3 +19,18 @@ export default {
   }
 };
 </script>
+
+<style lang="scss">
+
+.welcome {
+  text-align: center;
+  padding: 1rem;
+  color: rgb(55, 62, 160);
+  text-transform: uppercase;
+
+  h1 {
+    margin: 0;
+  }
+}
+
+</style>

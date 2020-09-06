@@ -4,42 +4,42 @@
             "name": "Metsatöll",
             "genre": "folk metal",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "http://www.metsatoll.ee/images/promo/Metsatoll_4.jpg"
         },
         {
             "id": 2,
             "name": "Kurjam",
             "genre": "punk rock",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "https://s.err.ee/photo/crop/2017/10/13/413712hcd48t28.jpg"
         },
         {
             "id": 3,
             "name": "Herald",
             "genre": "Heavy metal",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "http://herald.ee/wp-content/uploads/2010/12/pp-59.jpg"
         },
         {
             "id": 4,
             "name": "Goresoerd",
             "genre": "Death / Groove metal",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "https://www.goresoerd.com/newimages/GS19.jpg"
         },
         {
             "id": 5,
             "name": "Hetero",
             "genre": "Hard rock",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "https://scontent.frix7-1.fna.fbcdn.net/v/t1.0-9/13000152_1017143951701194_543146604314846970_n.jpg?_nc_cat=104&_nc_sid=9267fe&_nc_ohc=wTn1NKgqNlAAX9Z2ZAw&_nc_ht=scontent.frix7-1.fna&oh=b8f56a2a2b52968094a42f163e8c4bb1&oe=5F7B8BB3"
         },
         {
             "id": 6,
             "name": "Intact",
             "genre": "Groove / Thrash / Heavy metal",
             "country": "EST / FIN",
-            "imgUrl": ""
+            "imgUrl": "https://scontent.frix7-1.fna.fbcdn.net/v/t1.0-9/80645954_2663508750398659_4474389915567652864_o.jpg?_nc_cat=103&_nc_sid=730e14&_nc_ohc=Mtw2QOq_nRgAX9oMXHb&_nc_ht=scontent.frix7-1.fna&oh=9b4b0ddaeb5a87e0b482a0e3b99a04bc&oe=5F78EB92"
         },
         {
             "id": 7,

@@ -21,8 +21,12 @@ export default {
 
 <style scoped>
     .cards {
+        width: 90%;
+        height: 210rem;
+        margin: 0 auto;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        align-content: space-between;
         flex-wrap: wrap;
     }
 </style>
