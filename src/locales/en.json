@@ -7,5 +7,10 @@
   "nav": {
     "home": "Home",
     "about": "About"
+  },
+  "footer": {
+    "msg": "Barbar Feast is brought to you by rock club Barbar!",
+    "gsm": "GSM",
+    "mail": "E-mail"
   }
 }

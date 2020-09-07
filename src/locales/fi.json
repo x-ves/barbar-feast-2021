@@ -7,5 +7,10 @@
     "nav": {
       "home": "Kotisivu",
       "about": "Festivaalista"
+    },
+    "footer": {
+      "msg": "Barbar Feasti tuo sinulle rockklubin Barbar!",
+      "gsm": "Tel",
+      "mail": "E-posti"
     }
   }

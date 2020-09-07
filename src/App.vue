@@ -4,18 +4,23 @@
     <div class="container">
     <router-view />
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
-import Nav from "@/components/Nav"
+import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
 import {
   setDocumentTitle,
   setDocumentLang
 } from "@/util/i18n/document"
 
 export default {
-  components: { Nav },
+  components: {
+    Nav,
+    Footer
+    },
   mounted() {
     this.$watch(
       "$i18n.locale",
@@ -47,9 +52,6 @@ export default {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #1b3752;
-  }
-  #app .container {
-    padding: 1rem;
   }
 
 </style>

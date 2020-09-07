@@ -17,13 +17,16 @@ import Cards from "@/components/Cards.vue";
 
 export default {
   name: "Home",
-  components: {
-    Cards
-  }
+  components: { Cards }
 };
 </script>
 
 <style lang="scss">
+
+.home {
+  margin: 0;
+  padding: 0;
+}
 
 .welcome {
   text-align: center;

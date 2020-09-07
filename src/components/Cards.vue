@@ -22,7 +22,6 @@ export default {
 <style scoped>
     .cards {
         width: 90%;
-        height: 210rem;
         margin: 0 auto;
         display: flex;
         justify-content: space-evenly;
