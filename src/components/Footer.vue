@@ -1,21 +1,19 @@
 <template>
     <footer>
         <div class="footer">
-            <div class="footer__info">
-                <img :src="'barbarprofiilikas.png'" alt="BarBar logo">
-                <div class="footer__info__contacts">
-                    <h3>{{ $t("footer.msg") }}</h3>
-                    <br>
-                    <p>
-                    {{ $t("footer.gsm") }}: <strong><a href="tel:+37258518184">+372 5851 8184</a></strong> <br>
-                    {{ $t("footer.mail") }}: <strong><a href="mailto:barbarestonia@gmail.com">barbarestonia@gmail.com</a></strong>
-                    </p>
-                </div>
-                <div class="footer__info__socials">
-                    <font-awesome-icon :icon="['fab', 'facebook-square']"></font-awesome-icon><a href="https://www.facebook.com/barbarestonia/" target="_blank"><span class="socsp"> @barbarestonia</span></a> <br>
-                    <font-awesome-icon :icon="['fab', 'instagram']"></font-awesome-icon><a href="https://www.instagram.com/barbarestonia/" target="_blank"><span class="socsp"> @barbarestonia</span></a> <br>
-                    <font-awesome-icon :icon="['fab', 'instagram']"></font-awesome-icon><a href="https://www.instagram.com/barbarfeast/" target="_blank"><span class="socsp"> @barbarfeast</span></a>
-                </div>
+            <img :src="'barbarprofiilikas.png'" alt="BarBar logo">
+            <div class="footer__contacts">
+                <p>{{ $t("footer.msg") }}</p>
+                <br>
+                <p>
+                {{ $t("footer.gsm") }}: <strong><a href="tel:+37258518184">+372 5851 8184</a></strong> <br>
+                {{ $t("footer.mail") }}: <strong><a href="mailto:barbarestonia@gmail.com">barbarestonia@gmail.com</a></strong>
+                </p>
+            </div>
+            <div class="footer__socials">
+                <span class="socsp"><font-awesome-icon class="footer__socials__icon" :icon="['fab', 'facebook-square']"></font-awesome-icon><a href="https://www.facebook.com/barbarestonia/" target="_blank">@barbarestonia</a></span>
+                <span class="socsp"><font-awesome-icon class="footer__socials__icon" :icon="['fab', 'instagram']"></font-awesome-icon><a href="https://www.instagram.com/barbarestonia/" target="_blank">@barbarestonia</a></span>
+                <span class="socsp"><font-awesome-icon class="footer__socials__icon" :icon="['fab', 'instagram']"></font-awesome-icon><a href="https://www.instagram.com/barbarfeast/" target="_blank">@barbarfeast</a></span>
             </div>
         </div>
     </footer>
@@ -29,20 +27,17 @@ export default {
 <style lang="scss">
 
 .footer {
-    background: linear-gradient(rgb(90, 199, 227), rgb(46, 112, 168));
     width: 100%;
+    background: linear-gradient(rgb(90, 199, 227), rgb(46, 112, 168));
     margin: 2rem 0 0 0;
     padding: 1.5rem 0;
-    text-align: center;
     color: rgb(255, 255, 255);
     letter-spacing: 1px;
     display: flex;
-    justify-content: center;
-    align-content: center;
-
-    &__info {
-        width: 80%;
-        line-height: 1.25;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5;
+    font-size: 0.9rem;
 
         img {
             width: 200px;
@@ -50,8 +45,15 @@ export default {
         }
 
         &__contacts {
-            height: fit-content;
-            width: 38rem;
+            height: 8rem;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            p {
+                word-wrap: break-word;
+            }
 
             a {
                 text-decoration: none;
@@ -59,15 +61,18 @@ export default {
                 font-weight: 500;
 
                 &:hover {
-                    color: rgb(235, 235, 235);
+                    text-decoration: underline;
                 }
             }
         }
 
         &__socials {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
             text-align: left;
             width: fit-content;
-            height: fit-content;
+            height: 6rem;
 
         a {
             text-decoration: none;
@@ -75,41 +80,41 @@ export default {
             font-weight: 500;
 
             &:hover {
-                color: rgb(235, 235, 235);
+                text-decoration: underline;
             }
+        }
+
+        &__icon {
+            margin-right: 0.25rem;
+            font-size: 1.25rem;
+            vertical-align: middle;
         }
         }
     }
-}
 
 
 @media only screen and (min-width: 768px) {
 
-    .footer__info {
-        width: 80%;
+    .footer {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-    }
-
-    .footer__info__contacts {
-        display: inline;
-        white-space: nowrap;
-
-        .socsp {
-            display: inline;
-            white-space: nowrap;
-        }
     }
 }
 
 
 @media only screen and (min-width: 1024px) {
 
-    .footer__info {
+    .footer {
+        flex-direction: row;
+
         img {
-            width: 100px;
-            height: 100px;
+            height: 125px;
+            width: 125px;
+        }
+
+        &__contacts {
+            width: fit-content;
         }
     }
 

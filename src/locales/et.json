@@ -2,7 +2,8 @@
   "app": {
     "title": "Barbar Feast 2021 | Ametlik",
     "slogan": "Kolm päeva kodumaist kütet",
-    "lineup": "Bändid"
+    "lineup": "Bändid",
+    "location": "Viikingite Küla, Kose vald"
   },
   "nav": {
     "home": "Avaleht",

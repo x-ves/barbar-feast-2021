@@ -29,6 +29,7 @@ export default {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        text-transform: capitalize;
 
         &__desc {
             display: flex;

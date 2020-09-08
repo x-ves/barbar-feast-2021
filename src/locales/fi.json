@@ -2,7 +2,8 @@
   "app": {
     "title": "Barbar Feast 2021 | Virallinen",
     "slogan": "Kolme päivää Virolaista lämmitystä",
-    "lineup": "Esiintyjät"
+    "lineup": "Esiintyjät",
+    "location": "Viikinkikylä, Kosen seurakunta"
   },
     "nav": {
       "home": "Kotisivu",
