@@ -14,22 +14,33 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="scss">
+
+.locale-switcher {
+
     select {
         border: none;
-        padding: 10px;
-        color: white;
+        color: rgb(245, 245, 245);
         background: none;
-        font-size: 1rem;
-    }
+        padding: 10px;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        outline: none;
 
-    select:hover {
-        cursor: pointer;
-        background-color:  rgba(46, 111, 168, 0.333);
-    }
+        &:hover {
+            cursor: pointer;
+            background-color:  rgba(46, 111, 168, 0.333);
+        }
 
-    option {
-        background-color: white;
-        color: black;
+        &:focus {
+            border: none;
+        }
+
+        option {
+            background-color: white;
+            color: black;
+        }
     }
+}
 </style>

@@ -6,7 +6,7 @@
                 <p>{{ $t("footer.msg") }}</p>
                 <br>
                 <p>
-                {{ $t("footer.gsm") }}: <strong><a href="tel:+37258518184">+372 5851 8184</a></strong> <br>
+                {{ $t("footer.phone") }}: <strong><a href="tel:+37258518184">+372 5851 8184</a></strong> <br>
                 {{ $t("footer.mail") }}: <strong><a href="mailto:barbarestonia@gmail.com">barbarestonia@gmail.com</a></strong>
                 </p>
             </div>
@@ -28,13 +28,14 @@ export default {
 
 .footer {
     width: 100%;
+    height: 30rem;
     background: linear-gradient(rgb(90, 199, 227), rgb(46, 112, 168));
     margin: 2rem 0 0 0;
-    padding: 1.5rem 0;
     color: rgb(255, 255, 255);
     letter-spacing: 1px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     line-height: 1.5;
     font-size: 0.9rem;
@@ -45,14 +46,14 @@ export default {
         }
 
         &__contacts {
-            height: 8rem;
             width: 80%;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            align-items: center;
 
             p {
-                word-wrap: break-word;
+                text-align: center;
+                margin: 0;
             }
 
             a {

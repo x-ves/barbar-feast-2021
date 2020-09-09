@@ -11,7 +11,7 @@
     },
     "footer": {
       "msg": "Barbar Feasti tuo sinulle rockklubin Barbar!",
-      "gsm": "Tel",
+      "phone": "Tel",
       "mail": "E-posti"
     }
   }

@@ -21,8 +21,8 @@ export default {
 
 <style lang="scss">
     .card {
-        width: 26rem;
-        height: 22rem;
+        width: 18rem;
+        height: 16rem;
         border: 1px solid #f2f2f2;
         border-radius: 4px;
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
@@ -31,30 +31,30 @@ export default {
         justify-content: space-evenly;
         text-transform: capitalize;
 
+        &__img {
+            object-fit: cover;
+            height: 12rem;
+        }
+
         &__desc {
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
+
+            h3 {
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            p {
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
         }
-    }
-
-    h3 {
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-    img {
-        object-fit: cover;
-        height: 16rem;
-    }
-
-    p {
-        text-align: center;
-        margin: 0;
-        padding: 0;
     }
 </style>

@@ -11,7 +11,7 @@
   },
   "footer": {
     "msg": "Barbar Feasti toob teieni rokiklubi Barbar!",
-    "gsm": "Tel",
+    "phone": "Tel",
     "mail": "E-post"
   }
 }

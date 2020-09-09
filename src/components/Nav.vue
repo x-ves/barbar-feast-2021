@@ -1,12 +1,10 @@
 <template>
     <div class="nav">
-        <div class="nav__start">
-            <router-link class="nav__link" to="/">{{ $t("nav.home") }}</router-link>
-            <router-link class="nav__link" to="/about">{{ $t("nav.about") }}</router-link>
-        </div>
-        <div class="nav__end">
-            <LocaleSwitcher />
-        </div>
+      <div class="nav__links">
+        <router-link class="nav__links__link" to="/">{{ $t("nav.home") }}</router-link>
+        <router-link class="nav__links__link" to="/about">{{ $t("nav.about") }}</router-link>
+      </div>
+        <LocaleSwitcher />
     </div>
 </template>
 
@@ -22,30 +20,40 @@ export default {
 .nav {
   position: fixed;
   width: 100%;
-  padding: 0 7rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  text-align: left;
-  color: #fff;
   background: linear-gradient(rgb(46, 112, 168), rgb(90, 199, 227));
 
-  .nav__start,
-  .nav__end {
-    display: flex;
-    align-items: center;
-  }
+ &__links {
 
- .nav__link {
-    color: rgb(245, 245, 245);
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 1px;
-    padding: 10px;
-    transition: 0.3s all;
+   display: flex;
+
+   &__link {
+      color: rgb(245, 245, 245);
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 1px;
+      padding: 10px;
+      transition: 0.3s all;
+
+      &:hover {
+        background-color: rgba(46, 111, 168, 0.333);
+      }
+    }
   }
-  .nav__link:hover {
-    background-color: rgba(46, 111, 168, 0.333);
+}
+
+@media only screen and (min-width: 768px) {
+  .nav {
+      justify-content: space-between;
   }
+}
+
+@media only screen and (min-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 1440px) {
+
 }
 </style>
