@@ -3,7 +3,7 @@
         <div class="footer">
             <img src="@/assets/barbarprofiilikas.png" alt="BarBar logo">
             <div class="footer__contacts">
-                <p>{{ $t("footer.msg") }}</p>
+                <h3>{{ $t("footer.msg") }}</h3>
                 <br>
                 <p>
                 {{ $t("footer.phone") }}: <strong><a href="tel:+37258518184">+372 5851 8184</a></strong> <br>
@@ -28,7 +28,7 @@ export default {
 
 .footer {
     width: 100%;
-    height: 30rem;
+    padding: 1.5rem;
     background: linear-gradient(rgb(90, 199, 227), rgb(46, 112, 168));
     margin: 2rem 0 0 0;
     color: rgb(255, 255, 255);
@@ -46,10 +46,15 @@ export default {
         }
 
         &__contacts {
-            width: 80%;
+            width: 95%;
             display: flex;
             flex-direction: column;
             align-items: center;
+
+            h3 {
+                text-align: center;
+                margin-bottom: 0;
+            }
 
             p {
                 text-align: center;
@@ -97,9 +102,22 @@ export default {
 @media only screen and (min-width: 768px) {
 
     .footer {
-        display: flex;
+        flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
+
+        img {
+            width: 150px;
+            height: 150px;
+        }
+
+        &__contacts {
+            width: 50%;
+
+            h3 {
+                margin: 0;
+            }
+        }
     }
 }
 
