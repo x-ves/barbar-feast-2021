@@ -1,7 +1,7 @@
 <template>
     <footer>
         <div class="footer">
-            <img :src="'barbarprofiilikas.png'" alt="BarBar logo">
+            <img src="@/assets/barbarprofiilikas.png" alt="BarBar logo">
             <div class="footer__contacts">
                 <p>{{ $t("footer.msg") }}</p>
                 <br>
