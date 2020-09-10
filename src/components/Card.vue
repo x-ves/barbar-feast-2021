@@ -21,6 +21,7 @@ export default {
 
 <style lang="scss">
     .card {
+        margin: 0.5rem;
         width: 18rem;
         height: 16rem;
         border: 1px solid #f2f2f2;

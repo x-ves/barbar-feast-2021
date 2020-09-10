@@ -21,32 +21,21 @@ export default {
 
 <style scoped>
     .cards {
-        width: 90%;
-        height: 420rem;
         margin: 0 auto;
         display: flex;
-        justify-content: space-evenly;
-        align-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
     }
 
     @media only screen and (min-width: 768px) {
-        .cards {
-            height: 245rem;
-        }
+
     }
 
     @media only screen and (min-width: 1024px) {
-        .cards {
-            width: 100%;
-            height: 170rem;
-        }
+
     }
 
     @media only screen and (min-width: 1440px) {
-        .cards {
-            width: 75%;
-            height: 175rem;
-        }
+
     }
 </style>
