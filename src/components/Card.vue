@@ -57,4 +57,25 @@ export default {
             }
         }
     }
+
+     @media only screen and (min-width: 768px) {
+
+        .card {
+            width: 20rem;
+            height: 18rem;
+
+            &__img {
+                height: 14rem;
+            }
+        }
+
+    }
+
+    @media only screen and (min-width: 1024px) {
+
+    }
+
+    @media only screen and (min-width: 1440px) {
+
+    }
 </style>
