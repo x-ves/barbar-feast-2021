@@ -1,12 +1,12 @@
 <template>
-  <div class="home">
-    <section class="welcome">
+  <div id="home">
+    <section id="welcome">
       <h1>Barbar Feast 2021</h1>
       <span>{{ $t("app.slogan") }}</span> <br>
       <span>@ {{ $t("app.location") }}</span> <br>
       <span>8.-10. {{ $t("app.july") }}</span>
     </section>
-    <section class="lineup">
+    <section id="lineup">
       <h1>{{ $t("app.lineup") }}</h1>
       <Cards />
     </section>
@@ -25,12 +25,12 @@ export default {
 
 <style lang="scss">
 
-.home {
+#home {
   margin: 0;
   padding: 0;
 }
 
-.welcome {
+#welcome {
   text-align: center;
   padding: 3rem 0;
   color: rgb(20, 20, 20);
@@ -45,7 +45,7 @@ export default {
   }
 }
 
-.lineup {
+#lineup {
   h1 {
     text-align: center;
   }
