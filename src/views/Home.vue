@@ -3,7 +3,8 @@
     <section class="welcome">
       <h1>Barbar Feast 2021</h1>
       <span>{{ $t("app.slogan") }}</span> <br>
-      <span>@ {{ $t("app.location") }}</span>
+      <span>@ {{ $t("app.location") }}</span> <br>
+      <span>8.-10. {{ $t("app.july") }}</span>
     </section>
     <section class="lineup">
       <h1>{{ $t("app.lineup") }}</h1>
@@ -39,6 +40,7 @@ export default {
     margin: 0;
     font-size: 2.5rem;
     font-weight: 800;
+    color: rgb(255, 255, 255);
     -webkit-text-stroke: 2.5px rgb(248, 1, 0);
   }
 }

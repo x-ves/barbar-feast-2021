@@ -2,6 +2,7 @@
     <div class="nav">
       <div class="nav__links">
         <router-link class="nav__links__link" to="/">{{ $t("nav.home") }}</router-link>
+        <a href="#lineup" class="nav__links__link">{{ $t("app.lineup") }}</a>
         <router-link class="nav__links__link" to="/about">{{ $t("nav.about") }}</router-link>
       </div>
         <LocaleSwitcher />
