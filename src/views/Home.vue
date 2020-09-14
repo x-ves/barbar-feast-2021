@@ -10,16 +10,20 @@
       <h1>{{ $t("content.lineup") }}</h1>
       <Cards />
     </section>
+    <section id="location">
+      <GoogleMap />
+    </section>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Cards from "@/components/Cards.vue";
+import GoogleMap from "@/components/GoogleMap.vue"
 
 export default {
   name: "Home",
-  components: { Cards }
+  components: { Cards, GoogleMap }
 };
 </script>
 
