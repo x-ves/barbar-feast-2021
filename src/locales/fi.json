@@ -5,12 +5,16 @@
   "content": {
     "slogan": "Kolme päivää Virolaista lämmitystä",
     "lineup": "Esiintyjät",
-    "location": "Viikinkikylä, Kosen seurakunta",
     "july": "heinäkuu"
   },
     "nav": {
       "home": "Kotisivu",
-      "about": "Festivaalista"
+      "about": "Festivaalista",
+      "location": "Missä?"
+    },
+    "location": {
+      "location": "Viikinkikylä, Kosen seurakunta",
+      "header": "Sijainti"
     },
     "footer": {
       "msg": "Barbar Feasti tuo sinulle rockklubin Barbar!",

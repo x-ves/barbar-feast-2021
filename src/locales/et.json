@@ -5,12 +5,16 @@
   "content": {
     "slogan": "Kolm päeva kodumaist kütet",
     "lineup": "Bändid",
-    "location": "Viikingite Küla, Kose vald",
     "july": "juuli"
   },
   "nav": {
     "home": "Avaleht",
-    "about": "Festivalist"
+    "about": "Festivalist",
+    "location": "Kus?"
+  },
+  "location": {
+    "location": "Viikingite Küla, Kose vald",
+    "header": "Asukoht"
   },
   "footer": {
     "msg": "Barbar Feasti toob teieni rokiklubi Barbar!",

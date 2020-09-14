@@ -11,6 +11,7 @@
       <Cards />
     </section>
     <section id="location">
+      <h3>{{ $t("location.header") }}</h3>
       <GoogleMap />
     </section>
   </div>
@@ -52,6 +53,16 @@ export default {
 #lineup {
   h1 {
     text-align: center;
+  }
+}
+
+#location {
+  margin: 1rem 0;
+
+  .map {
+    margin: 0 auto;
+    width: 100%;
+    height: 20rem;
   }
 }
 

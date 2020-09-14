@@ -5,12 +5,16 @@
   "content": {
     "slogan": "Three days of true Estonian heat",
     "lineup": "Lineup",
-    "location": "Vikings Village, Kose parish",
     "july": "july"
   },
   "nav": {
     "home": "Home",
-    "about": "About"
+    "about": "About",
+    "location": "Where?"
+  },
+  "location": {
+    "location": "Vikings Village, Kose parish",
+    "header": "Whereabouts"
   },
   "footer": {
     "msg": "Barbar Feast is brought to you by rock club Barbar!",
