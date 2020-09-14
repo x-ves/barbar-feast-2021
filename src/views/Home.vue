@@ -2,12 +2,12 @@
   <div id="home">
     <section id="welcome">
       <h1>Barbar Feast 2021</h1>
-      <span>{{ $t("app.slogan") }}</span> <br>
-      <span>@ {{ $t("app.location") }}</span> <br>
-      <span>8.-10. {{ $t("app.july") }}</span>
+      <span>{{ $t("content.slogan") }}</span> <br>
+      <span>@ {{ $t("content.location") }}</span> <br>
+      <span>8.-10. {{ $t("content.july") }}</span>
     </section>
     <section id="lineup">
-      <h1>{{ $t("app.lineup") }}</h1>
+      <h1>{{ $t("content.lineup") }}</h1>
       <Cards />
     </section>
   </div>
