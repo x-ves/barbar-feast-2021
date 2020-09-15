@@ -20,11 +20,10 @@
 <script>
 // @ is an alias to /src
 import Cards from "@/components/Cards.vue";
-import GoogleMap from "@/components/GoogleMap.vue"
 
 export default {
   name: "Home",
-  components: { Cards, GoogleMap }
+  components: { Cards }
 };
 </script>
 
