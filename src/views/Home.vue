@@ -10,10 +10,13 @@
       <h1>{{ $t("content.lineup") }}</h1>
       <Cards />
     </section>
+<<<<<<< HEAD
     <section id="location">
       <h3>{{ $t("location.header") }}</h3>
       <GoogleMap />
     </section>
+=======
+>>>>>>> parent of b937de2... Add Google Maps (API) to project
   </div>
 </template>
 
