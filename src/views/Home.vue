@@ -10,16 +10,13 @@
       <h1>{{ $t("content.lineup") }}</h1>
       <Cards />
     </section>
+<<<<<<< HEAD
     <section id="location">
       <h3>{{ $t("location.header") }}</h3>
-      <iframe
-        class="map"
-        width="600"
-        height="450"
-        frameborder="0" style="border:0"
-        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCkbRGuQf4n_fr-IANecyQHNEMKQSSbkFo&map_id=10e49aa98a43cafd&q=Viikingite+küla" allowfullscreen>
-      </iframe>
+      <GoogleMap />
     </section>
+=======
+>>>>>>> parent of b937de2... Add Google Maps (API) to project
   </div>
 </template>
 
@@ -65,7 +62,9 @@ export default {
   margin: 1rem 0;
 
   .map {
-    
+    margin: 0 auto;
+    width: 100%;
+    height: 20rem;
   }
 }
 
