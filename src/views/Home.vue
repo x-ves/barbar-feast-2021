@@ -3,30 +3,28 @@
     <section id="welcome">
       <h1>Barbar Feast 2021</h1>
       <span>{{ $t("content.slogan") }}</span> <br>
-      <span>@ {{ $t("content.location") }}</span> <br>
+      <span>@ {{ $t("location.location") }}</span> <br>
       <span>8.-10. {{ $t("content.july") }}</span>
     </section>
     <section id="lineup">
       <h1>{{ $t("content.lineup") }}</h1>
       <Cards />
     </section>
-<<<<<<< HEAD
     <section id="location">
       <h3>{{ $t("location.header") }}</h3>
       <GoogleMap />
     </section>
-=======
->>>>>>> parent of b937de2... Add Google Maps (API) to project
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Cards from "@/components/Cards.vue";
+import GoogleMap from "@/components/GoogleMap.vue"
 
 export default {
   name: "Home",
-  components: { Cards }
+  components: { Cards, GoogleMap }
 };
 </script>
 
