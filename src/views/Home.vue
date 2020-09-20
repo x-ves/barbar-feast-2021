@@ -11,7 +11,7 @@
       <Cards />
     </section>
     <section id="location">
-      <h3>{{ $t("location.header") }}</h3>
+      <h1>{{ $t("location.header") }}</h1>
       <GoogleMap />
     </section>
   </div>
@@ -40,6 +40,10 @@ export default {
   padding: 3rem 0;
   color: rgb(20, 20, 20);
   text-transform: uppercase;
+/*   background-image: url("~@/assets/barbarfeast.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
 
   h1 {
     margin: 0;
@@ -51,13 +55,19 @@ export default {
 }
 
 #lineup {
+  padding-top: 3rem;
+
   h1 {
     text-align: center;
   }
 }
 
 #location {
-  margin: 1rem 0;
+  padding-top: 3rem;
+
+  h1 {
+    text-align: center;
+  }
 
   .map {
     margin: 0 auto;
