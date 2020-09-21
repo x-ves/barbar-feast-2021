@@ -5,6 +5,7 @@
       <span>{{ $t("content.slogan") }}</span> <br>
       <span>@ {{ $t("location.location") }}</span> <br>
       <span>8.-10. {{ $t("content.july") }}</span>
+      <Counter />
     </section>
     <section id="lineup">
       <h1>{{ $t("content.lineup") }}</h1>
@@ -19,12 +20,13 @@
 
 <script>
 // @ is an alias to /src
+import Counter from "@/components/Counter.vue";
 import Cards from "@/components/Cards.vue";
 import GoogleMap from "@/components/GoogleMap.vue"
 
 export default {
   name: "Home",
-  components: { Cards, GoogleMap }
+  components: { Counter, Cards, GoogleMap }
 };
 </script>
 

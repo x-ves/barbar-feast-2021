@@ -30,7 +30,6 @@ export default {
     width: 100%;
     padding: 1.5rem;
     background: linear-gradient(rgb(90, 199, 227), rgb(46, 112, 168));
-    margin: 2rem 0 0 0;
     color: rgb(255, 255, 255);
     letter-spacing: 1px;
     display: flex;
