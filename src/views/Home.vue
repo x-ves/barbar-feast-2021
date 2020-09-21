@@ -1,11 +1,14 @@
 <template>
   <div id="home">
-    <section id="welcome">
-      <h1>Barbar Feast 2021</h1>
-      <span>{{ $t("content.slogan") }}</span> <br>
-      <span>@ {{ $t("location.location") }}</span> <br>
-      <span>8.-10. {{ $t("content.july") }}</span>
-      <Counter />
+    <section id="welcome" class="welcome">
+      <img src="@/assets/feastbeast.png" alt="">
+      <div class="welcome__content">
+        <h1>Barbar Feast 2021</h1>
+        <span>{{ $t("content.slogan") }}</span> <br>
+        <span>@ {{ $t("location.location") }}</span> <br>
+        <span>8.-10. {{ $t("content.july") }}</span>
+        <Counter />
+      </div>
     </section>
     <section id="lineup">
       <h1>{{ $t("content.lineup") }}</h1>
@@ -37,19 +40,20 @@ export default {
   padding: 0;
 }
 
-#welcome {
+.welcome {
+  display: flex;
+  align-items: center;
   text-align: center;
-  padding: 3rem 0;
   color: rgb(20, 20, 20);
   text-transform: uppercase;
-/*   background-image: url("~@/assets/barbarfeast.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
+
+  img {
+    width: 45.5rem;
+  }
 
   h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 800;
     color: rgb(255, 255, 255);
     -webkit-text-stroke: 2.5px rgb(248, 1, 0);
