@@ -12,7 +12,7 @@
     </section>
     <section id="lineup">
       <h1>{{ $t("content.lineup") }}</h1>
-      <Cards />
+      <BandList />
     </section>
     <section id="location">
       <h1>{{ $t("location.header") }}</h1>
@@ -24,12 +24,12 @@
 <script>
 // @ is an alias to /src
 import Counter from "@/components/Counter.vue";
-import Cards from "@/components/Cards.vue";
+import BandList from "@/components/BandList.vue";
 import GoogleMap from "@/components/GoogleMap.vue"
 
 export default {
   name: "Home",
-  components: { Counter, Cards, GoogleMap }
+  components: { Counter, BandList, GoogleMap }
 };
 </script>
 

@@ -10,6 +10,7 @@ export default {
     data: () => ({
         cards: []
     }),
+
     created() {
         fetch("/data.json")
         .then(response => response.json())
