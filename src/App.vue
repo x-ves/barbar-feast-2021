@@ -1,38 +1,32 @@
 <template>
   <div id="app">
-    <Nav></Nav>
-    <div class="container">
-    <router-view />
+    <div v-if="isLoading">Loading...</div>
+    <div v-else>
+      <Nav></Nav>
+      <div class="container">
+        <router-view />
+      </div>
+      <Footer></Footer>
     </div>
-    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-import {
-  setDocumentTitle,
-  setDocumentLang
-} from "@/util/i18n/document"
+import EventBus from "@/EventBus";
 
 export default {
+  data: () => ({
+    isLoading: true
+  }),
+  mounted() {
+    EventBus.$on("i18n-load-start", () => (this.isLoading = true));
+    EventBus.$on("i18n-load-complete", () => (this.isLoading = false));
+  },
   components: {
     Nav,
     Footer
-    },
-  mounted() {
-    this.$watch(
-      "$i18n.locale",
-      (newLocale, oldLocale) => {
-        if (newLocale === oldLocale) {
-          return
-        }
-        setDocumentLang(newLocale);
-        setDocumentTitle(this.$t("app.title"));
-      },
-      { immediate: true }
-    )
   }
 }
 </script>

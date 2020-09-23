@@ -1,20 +1,19 @@
 <template>
     <nav class="nav">
       <div class="nav__links">
-        <a href="/#welcome" class="nav__links__link">{{ $t("nav.home") }}</a>
-<!--         <a href="/#lineup" class="nav__links__link"></a> -->
-        <router-link class="nav__links__link" to="/bands">{{ $t("content.lineup") }}</router-link>
-        <a href="/#location" class="nav__links__link">{{ $t("nav.location") }}</a>
-        <router-link class="nav__links__link" to="/about">{{ $t("nav.about") }}</router-link>
+        <LocalizedLink class="nav__links__link" to="/">{{ $t("nav.home") }}</LocalizedLink>
+        <LocalizedLink class="nav__links__link" to="/bands">{{ $t("content.lineup") }}</LocalizedLink>
+        <LocalizedLink class="nav__links__link" to="/about">{{ $t("nav.about") }}</LocalizedLink>
       </div>
         <LocaleSwitcher />
     </nav>
 </template>
 
 <script>
-import LocaleSwitcher from "@/components/LocaleSwitcher"
+import LocaleSwitcher from "@/components/LocaleSwitcher";
+import LocalizedLink from "@/components/LocalizedLink";
 export default {
-    components: { LocaleSwitcher }
+    components: { LocaleSwitcher, LocalizedLink }
 }
 </script>
 
