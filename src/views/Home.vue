@@ -7,7 +7,8 @@
         <span>{{ $t("content.slogan") }}</span> <br>
         <span>@ {{ $t("location.location") }}</span> <br>
         <span>8.-10. {{ $t("content.july") }}</span>
-        <Counter />
+        <Counter /> <br>
+        <TicketsButton />
       </div>
     </section>
     <section id="lineup">
@@ -25,11 +26,12 @@
 // @ is an alias to /src
 import Counter from "@/components/Counter.vue";
 import BandList from "@/components/BandList.vue";
-import GoogleMap from "@/components/GoogleMap.vue"
+import GoogleMap from "@/components/GoogleMap.vue";
+import TicketsButton from "@/components/TicketsButton.vue";
 
 export default {
   name: "Home",
-  components: { Counter, BandList, GoogleMap }
+  components: { Counter, BandList, GoogleMap, TicketsButton }
 };
 </script>
 
