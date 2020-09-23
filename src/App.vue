@@ -39,6 +39,10 @@ export default {
     box-sizing: border-box;
   }
 
+  Nav {
+    z-index: 2;
+  }
+
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
