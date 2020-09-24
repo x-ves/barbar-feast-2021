@@ -80,6 +80,44 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+    .counter {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0;
+
+        &__title {
+            margin: 0 0 1rem 0;
+            font-size: 1.4rem;
+            font-weight: 400;
+        }
+
+        &__time {
+            display: flex;
+            justify-content: space-evenly;
+
+            &__days, &__hours, &__minutes, &__seconds {
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                padding: 0.25rem;
+                border: 1px solid black;
+                border-radius: 3px;
+
+                & span:nth-of-type(2) {
+                    letter-spacing: 1px;
+                    color: rgb(100, 100, 100);
+                    font-size: 0.9rem;
+                }
+            }
+
+            &__num {
+                font-size: 1.5rem;
+            }
+        }
+
+@media only screen and (min-width: 768px) {
+
     .counter {
         margin: 2rem auto;
         width: 22rem;
@@ -115,10 +153,8 @@ export default {
                 font-size: 2rem;
             }
         }
-
-@media only screen and (min-width: 768px) {
-
 }
+}}
 
 @media only screen and (min-width: 1024px) {
 
@@ -127,5 +163,5 @@ export default {
 @media only screen and (min-width: 1440px) {
 
 }
-    }
+
 </style>

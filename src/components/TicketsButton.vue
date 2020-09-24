@@ -10,6 +10,8 @@ export default {
 
 <style lang="scss">
     .ticketsButton {
+        width: fit-content;
+        margin: 1rem auto;
         padding: 0.25rem;
         font-size: 1.5rem;
         text-decoration: none;
@@ -17,6 +19,7 @@ export default {
         border: 2px solid rgb(0, 204, 255);
         border-radius: 3px;
         transition: all 0.3s;
+        text-transform: uppercase;
 
         &:hover {
             color: white;

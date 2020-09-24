@@ -21,12 +21,13 @@ export default {
 <style lang="scss">
 
     .bandList {
+        margin: 0;
+        padding: 0;
         list-style: none;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        width: 90%;
-        margin: 0 auto;
+        width: 95%;
 
         &__item {
             text-transform: uppercase;

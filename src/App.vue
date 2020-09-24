@@ -39,6 +39,11 @@ export default {
     box-sizing: border-box;
   }
 
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+
   Nav {
     z-index: 2;
   }
@@ -52,7 +57,6 @@ export default {
   #app {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #1b3752;
   }
 
 </style>
