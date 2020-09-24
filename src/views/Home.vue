@@ -124,7 +124,7 @@ export default {
 .welcome {
 
   img {
-    width: 45.5rem;
+    width: 43rem;
   }
 
   &__content {
