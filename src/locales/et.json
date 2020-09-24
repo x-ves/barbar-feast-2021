@@ -6,13 +6,19 @@
     "slogan": "Kolm päeva kodumaist kütet",
     "lineup": "Bändid",
     "july": "juuli",
-    "gates": "Väravad avanevad",
     "tickets": "Osta pilet"
   },
   "nav": {
     "home": "Avaleht",
     "about": "Festivalist",
     "location": "Kus?"
+  },
+  "counter": {
+    "gates": "Väravate avamiseni",
+    "days": "päeva",
+    "hours": "tundi",
+    "minutes": "minutit",
+    "seconds": "sekundit"
   },
   "location": {
     "location": "Viikingite Küla, Kose vald",

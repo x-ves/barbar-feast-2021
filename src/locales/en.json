@@ -6,13 +6,19 @@
     "slogan": "Three days of true Estonian heat",
     "lineup": "Lineup",
     "july": "july",
-    "gates": "The gates open in",
     "tickets": "Buy a ticket"
   },
   "nav": {
     "home": "Home",
     "about": "About",
     "location": "Where?"
+  },
+  "counter": {
+    "gates": "The gates open in",
+    "days": "days",
+    "hours": "hours",
+    "minutes": "minutes",
+    "seconds": "seconds"
   },
   "location": {
     "location": "Vikings Village, Kose parish",

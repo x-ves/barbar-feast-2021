@@ -1,7 +1,25 @@
 <template>
     <div class="counter">
-        <h3>{{ $t("content.gates") }}</h3>
-        <span>{{ displayDays }} : {{ displayHours }} : {{ displayMinutes }} : {{ displaySeconds }}</span>
+        <h3 class="counter__title">{{ $t("counter.gates") }}</h3>
+        <div class="counter__time">
+            <div class="counter__time__days">
+                <span class="counter__time__num">{{ displayDays }}</span>
+                <span>{{$t("counter.days")}}</span>
+            </div>
+            <div class="counter__time__hours">
+                <span class="counter__time__num">{{ displayHours }}</span>
+                <span>{{$t("counter.hours")}}</span>
+            </div>
+            <div class="counter__time__minutes">
+                <span class="counter__time__num">{{ displayMinutes }}</span>
+                <span>{{$t("counter.minutes")}}</span>
+            </div>
+            <div class="counter__time__seconds">
+                <span class="counter__time__num">{{ displaySeconds }}</span>
+                <span>{{$t("counter.seconds")}}</span>
+            </div>
+        </div>
+
     </div>
 </template>
 
@@ -63,16 +81,39 @@ export default {
 
 <style lang="scss" scoped>
     .counter {
-        margin: 2rem 0 0 0;
+        margin: 2rem auto;
+        width: 22rem;
+        display: flex;
+        flex-direction: column;
 
-        h3 {
-            margin: 0;
+        &__title {
+            margin: 0 0 0.5rem 0;
             font-size: 1.5rem;
             font-weight: 400;
         }
 
-        span {
-            font-size: 2rem;
+        &__time {
+            display: flex;
+            justify-content: center;
+
+            &__days, &__hours, &__minutes, &__seconds {
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                margin: 0.25rem;
+                padding: 0.5rem;
+                border: 1px solid black;
+                border-radius: 3px;
+
+                & span:nth-of-type(2) {
+                    letter-spacing: 1px;
+                    color: rgb(100, 100, 100)
+                }
+            }
+
+            &__num {
+                font-size: 2rem;
+            }
         }
     }
 </style>

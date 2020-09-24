@@ -6,13 +6,19 @@
     "slogan": "Kolme päivää Virolaista lämmitystä",
     "lineup": "Esiintyjät",
     "july": "heinäkuu",
-    "gates": "Portit avautuvat",
     "tickets": "Osta lippu"
   },
     "nav": {
       "home": "Kotisivu",
       "about": "Festivaalista",
       "location": "Missä?"
+    },
+    "counter": {
+      "gates": "Portit avataan",
+      "days": "päivää",
+      "hours": "tuntia",
+      "minutes": "minuuttia",
+      "seconds": "sekuntia"
     },
     "location": {
       "location": "Viikinkikylä, Kosen seurakunta",
