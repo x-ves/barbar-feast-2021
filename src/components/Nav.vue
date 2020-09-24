@@ -24,7 +24,7 @@ export default {
   width: 100%;
   display: flex;
   align-items: center;
-  background: linear-gradient(rgb(46, 112, 168), rgb(90, 199, 227));
+  background: linear-gradient(rgb(46, 112, 168), rgb(0, 204, 255));
 
  &__links {
 

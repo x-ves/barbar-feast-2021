@@ -42,6 +42,7 @@ export default {
         font-size: inherit;
         line-height: inherit;
         outline: none;
+        transition: 0.3s all;
 
         &:hover {
             cursor: pointer;

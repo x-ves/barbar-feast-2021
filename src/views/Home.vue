@@ -63,9 +63,10 @@ export default {
 }
 
 #lineup {
-  padding-top: 3rem;
+  padding: 2rem 0;
 
   h1 {
+    padding: 0;
     text-align: center;
   }
 }
