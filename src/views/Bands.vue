@@ -16,12 +16,25 @@ export default {
 
 <style lang="scss">
 
-#bands {
-  padding: 3rem 0;
+  #bands {
+    padding: 3rem 0;
 
-  h1 {
-    text-align: center;
+    h1 {
+      text-align: center;
+    }
   }
-}
+
+
+  @media only screen and (min-width: 768px) {
+
+  }
+
+  @media only screen and (min-width: 1024px) {
+
+  }
+
+  @media only screen and (min-width: 1440px) {
+
+  }
 
 </style>

@@ -115,5 +115,17 @@ export default {
                 font-size: 2rem;
             }
         }
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+}
     }
 </style>
