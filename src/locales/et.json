@@ -20,6 +20,13 @@
     "minutes": "minutit",
     "seconds": "sekundit"
   },
+  "faq": {
+    "title": "Korduma kippuvad küsimused",
+    "q1": "Küsimus 1",
+    "a1": "Vastus 1",
+    "q2": "Küsimus 2",
+    "a2": "Vastus 2"
+  },
   "location": {
     "location": "Viikingite Küla, Kose vald",
     "header": "Asukoht"

@@ -20,6 +20,13 @@
       "minutes": "minuuttia",
       "seconds": "sekuntia"
     },
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "q1": "Kysymys 1",
+      "a1": "Vastaus 1",
+      "q2": "Kysymys 2",
+      "a2": "Vastaus 2"
+    },
     "location": {
       "location": "Viikinkikylä, Kosen seurakunta",
       "header": "Sijainti"

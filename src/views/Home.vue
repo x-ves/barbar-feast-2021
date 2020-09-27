@@ -17,6 +17,10 @@
       <h1 class="lineup__title">{{ $t("content.lineup") }}</h1>
       <BandList />
     </section>
+    <section id="faq" class="faq">
+      <h1 class="faq__title">{{ $t("faq.title") }}</h1>
+      <FAQ class="faq__faq" />
+    </section>
     <section id="location" class="location">
       <h1 class="location__title">{{ $t("location.header") }}</h1>
       <GoogleMap />
@@ -30,10 +34,11 @@ import Counter from "@/components/Counter.vue";
 import BandList from "@/components/BandList.vue";
 import GoogleMap from "@/components/GoogleMap.vue";
 import TicketsButton from "@/components/TicketsButton.vue";
+import FAQ from "@/components/FAQ.vue"
 
 export default {
   name: "Home",
-  components: { Counter, BandList, GoogleMap, TicketsButton }
+  components: { Counter, BandList, GoogleMap, TicketsButton, FAQ }
 };
 </script>
 
@@ -81,6 +86,18 @@ export default {
   &__title {
     padding: 0;
     text-align: center;
+  }
+}
+
+.faq {
+
+  &__title {
+    padding: 0;
+    text-align: center;
+  }
+
+  &__faq {
+    margin: 0 auto;
   }
 }
 
