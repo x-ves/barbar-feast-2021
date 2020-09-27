@@ -25,7 +25,11 @@
       "q1": "Kysymys 1",
       "a1": "Vastaus 1",
       "q2": "Kysymys 2",
-      "a2": "Vastaus 2"
+      "a2": "Vastaus 2",
+      "q3": "Kysymys 3",
+      "a3": "Vastaus 3",
+      "q4": "Kysymys 4",
+      "a4": "Vastaus 4"
     },
     "location": {
       "location": "Viikinkikylä, Kosen seurakunta",

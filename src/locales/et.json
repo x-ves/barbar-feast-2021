@@ -25,7 +25,11 @@
     "q1": "Küsimus 1",
     "a1": "Vastus 1",
     "q2": "Küsimus 2",
-    "a2": "Vastus 2"
+    "a2": "Vastus 2",
+    "q3": "Küsimus 3",
+    "a3": "Vastus 3",
+    "q4": "Küsimus 4",
+    "a4": "Vastus 4"
   },
   "location": {
     "location": "Viikingite Küla, Kose vald",

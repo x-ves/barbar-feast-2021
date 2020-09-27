@@ -102,6 +102,7 @@ export default {
                 align-content: center;
                 padding: 0.25rem;
                 border: 1px solid black;
+                background: rgb(255, 255, 255);
                 border-radius: 3px;
 
                 & span:nth-of-type(2) {

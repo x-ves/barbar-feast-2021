@@ -52,4 +52,11 @@ export default {
         }
     }
 
+    @media only screen and (min-width: 768px) {
+        .bandList {
+            width: 65%;
+            margin: 0 auto;
+        }
+    }
+
 </style>
