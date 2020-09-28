@@ -15,20 +15,17 @@
     </section>
     <section id="lineup" class="lineup">
       <h1 class="lineup__title">{{ $t("content.lineup") }}</h1>
-      <hr>
       <BandList />
     </section>
     <section id="faq" class="faq">
       <h1 class="faq__title">{{ $t("faq.title") }}</h1>
-      <hr>
       <div class="faq__wrapper">
         <FAQ class="faq__wrapper__faq" />
-        <img src="barbar2.png" class="faq__wrapper__skull" alt="">
+        <img src="barbar2 1.png" class="faq__wrapper__skull" alt="">
       </div>
     </section>
     <section id="location" class="location">
       <h1 class="location__title">{{ $t("location.header") }}</h1>
-      <hr>
       <GoogleMap />
     </section>
   </div>
@@ -52,13 +49,6 @@ export default {
 
 body {
   background: rgb(250, 250, 250);
-}
-
-hr {
-  margin: 0.3rem 0 1rem 0;
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 204, 255), rgba(0, 0, 0, 0));
 }
 
 .welcome {
@@ -101,8 +91,7 @@ hr {
   padding: 2rem 0;
 
   &__title {
-    padding: 0;
-    margin: 0;
+    margin: 1rem;
     text-align: center;
     color: rgb(0, 204, 255);
     text-transform: uppercase;
@@ -141,7 +130,7 @@ hr {
 
   &__title {
     color: rgb(0, 204, 255);
-    margin: 0;
+    margin: 1rem;
     text-align: center;
     text-transform: uppercase;
   }
