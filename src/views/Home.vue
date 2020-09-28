@@ -20,6 +20,7 @@
     </section>
     <section id="faq" class="faq">
       <h1 class="faq__title">{{ $t("faq.title") }}</h1>
+      <hr>
       <div class="faq__wrapper">
         <FAQ class="faq__wrapper__faq" />
         <img src="barbar2.png" class="faq__wrapper__skull" alt="">
@@ -110,8 +111,7 @@ hr {
 
 .faq {
   padding: 1rem;
-  background: rgba(0, 204, 255, 0.666);
-  color: rgb(255, 255, 255);
+  color: rgb(0, 204, 255);
 
   &__title {
     margin: 0.5rem;

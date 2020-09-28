@@ -39,27 +39,29 @@ export default {
     &__question {
         padding: 0.5rem;
         background-color: rgb(255, 255, 255);
-        color: rgb(0, 110, 255);
+        color: rgb(0, 204, 255);
         font-weight: 500;
         cursor: pointer;
-        transition: all 0.3s;
+        transition: all 0.1s;
 
         &:focus {
             outline: none;
         }
 
         &:hover {
-            color: rgb(255, 0, 0);
+            background-color: rgb(0, 204, 255);
+            color: rgb(255, 255, 255);
         }
     }
 
     &[open] > &__question {
-            color: rgb(255, 0, 0);
+        background-color: rgb(0, 204, 255);
+            color: rgb(255, 255, 255);
         }
 
     &__answer {
         margin: 0;
-        padding: 0.35rem;
+        padding: 0.5rem 1.5rem;
         background: rgb(250, 250, 250);
         color: rgb(0, 0, 0);
     }
