@@ -31,15 +31,15 @@ export default {
 .FAQ {
     width: 40rem;
     height: fit-content;
-    box-shadow: 0px 0px 3px rgb(205, 205, 205);
+    box-shadow: 0px 0px 3px rgb(155, 155, 155);
     padding: 0;
 
     &__content {
 
     &__question {
         padding: 0.5rem;
-        background-color: rgb(250, 250, 250);
-        color: rgb(0, 204, 255);
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 110, 255);
         font-weight: 500;
         cursor: pointer;
         transition: all 0.3s;
@@ -49,9 +49,13 @@ export default {
         }
 
         &:hover {
-            background: rgb(235, 235, 235);
+            color: rgb(255, 0, 0);
         }
     }
+
+    &[open] > &__question {
+            color: rgb(255, 0, 0);
+        }
 
     &__answer {
         margin: 0;

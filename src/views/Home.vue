@@ -54,7 +54,7 @@ body {
 }
 
 hr {
-  margin: 0.3rem 0 0.75rem 0;
+  margin: 0.3rem 0 1rem 0;
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 204, 255), rgba(0, 0, 0, 0));
