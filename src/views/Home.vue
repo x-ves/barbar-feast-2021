@@ -27,6 +27,7 @@
     </section>
     <section id="location" class="location">
       <h1 class="location__title">{{ $t("location.header") }}</h1>
+      <hr>
       <GoogleMap />
     </section>
   </div>
@@ -53,7 +54,7 @@ body {
 }
 
 hr {
-  margin: 0.2rem 0 0.75rem 0;
+  margin: 0.3rem 0 0.75rem 0;
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 204, 255), rgba(0, 0, 0, 0));
@@ -103,6 +104,7 @@ hr {
     margin: 0;
     text-align: center;
     color: rgb(0, 204, 255);
+    text-transform: uppercase;
   }
 }
 
@@ -112,23 +114,23 @@ hr {
   color: rgb(255, 255, 255);
 
   &__title {
-    padding: 0;
-    margin: 0;
+    margin: 0.5rem;
     text-align: center;
+    text-transform: uppercase;
   }
 
   &__wrapper {
     margin: 1rem;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
 
     &__faq {
-      margin: 0;
+      margin: 1.5rem 0 0 0;
     }
 
     &__skull {
-      width: 16rem;
+      width: 20rem;
     }
 
   }
@@ -138,14 +140,10 @@ hr {
   padding-top: 3rem;
 
   &__title {
+    color: rgb(0, 204, 255);
     margin: 0;
     text-align: center;
-  }
-
-  .map {
-    margin: 0 auto;
-    width: 100%;
-    height: 20rem;
+    text-transform: uppercase;
   }
 }
 

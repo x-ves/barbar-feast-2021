@@ -4,7 +4,6 @@
       <div class="nav__links">
         <LocalizedLink class="nav__links__link" to="/">{{ $t("nav.home") }}</LocalizedLink>
         <LocalizedLink class="nav__links__link" to="/bands">{{ $t("content.lineup") }}</LocalizedLink>
-        <LocalizedLink class="nav__links__link" to="/about">{{ $t("nav.about") }}</LocalizedLink>
       </div>
       <span class="nav__icon">
         <font-awesome-icon :icon="['fas', 'bars']"></font-awesome-icon>

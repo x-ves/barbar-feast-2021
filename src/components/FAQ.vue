@@ -49,13 +49,15 @@ export default {
         }
 
         &:hover {
-            background: rgb(241, 241, 241);
+            background: rgb(235, 235, 235);
         }
     }
 
     &__answer {
         margin: 0;
         padding: 0.35rem;
+        background: rgb(250, 250, 250);
+        color: rgb(0, 0, 0);
     }
     }
 }

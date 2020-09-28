@@ -10,7 +10,6 @@
   },
   "nav": {
     "home": "Home",
-    "about": "About",
     "location": "Where?"
   },
   "counter": {
@@ -22,8 +21,8 @@
   },
   "faq": {
     "title": "Frequently Asked Questions",
-    "q1": "Question 1",
-    "a1": "Answer 1",
+    "q1": "Where does the festival take place?",
+    "a1": "Barbar Feast 2021 takes place in the exciting Viking Village surrounded by the beautiful nature of Saula village in Kose parish.",
     "q2": "Question 2",
     "a2": "Answer 2",
     "q3": "Question 3",
