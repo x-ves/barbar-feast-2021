@@ -21,11 +21,12 @@
       <h1 class="faq__title">{{ $t("faq.title") }}</h1>
       <div class="faq__wrapper">
         <FAQ class="faq__wrapper__faq" />
-        <img src="barbar2 1.png" class="faq__wrapper__skull" alt="">
+<!--         <img src="barbar2 1.png" class="faq__wrapper__skull" alt=""> -->
       </div>
     </section>
     <section id="location" class="location">
       <h1 class="location__title">{{ $t("location.header") }}</h1>
+      <p class="location__text">{{ $t("faq.a1") }}</p>
       <GoogleMap />
     </section>
   </div>
@@ -60,8 +61,7 @@ body {
   color: rgb(20, 20, 20);
 
   img {
-    align-self: flex-start;
-    width: 17rem;
+    display: none;
   }
 
   &__content {
@@ -89,9 +89,14 @@ body {
 
 .lineup {
   padding: 2rem 0;
+  background: rgb(230, 248, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 
   &__title {
-    margin: 1rem;
+    margin: 0 0 1rem 0;
+    font-size: 2rem;
     text-align: center;
     color: rgb(0, 204, 255);
     text-transform: uppercase;
@@ -101,6 +106,7 @@ body {
 .faq {
   padding: 1rem;
   color: rgb(0, 204, 255);
+  background: rgb(255, 255, 255);
 
   &__title {
     margin: 0.5rem;
@@ -119,20 +125,23 @@ body {
     }
 
     &__skull {
-      width: 20rem;
+      display: none;
     }
 
   }
 }
 
 .location {
-  padding-top: 3rem;
 
   &__title {
     color: rgb(0, 204, 255);
     margin: 1rem;
     text-align: center;
     text-transform: uppercase;
+  }
+
+  &__text {
+    text-align: center;
   }
 }
 
@@ -142,6 +151,7 @@ body {
   flex-direction: row;
 
   img {
+    display: block;
     width: 26rem;
   }
 
@@ -151,6 +161,16 @@ body {
     &__title {
       font-size: 2.5rem;
       line-height: 1.1;
+    }
+  }
+}
+
+.faq {
+  &__wrapper {
+    &__skull {
+      display: block;
+      width: 14rem;
+      margin: 0.5rem;
     }
   }
 }

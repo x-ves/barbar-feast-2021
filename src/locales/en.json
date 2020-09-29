@@ -23,12 +23,16 @@
     "title": "Frequently Asked Questions",
     "q1": "Where does the festival take place?",
     "a1": "Barbar Feast 2021 takes place in the exciting Viking Village surrounded by the beautiful nature of Saula village in Kose parish.",
-    "q2": "Question 2",
-    "a2": "Answer 2",
-    "q3": "Question 3",
-    "a3": "Answer 3",
+    "q2": "Where can we sleep?",
+    "a2": "The Viking Village offers all kinds of experiential accommodation in different houses, saunas, cabins, aswell as tents (either your own or their historically authentic and Viking tents).",
+    "q3": "Are we allowed in with our own drinks?",
+    "a3": "No.",
     "q4": "Will Eero pay his debt?",
-    "a4": "This is not HRL!"
+    "a4": "This is not HRL!",
+    "q5": "Can I pay for stuff with debit?",
+    "a5": "Probably, but we advise you to have some cash on you in case of power outages and other unexpected bugs.",
+    "q6": "Can we...?",
+    "a6": "As long as it's not against the rules of the Viking Village, probably."
   },
   "location": {
     "location": "Vikings Village, Kose parish",

@@ -24,12 +24,16 @@
     "title": "Korduma kippuvad küsimused",
     "q1": "Kus festival toimub?",
     "a1": "Barbar Feast 2021 leiab aset põnevas Viikingite külas, ümbritsetuna Kose vallas asuva Saula küla kaunist loodusest.",
-    "q2": "Küsimus 2",
-    "a2": "Vastus 2",
-    "q3": "Küsimus 3",
-    "a3": "Vastus 3",
+    "q2": "Kus magada saab?",
+    "a2": "Viikingite küla pakub igasugu elamusmajutust erinevates majades ja majakestes, saunades, aga ka telkides (telkida saab nii omas telgis kui nende pakutavates muinas- ja viikingtelkides).",
+    "q3": "Kas oma jookidega saab sisse?",
+    "a3": "Ei.",
     "q4": "Kas Eero maksab võla ära?",
-    "a4": "See pole HRL!"
+    "a4": "See pole HRL!",
+    "q5": "Kas kaardiga saab maksta?",
+    "a5": "Tõenäoliselt, kuid me soovitame sellegipoolest ka sularaha kaasa võtta juhuks, kui tekib elektrikatkestus või mõni muu tehniline rike.",
+    "q6": "Kas ma võin...?",
+    "a6": "Kui see pole vastuolus Viikingite küla kodukorraga, siis tõenäoliselt küll."
   },
   "location": {
     "location": "Viikingite Küla, Kose vald",

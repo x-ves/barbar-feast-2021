@@ -317,7 +317,7 @@ export default {
             const infowindow = new google.maps.InfoWindow({
                 content: `
                 <div id="content">
-                    <p id="firstHeading" class="firstHeading">${location.name}</p>
+                    <p id="firstHeading" class="firstHeading"><a href='https://www.google.com/maps/dir//Viikingite+k%C3%BCla,+Saula,+75117+Harju+maakond/@59.2224812,24.9625607'>Directions</a></p>
                 </div>
                 `,
                 maxWidth: 200

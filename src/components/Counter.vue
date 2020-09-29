@@ -101,8 +101,9 @@ export default {
                 flex-direction: column;
                 align-content: center;
                 padding: 0.25rem;
-                border: 1px solid black;
-                background: rgb(255, 255, 255);
+                border: 1px solid rgb(0, 0, 0);
+                background: rgba(255, 255, 255, 0.9);
+                color: rgb(0, 0, 0);
                 border-radius: 3px;
 
                 & span:nth-of-type(2) {

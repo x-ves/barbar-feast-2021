@@ -16,6 +16,14 @@
         <summary class="FAQ__content__question">{{ $t("faq.q4") }}</summary>
         <p class="FAQ__content__answer">{{ $t("faq.a4") }}</p>
     </details>
+    <details class="FAQ__content">
+        <summary class="FAQ__content__question">{{ $t("faq.q5") }}</summary>
+        <p class="FAQ__content__answer">{{ $t("faq.a5") }}</p>
+    </details>
+    <details class="FAQ__content">
+        <summary class="FAQ__content__question">{{ $t("faq.q6") }}</summary>
+        <p class="FAQ__content__answer">{{ $t("faq.a6") }}</p>
+    </details>
 </div>
 
 </template>
