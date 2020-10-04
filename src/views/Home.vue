@@ -26,7 +26,14 @@
     </section>
     <section id="location" class="location">
       <h1 class="location__title">{{ $t("location.header") }}</h1>
-      <p class="location__text">{{ $t("faq.a1") }}</p>
+      <div class="location__slides">
+        <div class="location__slides__left">
+          <Carousel />
+        </div>
+        <div class="location__slides__right">
+          <p class="location__text">{{ $t("faq.a1") }}</p>
+        </div>
+      </div>
       <GoogleMap />
     </section>
   </div>
@@ -38,11 +45,12 @@ import Counter from "@/components/Counter.vue";
 import BandList from "@/components/BandList.vue";
 import GoogleMap from "@/components/GoogleMap.vue";
 import TicketsButton from "@/components/TicketsButton.vue";
-import FAQ from "@/components/FAQ.vue"
+import FAQ from "@/components/FAQ.vue";
+import Carousel from "@/components/Carousel.vue";
 
 export default {
   name: "Home",
-  components: { Counter, BandList, GoogleMap, TicketsButton, FAQ }
+  components: { Counter, BandList, GoogleMap, TicketsButton, FAQ, Carousel }
 };
 </script>
 
@@ -132,6 +140,17 @@ body {
 }
 
 .location {
+
+  display: flex;
+  flex-direction: column;
+
+  &__slides {
+    display: flex;
+    justify-content: space-evenly;
+
+    &__left, &__right {
+    }
+  }
 
   &__title {
     color: rgb(0, 204, 255);
