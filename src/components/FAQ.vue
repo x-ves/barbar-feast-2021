@@ -39,7 +39,7 @@ export default {
 .FAQ {
     width: 40rem;
     height: fit-content;
-    box-shadow: 0px 0px 3px rgb(155, 155, 155);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.222);
     padding: 0;
 
     &__content {
