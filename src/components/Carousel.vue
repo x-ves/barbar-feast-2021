@@ -13,8 +13,8 @@
             </div>
         </transition-group>
         <div class="carousel__controls">
-            <button class="carousel__controls__button" @click="previous">PREV</button>
-            <button class="carousel__controls__button" @click="next">NEXT</button>
+            <button class="carousel__controls__button" @click="previous">◀</button>
+            <button class="carousel__controls__button" @click="next">▶</button>
         </div>
     </div>
 </template>
@@ -84,17 +84,30 @@ export default {
         min-height: 24em;
 
         &__controls {
-            border: 1px solid red;
             width: 36em;
             height: 24em;
             position: absolute;
             display: flex;
             justify-content: space-between;
 
+            &:hover button {
+                opacity: 1;
+            }
+
             button {
+                opacity: 0;
+                transition: all 0.3s;
                 border: none;
-                background: rgba(0, 0, 0, 0.3);
-                color: white;
+                background: rgba(0, 0, 0, 0.2);
+                color: rgba(255, 255, 255, 0.5);
+                cursor: pointer;
+                font-size: 1.25rem;
+                width: 2.5rem;
+
+                &:hover {
+                    background: rgba(0, 0, 0, 0.3);
+                    color: rgba(255, 255, 255, 0.8)
+                }
             }
         }
     }
