@@ -20,7 +20,10 @@ export default {
     padding: 3rem 0;
 
     h1 {
+      color: rgb(0, 204, 255);
       text-align: center;
+      margin: 1rem 0 0.5rem 0;
+      text-transform: uppercase;
     }
   }
 

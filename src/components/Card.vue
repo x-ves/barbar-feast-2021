@@ -24,7 +24,7 @@ export default {
         margin: 0.5rem;
         width: 18rem;
         height: 16rem;
-        border: 1px solid #f2f2f2;
+        background: rgba(255, 255, 255, 0.5);
         border-radius: 4px;
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
         display: flex;
