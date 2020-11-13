@@ -38,7 +38,12 @@
       <h1 class="faq__title">{{ $t("faq.title") }}</h1>
       <div class="faq__wrapper">
         <FAQ class="faq__wrapper__faq" />
-<!--         <img src="barbar2 1.png" class="faq__wrapper__skull" alt=""> -->
+      </div>
+    </section>
+    <section id="sponsors" class="sponsors">
+      <h1 class="sponsors__title">{{ $t("sponsors.title") }}</h1>
+      <div class="sponsors_wrapper">
+        Siia tulevad sponsorite logod.
       </div>
     </section>
   </div>
@@ -184,6 +189,20 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
   &__text {
     width: 40rem;
+  }
+}
+
+.sponsors {
+  padding: 1rem 0;
+  background: rgb(230, 248, 255);
+  color: rgb(0, 204, 255);
+  text-align: center;
+
+  &__title {
+      color: rgb(0, 204, 255);
+      margin: 1rem;
+      font-size: 2rem;
+      text-transform: uppercase;
   }
 }
 
