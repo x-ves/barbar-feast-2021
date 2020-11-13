@@ -13,7 +13,7 @@
             </div>
         </transition-group>
         <div class="carousel__controls">
-            <button class="carousel__controls__button" @click="previous">PREVIOUS</button>
+            <button class="carousel__controls__button" @click="previous">PREV</button>
             <button class="carousel__controls__button" @click="next">NEXT</button>
         </div>
     </div>
@@ -60,7 +60,7 @@ export default {
     },
 
     created() {
-    setInterval(this.next, 10000)
+    setInterval(this.next, 5000)
     }
 }
 </script>
@@ -68,6 +68,7 @@ export default {
 <style lang="scss">
 
     .carousel__view {
+        margin: 1rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -78,14 +79,27 @@ export default {
         justify-content: center;
         align-items: center;
         overflow: hidden;
-
+        position: relative;
         width: 36em;
-        min-height: 26em;
+        min-height: 24em;
+
+        &__controls {
+            border: 1px solid red;
+            width: 36em;
+            height: 24em;
+            position: absolute;
+            display: flex;
+            justify-content: space-between;
+
+            button {
+                border: none;
+                background: rgba(0, 0, 0, 0.3);
+                color: white;
+            }
+        }
     }
 
     .slide {
-        flex: 0 0 36em;
-        margin: 1em;
         display: flex;
         justify-content: center;
         align-items: center;
