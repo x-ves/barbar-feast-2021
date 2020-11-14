@@ -9,7 +9,10 @@
                 class="slide"
                 :key="slide.id"
             >
-                <img class="slide__img" :src="slide.imgUrl" />
+                <img
+                    class="slide__img"
+                    :src="slide.imgUrl"
+                />
             </div>
         </transition-group>
         <div class="carousel__controls">
@@ -44,24 +47,38 @@ export default {
                     id: 5,
                     imgUrl: "https://www.viikingitekyla.ee/wp-content/uploads/2017/01/5.jpg"
                 }
-            ]
-        }
-    },
-
-    methods: {
-        next() {
-            const first = this.slides.shift();
-            this.slides = this.slides.concat(first);
-        },
-        previous() {
-            const last = this.slides.pop();
-            this.slides = [last].concat(this.slides);
+            ],
+            timer: null
         }
     },
 
     mounted() {
-        setInterval(this.next, 5000)
-    }
+        this.startRotation();
+    },
+
+    methods: {
+        startRotation() {
+            this.timer = setInterval(this.next, 5000);
+        },
+        stopRotation() {
+            clearTimeout(this.timer);
+            this.timer = null;
+        },
+        resetRotation() {
+            this.stopRotation();
+            this.startRotation();
+        },
+        next() {
+            const first = this.slides.shift();
+            this.slides = this.slides.concat(first);
+            this.resetRotation();
+        },
+        previous() {
+            const last = this.slides.pop();
+            this.slides = [last].concat(this.slides);
+            this.resetRotation();
+        }
+    },
 }
 </script>
 
@@ -116,7 +133,7 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: transform 0.8s linear;
+        transition: 0.2s ease;
 
         &__img {
             object-fit: cover;

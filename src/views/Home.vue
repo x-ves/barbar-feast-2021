@@ -167,6 +167,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
   &__slides {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-evenly;
 
     &__left, &__right {
