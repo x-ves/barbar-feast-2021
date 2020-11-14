@@ -100,6 +100,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     }
 
     &__brief {
+      margin-top: 0.5rem;
       display: flex;
       flex-direction: column;
     }
