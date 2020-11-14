@@ -59,8 +59,8 @@ export default {
         }
     },
 
-    created() {
-    setInterval(this.next, 5000)
+    mounted() {
+        setInterval(this.next, 5000)
     }
 }
 </script>
