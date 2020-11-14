@@ -98,15 +98,15 @@ export default {
                 opacity: 0;
                 transition: all 0.3s;
                 border: none;
-                background: rgba(0, 0, 0, 0.2);
+                background: rgba(0, 0, 0, 0);
                 color: rgba(255, 255, 255, 0.5);
                 cursor: pointer;
                 font-size: 1.25rem;
                 width: 2.5rem;
+                outline: none;
 
                 &:hover {
-                    background: rgba(0, 0, 0, 0.3);
-                    color: rgba(255, 255, 255, 0.8)
+                    color: rgba(255, 255, 255, 0.8);
                 }
             }
         }
