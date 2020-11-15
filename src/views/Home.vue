@@ -19,13 +19,12 @@
     </section>
     <section id="location" class="location">
       <div class="location__slides">
-        <div class="location__slides__left">
+        <div class="location__slides__slider">
           <Carousel />
         </div>
-        <div class="location__slides__right">
+        <div class="location__slides__text">
       <h1 class="location__title">{{ $t("location.header") }}</h1>
-          <!-- <img src="https://www.viikingitekyla.ee/wp-content/uploads/2018/09/Viikingid-300x140logo1.png" style="align-self: center;" alt=""> -->
-          <p class="location__text">Barbar Feast leiab 2021. aastal aset Kose vallas Saula küla piirides asuvas Viikingite külas. <br><br>
+          <p class="location__desc">Barbar Feast leiab 2021. aastal aset Kose vallas Saula küla piirides asuvas Viikingite külas. <br><br>
           Küla asub Pirita jõe ääres ning pakub aastaringselt oma külastajatele kehakinnitust, vaatamisväärsusi, elamusmajutust ja erinevaid 8.-11. saj eesti viikingikultuurist inspireeritud vaba aja veetmise võimalusi. <br><br>
 
           Rohkem infot ja pilte Viikingite küla kohta leiab nende <a href="https://www.viikingitekyla.ee/" target="_blank">kodulehelt</a>. <br><br>
@@ -170,16 +169,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
   &__slides {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
+    flex-direction: column-reverse;
 
-    &__left, &__right {
+    &__slider, &__text {
       display: flex;
       flex-direction: column;
     }
 
-    &__right {
-      justify-content: space-evenly;
+    &__text {
+      justify-content: center;
     }
   }
 
@@ -191,8 +189,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     text-transform: uppercase;
   }
 
-  &__text {
-    width: 40rem;
+  &__desc {
+    width: fit-content;
   }
 }
 
@@ -230,6 +228,18 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   }
 }
 
+.location {
+
+  &__slides {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &__desc {
+    width: 40rem;
+  }
+}
+
 .faq {
   &__title {
     font-size: 2rem;
@@ -257,6 +267,13 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     &__title {
       font-size: 4rem;
     }
+  }
+}
+
+.location {
+
+  &__slides {
+    flex-direction: row-reverse;
   }
 }
 
