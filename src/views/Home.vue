@@ -18,17 +18,19 @@
       <BandList />
     </section>
     <section id="location" class="location">
-      <h1 class="location__title">{{ $t("location.header") }}</h1>
       <div class="location__slides">
         <div class="location__slides__left">
           <Carousel />
         </div>
         <div class="location__slides__right">
-          <img src="https://www.viikingitekyla.ee/wp-content/uploads/2018/09/Viikingid-300x140logo1.png" style="align-self: center;" alt="">
-          <p class="location__text">Barbar Feast leiab 2021. aastal aset Kose vallas Saue küla piirides asuvas Viikingite külas. <br><br>
-          Küla asub Pirita jõe ääres ning pakub aastaringselt igas vanuses külastajatele kehakinnitust, vaatamisväärsusi, elamusmajutust ning erinevaid 8.-11. saj eesti viikingikultuurist inspireeritud vaba aja veetmise võimalusi. <br><br>
+      <h1 class="location__title">{{ $t("location.header") }}</h1>
+          <!-- <img src="https://www.viikingitekyla.ee/wp-content/uploads/2018/09/Viikingid-300x140logo1.png" style="align-self: center;" alt=""> -->
+          <p class="location__text">Barbar Feast leiab 2021. aastal aset Kose vallas Saula küla piirides asuvas Viikingite külas. <br><br>
+          Küla asub Pirita jõe ääres ning pakub aastaringselt oma külastajatele kehakinnitust, vaatamisväärsusi, elamusmajutust ja erinevaid 8.-11. saj eesti viikingikultuurist inspireeritud vaba aja veetmise võimalusi. <br><br>
 
-          Rohkem infot ja pilte Viikingite küla kohta leiab nende <a href="https://www.viikingitekyla.ee/" target="_blank">kodulehelt</a>.
+          Rohkem infot ja pilte Viikingite küla kohta leiab nende <a href="https://www.viikingitekyla.ee/" target="_blank">kodulehelt</a>. <br><br>
+
+          Lisaks Viikingite külale leidub Kose vallas ka muid vaatamisväärsusi nagu Saula siniallikad, Tuhala nõiakaev, Kose-Uuemõisa park, ja mitmeid teisigi.
           </p>
         </div>
       </div>

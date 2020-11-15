@@ -85,10 +85,10 @@ export default {
 <style lang="scss">
 
     .carousel__view {
-        margin: 1rem;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 2rem 0;
     }
 
     .carousel {
