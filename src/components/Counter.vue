@@ -85,6 +85,8 @@ export default {
         display: flex;
         flex-direction: column;
         margin: 1rem 0;
+        align-self: center;
+        width: 16rem;
 
         &__title {
             margin: 0 0 1rem 0;

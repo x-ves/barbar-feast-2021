@@ -93,7 +93,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
     &__title {
       margin: 0;
-      font-size: 1.8rem;
+      font-size: 3rem;
       font-weight: 800;
       color: rgb(255, 255, 255);
       -webkit-text-stroke: 2px rgb(248, 1, 0);
@@ -125,10 +125,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .faq {
-  padding: 1rem;
   color: rgb(0, 204, 255);
+  padding: 1rem 0;
 
   &__title {
+    font-size: 2rem;
     margin: 0.5rem;
     text-align: center;
     text-transform: uppercase;
@@ -142,6 +143,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
     &__faq {
       margin: 1.5rem 0 0 0;
+      font-size: 1.1rem;
     }
 
     &__skull {
@@ -152,6 +154,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .location {
+  font-size: 1.1rem;
   display: flex;
   flex-direction: column;
   background: rgb(255, 255, 255);
@@ -189,6 +192,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   }
 
   &__desc {
+    margin: 0;
+    padding: 1rem;
     width: fit-content;
     align-self: center;
   }
@@ -236,7 +241,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   }
 
   &__desc {
-    width: 40rem;
+    width: 43rem;
   }
 }
 
@@ -271,10 +276,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .location {
+  font-size: 1rem;
 
   &__slides {
     flex-direction: row-reverse;
   }
+}
+
+.faq {
+  font-size: 1rem;
 }
 
 }
