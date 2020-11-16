@@ -97,11 +97,11 @@ export default {
         align-items: center;
         overflow: hidden;
         position: relative;
-        width: 36em;
+        width: 20rem;
         min-height: 24em;
 
         &__controls {
-            width: 36em;
+            min-width: 20rem;
             height: 24em;
             position: absolute;
             display: flex;
@@ -138,12 +138,32 @@ export default {
         &__img {
             object-fit: cover;
             height: 24em;
-            width: 36em;
+            width: 20rem;
         }
 
         &:first-of-type, &:last-of-type {
             opacity: 0;
         }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .carousel {
+        width: 40em;
+        min-height: 28em;
+        &__controls {
+            width: 40em;
+            height: 28em;
+        }
+
+    .slide {
+        &__img {
+            height: 28em;
+            width: 40em;
+        }
+    }
+    }
+
 }
 
 </style>

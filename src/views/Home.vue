@@ -152,7 +152,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .location {
-
   display: flex;
   flex-direction: column;
   background: rgb(255, 255, 255);
@@ -191,6 +190,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
   &__desc {
     width: fit-content;
+    align-self: center;
   }
 }
 
