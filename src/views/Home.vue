@@ -217,6 +217,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .welcome {
   flex-direction: row;
+  padding-top: 2.5rem;
 
   img {
     display: block;
@@ -227,8 +228,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     padding: 0;
 
     &__title {
-      font-size: 2.5rem;
+      font-size: 3rem;
       line-height: 1.1;
+    }
+
+    &__brief {
+      font-size: 1.1rem;
     }
   }
 }
@@ -284,7 +289,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .faq {
-  font-size: 1rem;
+  &__wrapper {
+    &__faq {
+      font-size: 1rem;
+    }
+  }
 }
 
 }
