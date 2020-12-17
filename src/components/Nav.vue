@@ -5,7 +5,7 @@
         <LocalizedLink class="nav__links__link" to="/">{{ $t("nav.home") }}</LocalizedLink>
         <LocalizedLink class="nav__links__link" to="/bands">{{ $t("content.lineup") }}</LocalizedLink>
       </div>
-      <span class="nav__icon">
+      <span class="nav__icon" @click="openMenu">
         <font-awesome-icon :icon="['fas', 'bars']"></font-awesome-icon>
       </span>
     </nav>
@@ -16,11 +16,19 @@ import LocaleSwitcher from "@/components/LocaleSwitcher";
 import LocalizedLink from "@/components/LocalizedLink";
 export default {
     components: { LocaleSwitcher, LocalizedLink },
-/*     methods: {
-      openMenu() {
-
+    methods: {
+      openMenu: function () {
+        const navLinks = document.querySelector(".nav__links");
+        const langSwitch = document.querySelector(".nav__langSwitcher");
+        if (navLinks.style.display === "none") {
+          navLinks.style.display = "flex";
+          langSwitch.style.display = "block";
+        } else {
+          navLinks.style.display = "none";
+          langSwitch.style.display = "none";
+        }
       }
-    } */
+    }
 }
 </script>
 
@@ -34,15 +42,15 @@ export default {
   justify-content: space-between;
   background: linear-gradient(rgb(46, 112, 168), rgb(0, 204, 255));
   color: rgb(255, 255, 255);
-  flex-direction: column;
+  flex-direction: column-reverse;
 
   &__langSwitcher {
     display: none;
   }
 
   &__links {
-   display: none;
-   flex-direction: column;
+    display: none;
+    flex-direction: column;
 
    &__link {
       color: rgb(245, 245, 245);
@@ -69,6 +77,7 @@ export default {
 @media only screen and (min-width: 768px) {
   .nav {
       justify-content: space-between;
+      flex-direction: row;
 
   &__langSwitcher {
     display: block;
