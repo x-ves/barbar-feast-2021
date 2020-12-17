@@ -16,6 +16,11 @@ import LocaleSwitcher from "@/components/LocaleSwitcher";
 import LocalizedLink from "@/components/LocalizedLink";
 export default {
     components: { LocaleSwitcher, LocalizedLink },
+/*     methods: {
+      openMenu() {
+
+      }
+    } */
 }
 </script>
 
@@ -29,10 +34,15 @@ export default {
   justify-content: space-between;
   background: linear-gradient(rgb(46, 112, 168), rgb(0, 204, 255));
   color: rgb(255, 255, 255);
+  flex-direction: column;
 
- &__links {
+  &__langSwitcher {
+    display: none;
+  }
 
+  &__links {
    display: none;
+   flex-direction: column;
 
    &__link {
       color: rgb(245, 245, 245);
@@ -49,6 +59,8 @@ export default {
   }
 
   &__icon {
+    align-self: flex-end;
+    cursor: pointer;
     padding: 10px;
     transition: all 0.4s;
   }
@@ -58,12 +70,17 @@ export default {
   .nav {
       justify-content: space-between;
 
+  &__langSwitcher {
+    display: block;
+  }
+
     &__icon {
       display: none;
     }
 
     &__links {
       display: flex;
+      flex-direction: row;
     }
   }
 }
