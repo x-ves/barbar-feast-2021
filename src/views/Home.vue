@@ -1,9 +1,9 @@
 <template>
   <div id="home">
     <section id="welcome" class="welcome">
-      <img src="@/assets/feastbeast.png" alt="">
+      <img src="@/assets/barbarfeast2.jpg" alt="">
       <div class="welcome__content">
-        <h1 class="welcome__content__title">Barbar Feast 2021</h1>
+<!--         <h1 class="welcome__content__title">Barbar Feast 2021</h1> -->
         <div class="welcome__content__brief">
           <span>{{ $t("content.slogan") }}</span>
           <span>@ {{ $t("location.location") }}</span>
@@ -78,10 +78,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   flex-direction: column;
   align-items: center;
   text-align: center;
-  color: rgb(20, 20, 20);
+  justify-content: space-between;
+  text-transform: uppercase;
 
   img {
-    display: none;
+    width: 100%;
   }
 
   &__content {
@@ -216,16 +217,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 @media only screen and (min-width: 768px) {
 
 .welcome {
-  flex-direction: row;
   padding-top: 2.5rem;
 
   img {
     display: block;
-    width: 26rem;
   }
 
   &__content {
     padding: 0;
+    width: 50%;
 
     &__title {
       font-size: 3rem;
@@ -268,9 +268,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 @media only screen and (min-width: 1024px) {
 
 .welcome {
+  flex-direction: row;
 
   img {
-    width: 43rem;
+    width: 60%;
   }
 
   &__content {

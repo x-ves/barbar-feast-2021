@@ -84,9 +84,9 @@ export default {
     .counter {
         display: flex;
         flex-direction: column;
-        margin: 1rem 0;
+        margin: 0;
         align-self: center;
-        width: 16rem;
+        width: 18rem;
 
         &__title {
             margin: 0 0 1rem 0;
@@ -123,8 +123,6 @@ export default {
 @media only screen and (min-width: 768px) {
 
     .counter {
-        margin: 2rem auto;
-        width: 22rem;
         display: flex;
         flex-direction: column;
 
