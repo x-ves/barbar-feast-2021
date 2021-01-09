@@ -20,6 +20,7 @@ export default {
         border-radius: 3px;
         transition: all 0.3s;
         text-transform: uppercase;
+        font-weight: 400;
 
         &:hover {
             color: white;

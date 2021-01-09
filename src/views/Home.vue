@@ -3,9 +3,8 @@
     <section id="welcome" class="welcome">
       <img src="@/assets/barbarfeast2.jpg" alt="">
       <div class="welcome__content">
-<!--         <h1 class="welcome__content__title">Barbar Feast 2021</h1> -->
         <div class="welcome__content__brief">
-          <span>{{ $t("content.slogan") }}</span>
+          <span class="welcome__content__brief__slogan">{{ $t("content.slogan") }}</span>
           <span>@ {{ $t("location.location") }}</span>
           <span>8.-10. {{ $t("content.july") }}</span>
         </div>
@@ -91,20 +90,23 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     flex-direction: column;
     justify-content: space-evenly;
     align-content: space-between;
-
-    &__title {
-      margin: 0;
-      font-size: 3rem;
-      font-weight: 800;
-      color: rgb(255, 255, 255);
-      -webkit-text-stroke: 2px rgb(248, 1, 0);
-      text-transform: uppercase;
-    }
+    font-weight: 500;
 
     &__brief {
       margin-top: 0.5rem;
       display: flex;
       flex-direction: column;
+
+      &__slogan {
+        margin: 0;
+        font-size: 2.3rem;
+        font-weight: 800;
+        color: rgb(255, 255, 255);
+        -webkit-text-stroke: 1.5px rgb(248, 1, 0);
+        line-height: 1.1;
+        padding: 0 0.2rem;
+        text-transform: uppercase;
+      }
     }
   }
 }
@@ -227,13 +229,13 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     padding: 0;
     width: 50%;
 
-    &__title {
-      font-size: 3rem;
-      line-height: 1.1;
-    }
-
     &__brief {
       font-size: 1.1rem;
+
+      &__slogan {
+        font-size: 3rem;
+        line-height: 1.1;
+      }
     }
   }
 }
@@ -275,8 +277,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   }
 
   &__content {
-    &__title {
-      font-size: 4rem;
+    &__brief {
+      &__slogan {
+        font-size: 3rem;
+      }
     }
   }
 }

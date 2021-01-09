@@ -129,7 +129,7 @@ export default {
         &__title {
             margin: 0 0 0.5rem 0;
             font-size: 1.5rem;
-            font-weight: 400;
+            font-weight: 500;
         }
 
         &__time {
