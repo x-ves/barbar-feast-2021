@@ -21,7 +21,7 @@ export default {
         const navLinks = document.querySelector(".nav__links");
         const langSwitch = document.querySelector(".nav__langSwitcher");
         const linkStyle = window.getComputedStyle(navLinks);
-        if (linkStyle.getPropertyValue('display') === "none") {
+        if (linkStyle.getPropertyValue("display") === "none") {
           navLinks.style.display = "flex";
           langSwitch.style.display = "block";
         } else {
@@ -52,6 +52,8 @@ export default {
   &__links {
     display: none;
     flex-direction: column;
+    width: 100%;
+    text-align: center;
 
    &__link {
       color: rgb(245, 245, 245);
@@ -80,9 +82,9 @@ export default {
       justify-content: space-between;
       flex-direction: row;
 
-  &__langSwitcher {
-    display: block;
-  }
+    &__langSwitcher {
+      display: block;
+    }
 
     &__icon {
       display: none;
@@ -91,6 +93,7 @@ export default {
     &__links {
       display: flex;
       flex-direction: row;
+      justify-content: flex-end;
     }
   }
 }

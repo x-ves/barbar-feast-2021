@@ -31,18 +31,20 @@ export default {
 
 .locale-switcher {
     position: relative;
+    width: inherit;
 
     select {
         appearance: none;
         border: none;
         color: rgb(245, 245, 245);
         background: none;
-        padding: 10px 1.8rem 10px 10px;
+        padding: 10px 44%;
         font-family: inherit;
         font-size: inherit;
         line-height: inherit;
         outline: none;
         transition: 0.3s all;
+        width: inherit;
 
         &:hover {
             cursor: pointer;
@@ -60,6 +62,7 @@ export default {
     }
 
     .custom-arrow {
+        padding-right: 90vw;
         position: absolute;
         top: 0;
         right: 0;
@@ -80,6 +83,21 @@ export default {
             border-left: var(--size) solid transparent;
             border-right: var(--size) solid transparent;
             border-top: var(--size) solid rgb(245, 245, 245);
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .locale-switcher {
+        width: fit-content;
+
+        select {
+            width: fit-content;
+            padding: 10px 1.8rem 10px 10px;
+        }
+
+        .custom-arrow {
+            padding-right: 0;
         }
     }
 }
