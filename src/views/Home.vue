@@ -79,6 +79,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   text-align: center;
   justify-content: space-between;
   text-transform: uppercase;
+  background: rgb(253, 253, 253);
 
   img {
     width: 100%;

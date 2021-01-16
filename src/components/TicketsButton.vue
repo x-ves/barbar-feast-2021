@@ -1,5 +1,5 @@
 <template>
-    <a href="https://www.ticketer.ee/barbar-feast-2021" class="ticketsButton">{{ $t("content.tickets") }}</a>
+    <a href="https://www.ticketer.ee/barbar-feast-2021" target="_blank" class="ticketsButton">{{ $t("content.tickets") }}</a>
 </template>
 
 <script>
