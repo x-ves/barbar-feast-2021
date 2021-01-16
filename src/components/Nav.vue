@@ -20,7 +20,8 @@ export default {
       openMenu: function () {
         const navLinks = document.querySelector(".nav__links");
         const langSwitch = document.querySelector(".nav__langSwitcher");
-        if (navLinks.style.display === "none") {
+        const linkStyle = window.getComputedStyle(navLinks);
+        if (linkStyle.getPropertyValue('display') === "none") {
           navLinks.style.display = "flex";
           langSwitch.style.display = "block";
         } else {
