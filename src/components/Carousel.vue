@@ -97,15 +97,14 @@ export default {
         align-items: center;
         overflow: hidden;
         position: relative;
-        width: 20rem;
         min-height: 24em;
 
         &__controls {
-            min-width: 20rem;
             height: 24em;
             position: absolute;
             display: flex;
             justify-content: space-between;
+            width: 100%;
 
             &:hover button {
                 opacity: 1;
@@ -134,11 +133,14 @@ export default {
         justify-content: center;
         align-items: center;
         transition: 0.2s ease;
+        min-width: 100%;
 
         &__img {
             object-fit: cover;
             height: 24em;
-            width: 20rem;
+            width: 100%;
+            align-self: center;
+            justify-self: center;
         }
 
         &:first-of-type, &:last-of-type {

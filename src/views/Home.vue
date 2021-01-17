@@ -22,7 +22,7 @@
           <Carousel />
         </div>
         <div class="location__slides__text">
-      <h1 class="location__title">{{ $t("location.header") }}</h1>
+          <h1 class="location__title">{{ $t("location.header") }}</h1>
           <p class="location__desc">Barbar Feast leiab 2021. aastal aset Kose vallas Saula küla piirides asuvas Viikingite külas. <br><br>
           Küla asub Pirita jõe ääres ning pakub aastaringselt oma külastajatele kehakinnitust, vaatamisväärsusi, elamusmajutust ja erinevaid 8.-11. saj eesti viikingikultuurist inspireeritud vaba aja veetmise võimalusi. <br><br>
 
