@@ -9,7 +9,9 @@
     </div>
     <band-modal ref="bandModal">
             <template v-slot:header>
-                <h1>{{ name }}</h1>
+                <img class="card__img" :src="imgUrl" />
+                <h3>{{ name }}</h3>
+                <span>{{ genre }}</span>
             </template>
 
             <template v-slot:body>
@@ -32,7 +34,7 @@ export default {
         id: Number,
         name: String,
         genre: String,
-        imgUrl: String
+        imgUrl: String,
     }
 }
 </script>
@@ -49,6 +51,7 @@ export default {
         flex-direction: column;
         justify-content: space-evenly;
         text-transform: capitalize;
+        cursor: pointer;
 
         &__img {
             object-fit: cover;

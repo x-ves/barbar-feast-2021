@@ -20,7 +20,6 @@ export default {
     components: { Card }
 }
 </script>
-        BandModal
 
 <style scoped>
     .cards {
