@@ -1,12 +1,13 @@
 <template>
-    <div class="card" @click="$refs.modal.openModal()">
+    <div>
+    <div class="card" @click="$refs.bandModal.openModal()">
         <img class="card__img" :src="imgUrl" />
         <div class="card__desc">
             <h3>{{ name }}</h3>
             <p>({{ genre }})</p>
         </div>
-
-        <band-modal ref="modal">
+    </div>
+    <band-modal ref="bandModal">
             <template v-slot:header>
                 <h1>{{ name }}</h1>
             </template>
@@ -16,7 +17,7 @@
             </template>
 
             <template v-slot:footer>
-                <button @click="$refs.modal.closeModal()">Close Modal</button>
+                <button @click="$refs.bandModal.closeModal()">Close Modal</button>
             </template>
         </band-modal>
     </div>

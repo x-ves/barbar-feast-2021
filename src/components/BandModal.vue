@@ -1,6 +1,6 @@
 <template>
     <transition name="fade">
-        <div class="modal" v-if="show">
+        <div class="modal" v-if="showModal">
 
             <div class="modal__backdrop" @click="closeModal()"/>
 
@@ -29,16 +29,18 @@ export default {
     name: "BandModal",
     data() {
         return {
-            show: false
+            showModal: false
         };
     },
     methods: {
         closeModal() {
-            this.show = false;
+            console.log("You closed the modal");
+            this.showModal = false;
             document.querySelector("body").classList.remove("overflow-hidden");
         },
         openModal() {
-            this.show = true;
+            console.log("You opened the modal");
+            this.showModal = true;
             document.querySelector("body").classList.add("overflow-hidden");
         }
     }
