@@ -11,7 +11,7 @@
             <template v-slot:header>
                 <img class="card__img" :src="imgUrl" />
                 <h3>{{ name }}</h3>
-                <span>{{ genre }}</span>
+                <span>({{ genre }})</span>
             </template>
 
             <template v-slot:body>
@@ -19,7 +19,14 @@
             </template>
 
             <template v-slot:footer>
-                <button @click="$refs.bandModal.closeModal()">Close Modal</button>
+                <button class="arrowButton" @click="$refs.bandModal.closeModal()">
+                    <font-awesome-icon :icon="['fas', 'long-arrow-alt-left']"></font-awesome-icon>
+                </button>
+                <div class="bandModal__socials">
+                    <span class="bandModal__socials__icon"> <font-awesome-icon :icon="['fas', 'home']"></font-awesome-icon></span>
+                    <span class="bandModal__socials__icon"><font-awesome-icon :icon="['fab', 'facebook-square']"></font-awesome-icon></span>
+                    <span class="bandModal__socials__icon"><font-awesome-icon :icon="['fab', 'instagram']"></font-awesome-icon></span>
+                </div>
             </template>
         </band-modal>
     </div>
@@ -56,6 +63,7 @@ export default {
         &__img {
             object-fit: cover;
             height: 12rem;
+            filter: grayscale(100%);
         }
 
         &__desc {

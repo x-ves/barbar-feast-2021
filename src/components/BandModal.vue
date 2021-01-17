@@ -7,7 +7,9 @@
             <div class="modal__dialog">
 
                 <div class="modal__header">
-                    <button type="button" class="modal__close" @click="closeModal()">x</button>
+                    <button type="button" class="modal__close" @click="closeModal()">
+                        <font-awesome-icon :icon="['fas', 'times']"></font-awesome-icon>
+                    </button>
                     <slot name="header"/>
                 </div>
 
@@ -83,19 +85,61 @@ export default {
             }
         }
 
+        .arrowButton {
+            color: rgba(0, 204, 255, 0.5);
+            border: none;
+            background: transparent;
+            font-size: 2.5rem;
+            height: 1rem;
+            width: fit-content;
+            outline: none;
+            cursor: pointer;
+            transition: color 0.2s;
+
+            &:hover {
+                color: rgb(0, 204, 255);
+            }
+        }
+
+        .bandModal {
+
+            &__socials {
+                width: 5rem;
+                display: flex;
+                justify-content: space-evenly;
+
+                &__icon {
+                    color: rgba(0, 204, 255, 0.7);
+                    font-size: 1.5rem;
+                    cursor: pointer;
+                    transition: color 0.2s;
+                    vertical-align: middle;
+
+                    &:hover {
+                        color: rgb(0, 204, 255);
+                    }
+                }
+            }
+        }
+
         &__close {
             align-self: flex-end;
             position: absolute;
-            width: 30px;
-            height: 30px;
+            width: 35px;
+            height: 35px;
             border: none;
-            border-radius: 0;
-            color:rgb(253, 253, 253);
-            background: rgba(255, 255, 255, 0.3);
-            font-weight: 700;
-            font-size: 1.5rem;
-            vertical-align: middle;
+            color:rgba(253, 253, 253, 0.7);
+            background: rgba(255, 255, 255, 0.1);
+            font-size: 1.25rem;
             cursor: pointer;
+            transition: all 0.2s;
+            z-index: 2;
+            outline: none;
+
+            &:hover {
+                background: rgba(255, 255, 255, 0.3);
+                color: rgba(253, 253, 253, 1);
+            }
         }
 
         &__header {
@@ -113,6 +157,7 @@ export default {
             span {
                 margin: 0;
                 text-align: center;
+                text-transform: capitalize;
             }
 
             img {
@@ -129,6 +174,8 @@ export default {
 
         &__footer {
             padding: 10px 20px 20px;
+            display: flex;
+            justify-content: space-between;
         }
     }
 
