@@ -1,11 +1,12 @@
 <template>
     <div class="cards">
-        <Card v-bind="card" v-for="card in cards" :key="card.id" />
+        <Card v-bind="card" v-for="card in cards" :key="card.id"/>
     </div>
 </template>
 
 <script>
 import Card from "./Card"
+
 export default {
     data: () => ({
         cards: []
@@ -19,6 +20,7 @@ export default {
     components: { Card }
 }
 </script>
+        BandModal
 
 <style scoped>
     .cards {
