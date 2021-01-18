@@ -23,9 +23,9 @@
                     <font-awesome-icon :icon="['fas', 'long-arrow-alt-left']"></font-awesome-icon>
                 </button>
                 <div class="bandModal__socials">
-                    <span class="bandModal__socials__icon"> <font-awesome-icon :icon="['fas', 'home']"></font-awesome-icon></span>
-                    <span class="bandModal__socials__icon"><font-awesome-icon :icon="['fab', 'facebook-square']"></font-awesome-icon></span>
-                    <span class="bandModal__socials__icon"><font-awesome-icon :icon="['fab', 'instagram']"></font-awesome-icon></span>
+                    <a class="bandModal__socials__icon" target="_blank" :href="webSite"><font-awesome-icon :icon="['fas', 'home']"></font-awesome-icon></a>
+                    <a class="bandModal__socials__icon" target="_blank" :href="faceBook"><font-awesome-icon :icon="['fab', 'facebook-square']"></font-awesome-icon></a>
+                    <a class="bandModal__socials__icon" target="_blank" :href="faceBook"><font-awesome-icon :icon="['fab', 'instagram']"></font-awesome-icon></a>
                 </div>
             </template>
         </band-modal>
@@ -42,6 +42,8 @@ export default {
         name: String,
         genre: String,
         imgUrl: String,
+        webSite: String,
+        faceBook: String
     }
 }
 </script>

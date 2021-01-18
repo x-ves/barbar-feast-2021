@@ -4,161 +4,253 @@
             "name": "Metsatöll",
             "genre": "folk metal",
             "country": "EST",
-            "imgUrl": "http://www.metsatoll.ee/images/promo/Metsatoll_4.jpg"
+            "imgUrl": "http://www.metsatoll.ee/images/promo/Metsatoll_4.jpg",
+            "webSite": "http://metsatoll.ee/",
+            "faceBook": "https://www.facebook.com/Metsatoll",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 2,
             "name": "Kurjam",
             "genre": "punk rock",
             "country": "EST",
-            "imgUrl": "https://s.err.ee/photo/crop/2017/10/13/413712hcd48t28.jpg"
+            "imgUrl": "https://s.err.ee/photo/crop/2017/10/13/413712hcd48t28.jpg",
+            "webSite": "",
+            "faceBook": "https://www.facebook.com/kurjamband",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 3,
             "name": "Herald",
             "genre": "Heavy metal",
             "country": "EST",
-            "imgUrl": "http://herald.ee/wp-content/uploads/2010/12/pp-59.jpg"
+            "imgUrl": "http://herald.ee/wp-content/uploads/2010/12/pp-59.jpg",
+            "webSite": "https://herald.ee/",
+            "faceBook": "https://www.facebook.com/heraldmetal",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 4,
             "name": "Goresoerd",
             "genre": "Death / Groove metal",
             "country": "EST",
-            "imgUrl": "https://www.goresoerd.com/newimages/GS19.jpg"
+            "imgUrl": "https://www.goresoerd.com/newimages/GS19.jpg",
+            "webSite": "",
+            "faceBook": "",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 5,
             "name": "Hetero",
             "genre": "Hard rock",
             "country": "EST",
-            "imgUrl": "https://scontent.frix7-1.fna.fbcdn.net/v/t1.0-9/13000152_1017143951701194_543146604314846970_n.jpg?_nc_cat=104&_nc_sid=9267fe&_nc_ohc=wTn1NKgqNlAAX9Z2ZAw&_nc_ht=scontent.frix7-1.fna&oh=b8f56a2a2b52968094a42f163e8c4bb1&oe=5F7B8BB3"
+            "imgUrl": "https://scontent.frix7-1.fna.fbcdn.net/v/t1.0-9/13000152_1017143951701194_543146604314846970_n.jpg?_nc_cat=104&_nc_sid=9267fe&_nc_ohc=wTn1NKgqNlAAX9Z2ZAw&_nc_ht=scontent.frix7-1.fna&oh=b8f56a2a2b52968094a42f163e8c4bb1&oe=5F7B8BB3",
+            "webSite": "",
+            "faceBook": "",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 6,
             "name": "Intact",
             "genre": "Groove / Thrash / Heavy metal",
             "country": "EST / FIN",
-            "imgUrl": "https://scontent.frix7-1.fna.fbcdn.net/v/t1.0-9/80645954_2663508750398659_4474389915567652864_o.jpg?_nc_cat=103&_nc_sid=730e14&_nc_ohc=Mtw2QOq_nRgAX9oMXHb&_nc_ht=scontent.frix7-1.fna&oh=9b4b0ddaeb5a87e0b482a0e3b99a04bc&oe=5F78EB92"
+            "imgUrl": "https://scontent.frix7-1.fna.fbcdn.net/v/t1.0-9/80645954_2663508750398659_4474389915567652864_o.jpg?_nc_cat=103&_nc_sid=730e14&_nc_ohc=Mtw2QOq_nRgAX9oMXHb&_nc_ht=scontent.frix7-1.fna&oh=9b4b0ddaeb5a87e0b482a0e3b99a04bc&oe=5F78EB92",
+            "webSite": "",
+            "faceBook": "",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 7,
             "name": "Horror Dance Squad",
             "genre": "Modern metal",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "",
+            "webSite": "",
+            "faceBook": "",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 8,
             "name": "Redneck Rampage",
             "genre": "Southern metal",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "",
+            "webSite": "",
+            "faceBook": "",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 9,
             "name": "Nihilistikrypt",
             "genre": "Death metal",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "",
+            "webSite": "",
+            "faceBook": "",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 10,
             "name": "Boogie Company",
             "genre": "Rockabilly",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "",
+            "webSite": "",
+            "faceBook": "",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 11,
             "name": "Val Tvoar",
             "genre": "Stoner metal",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "",
+            "webSite": "",
+            "faceBook": "",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 12,
             "name": "Metallica Tribute",
             "genre": "Heavy metal",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "",
+            "webSite": "",
+            "faceBook": "",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 13,
             "name": "SOLD",
             "genre": "Melodic metal",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "",
+            "webSite": "",
+            "faceBook": "",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 14,
             "name": "Dreadpin",
             "genre": "Progressive metal",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "",
+            "webSite": "",
+            "faceBook": "",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 15,
             "name": "Abandoned Elysium",
             "genre": "Extreme / Progressive / Technical metal",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "",
+            "webSite": "",
+            "faceBook": "",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 16,
             "name": "Teravmoon",
             "genre": "Superherocomedyrock",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "",
+            "webSite": "",
+            "faceBook": "",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 17,
             "name": "KOLMTEIST",
             "genre": "Rock",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "",
+            "webSite": "",
+            "faceBook": "",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 18,
             "name": "Defeatem",
             "genre": "Heavy / Thrash metal",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "",
+            "webSite": "",
+            "faceBook": "",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 19,
             "name": "Ulguränd",
             "genre": "Black / Heavy / Folk metal",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "",
+            "webSite": "",
+            "faceBook": "",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 20,
             "name": "Desert Queen",
             "genre": "Atmospheric Riff Rock",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "",
+            "webSite": "",
+            "faceBook": "",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 21,
             "name": "Tapper",
             "genre": "Pagan / Death / Black metal",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "",
+            "webSite": "",
+            "faceBook": "",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 22,
             "name": "Riser",
             "genre": "Thrash / Heavy / Hard rock",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "",
+            "webSite": "",
+            "faceBook": "",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 23,
             "name": "No More Fridays",
             "genre": "Hard rock",
             "country": "EST",
-            "imgUrl": ""
+            "imgUrl": "",
+            "webSite": "",
+            "faceBook": "",
+            "spotify": "",
+            "bandcamp": ""
         },
         {
             "id": 24,
