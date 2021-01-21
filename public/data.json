@@ -7,8 +7,8 @@
             "imgUrl": "http://www.metsatoll.ee/images/promo/Metsatoll_4.jpg",
             "webSite": "http://metsatoll.ee/",
             "faceBook": "https://www.facebook.com/Metsatoll",
-            "spotify": "",
-            "bandcamp": ""
+            "spotify": "https://open.spotify.com/artist/5LJPlSHiYtJQ7mvVfDPVkT",
+            "bandCamp": ""
         },
         {
             "id": 2,
@@ -18,8 +18,8 @@
             "imgUrl": "https://s.err.ee/photo/crop/2017/10/13/413712hcd48t28.jpg",
             "webSite": "",
             "faceBook": "https://www.facebook.com/kurjamband",
-            "spotify": "",
-            "bandcamp": ""
+            "spotify": "https://open.spotify.com/artist/5ekQYueJQGzFShQfEyedxB",
+            "bandCamp": "https://kurjam.bandcamp.com/"
         },
         {
             "id": 3,
@@ -30,7 +30,7 @@
             "webSite": "https://herald.ee/",
             "faceBook": "https://www.facebook.com/heraldmetal",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 4,
@@ -41,7 +41,7 @@
             "webSite": "",
             "faceBook": "",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 5,
@@ -52,7 +52,7 @@
             "webSite": "",
             "faceBook": "",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 6,
@@ -63,7 +63,7 @@
             "webSite": "",
             "faceBook": "",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 7,
@@ -74,7 +74,7 @@
             "webSite": "",
             "faceBook": "",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 8,
@@ -85,7 +85,7 @@
             "webSite": "",
             "faceBook": "",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 9,
@@ -96,7 +96,7 @@
             "webSite": "",
             "faceBook": "",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 10,
@@ -107,7 +107,7 @@
             "webSite": "",
             "faceBook": "",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 11,
@@ -118,7 +118,7 @@
             "webSite": "",
             "faceBook": "",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 12,
@@ -129,7 +129,7 @@
             "webSite": "",
             "faceBook": "",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 13,
@@ -140,7 +140,7 @@
             "webSite": "",
             "faceBook": "",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 14,
@@ -151,7 +151,7 @@
             "webSite": "",
             "faceBook": "",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 15,
@@ -162,7 +162,7 @@
             "webSite": "",
             "faceBook": "",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 16,
@@ -173,7 +173,7 @@
             "webSite": "",
             "faceBook": "",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 17,
@@ -184,7 +184,7 @@
             "webSite": "",
             "faceBook": "",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 18,
@@ -195,7 +195,7 @@
             "webSite": "",
             "faceBook": "",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 19,
@@ -206,7 +206,7 @@
             "webSite": "",
             "faceBook": "",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 20,
@@ -217,7 +217,7 @@
             "webSite": "",
             "faceBook": "",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 21,
@@ -228,7 +228,7 @@
             "webSite": "",
             "faceBook": "",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 22,
@@ -239,7 +239,7 @@
             "webSite": "",
             "faceBook": "",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 23,
@@ -250,7 +250,7 @@
             "webSite": "",
             "faceBook": "",
             "spotify": "",
-            "bandcamp": ""
+            "bandCamp": ""
         },
         {
             "id": 24,

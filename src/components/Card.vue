@@ -23,9 +23,10 @@
                     <font-awesome-icon :icon="['fas', 'long-arrow-alt-left']"></font-awesome-icon>
                 </button>
                 <div class="bandModal__socials">
-                    <a class="bandModal__socials__icon" target="_blank" :href="webSite"><font-awesome-icon :icon="['fas', 'home']"></font-awesome-icon></a>
-                    <a class="bandModal__socials__icon" target="_blank" :href="faceBook"><font-awesome-icon :icon="['fab', 'facebook-square']"></font-awesome-icon></a>
-                    <a class="bandModal__socials__icon" target="_blank" :href="faceBook"><font-awesome-icon :icon="['fab', 'instagram']"></font-awesome-icon></a>
+                    <a class="bandModal__socials__icon" target="_blank" v-if="webSite" :href="webSite"><font-awesome-icon :icon="['fas', 'home']"></font-awesome-icon></a>
+                    <a class="bandModal__socials__icon" target="_blank" v-if="faceBook" :href="faceBook"><font-awesome-icon :icon="['fab', 'facebook-square']"></font-awesome-icon></a>
+                    <a class="bandModal__socials__icon" target="_blank" v-if="spotify" :href="spotify"><font-awesome-icon :icon="['fab', 'spotify']"></font-awesome-icon></a>
+                    <a class="bandModal__socials__icon" target="_blank" v-if="bandCamp" :href="bandCamp"><font-awesome-icon :icon="['fab', 'bandcamp']"></font-awesome-icon></a>
                 </div>
             </template>
         </band-modal>
@@ -43,7 +44,9 @@ export default {
         genre: String,
         imgUrl: String,
         webSite: String,
-        faceBook: String
+        faceBook: String,
+        bandCamp: String,
+        spotify: String
     }
 }
 </script>
