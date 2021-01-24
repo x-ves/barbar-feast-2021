@@ -6,7 +6,8 @@
     "slogan": "Kolm päeva kodumaist kütet",
     "lineup": "Bändid",
     "july": "juuli",
-    "tickets": "Osta pilet"
+    "tickets": "Osta pilet",
+    "tickets2": "Piletid"
   },
   "nav": {
     "home": "Avaleht",
@@ -46,5 +47,38 @@
     "msg": "Barbar Feasti toob teieni rokiklubi Barbar!",
     "phone": "Tel",
     "mail": "E-post"
+  },
+  "bands": {
+    "1": "Sulle meeldib Eesti folkloor, karvased mehed & ulguvad hundid?",
+    "2": "Mees sa ei tea kui kiiresti Kurjam lööb (iga kord kõvemini)",
+    "3": "Terav lüürika, kvaliteet metal, tihke andmine - kõike seda saab",
+    "4": "Parim festaribänd, tõmbab sind õlle tagant käima juba enne esimest lonksu",
+    "5": "Eesti 2020 kõige aktiivsem bänd litib armutult",
+    "6": "Kõrvakiled teevad katki rusuvalt äge naisvokaal ja kvaliteetne death metal",
+    "7": "Eesti metali isad tähistavad 40. juubelit",
+    "8": "Tursked riffid, raske astumine ning ränk vokaal on need, mis sind lava ette naelutavad",
+    "9": "Publiku käimatõmbaja no. 1 Eestis! Legendaarne! Got rockabilly?",
+    "10": "Kõrge laenguga rock 'n' roll Tallinnast",
+    "11": "Mida teevad koos neli sommi ja üks eestlane? Bändi loomulikult. Metal bändi.",
+    "12": "Kui sulle meeldivad Devin Townsend, Mastodon, Gojira & LOG siis sulle meeldib ka DREADPIN",
+    "13": "Lehma- ja pullirock, universaalnahaalansambel - isegi sinu vanaemale meeldib Teravmoon",
+    "14": "Traditsiooniline black, ilma trikkideta",
+    "15": "Lihtasti kuulatav ja kaasahaarav populaarne nais- & meesvokaaliga modern metal bänd",
+    "16": "Folkloor, ajalugu ja mütoloogia vürtsitatud vaheda deathiga",
+    "17": "Külmking ammutab inspiratsiooni Eesti folkloorist, sidudes nõnda ürgsed sõnad tänapäevase raskemuusikaga",
+    "18": "Sirge seljaga Eesti metal",
+    "19": "Tapper mängib fantaasiaküllast metalit, vürtsitatuna pagan, death ja black metaliga",
+    "20": "Kaugelt lõunast pärit metalkauboid",
+    "21": "Midagi raskemat, rokilikku ja seksapiilset ning seda 100% ka lavalaudadel",
+    "22": "Armuafäär stoneri, meloodilise rocki ja rusuvate riffide vahel",
+    "23": "Tume ja hüpnotiseeriv, dünaamiline ning endassehaarav ürgne power",
+    "24": "Kiired ja karvased! See on Riser, vanakooli thrashi ja heavy metalit viljelev bänd",
+    "25": "Eesti keele sünge kõla toob esile sümfooniline ja aegumatult kõlav black metaliga",
+    "26": "Coverage hoolitseb selle eest, et me saame taas pidutseda... maailma parima hard rocki saatel!",
+    "27": "4 surmaratsanikku annavad pillidele kuuma ja toovad teie ette Metallika lugude paremiku",
+    "28": "Laupäeva hommik saab kirja maheda litaka kui jõelaval astub üles ainulaadne festari jämmibänd!",
+    "29": "",
+    "30": "",
+    "31": ""
   }
 }

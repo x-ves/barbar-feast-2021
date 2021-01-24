@@ -15,7 +15,7 @@
             </template>
 
             <template v-slot:body>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos consequuntur velit, harum nobis fuga laboriosam. Officia consequatur commodi explicabo eum asperiores deserunt? Nesciunt esse commodi, doloribus labore consequatur illum temporibus?</p>
+                <p>{{ $t("bands." + id) }}</p>
             </template>
 
             <template v-slot:footer>

@@ -6,7 +6,8 @@
     "slogan": "Three days of true Estonian heat",
     "lineup": "Lineup",
     "july": "july",
-    "tickets": "Buy a ticket"
+    "tickets": "Buy a ticket",
+    "tickets2": "Tickets"
   },
   "nav": {
     "home": "Home",
@@ -45,5 +46,38 @@
     "msg": "Barbar Feast is brought to you by rock club Barbar!",
     "phone": "Phone",
     "mail": "E-mail"
+  },
+  "bands": {
+    "1": "Estonia's top notch Folk Metal flagship",
+    "2": "Legendary Estonian party punk rock band",
+    "3": "Brutal vocals, tight beat, death & gore - that is Goresoerd",
+    "4": "Heavy metal wakes the beast (& the beast inside you)",
+    "5": "No bullshit, only action! #modernmetal #breakdown",
+    "6": "Psykhopaths laying down some seriously good death metal with crushing female vocals",
+    "7": "Forefathers of Estonian metal celebrating their 40th jubilee",
+    "8": "Massive riffs, pedal to the metal 'n heavy vocals are what will make you come... near the stage",
+    "9": "Legendary rockabilly crowd pleaser. Come & get some!",
+    "10": "High energy rock 'n' roll from Tallinn, Estonia",
+    "11": "Let's take a thrash metal cruise with a lil of death 'n a lil of groove",
+    "12": "Get your Estonian dose of Devin Townsend, Mastodon, Gojira & LOG",
+    "13": "Best superherocomedyrockband in the world",
+    "14": "Traditional black metal, no tricks",
+    "15": "Clean female vocals flirt with extreme male vocals carried by modern metal and melodic guitar solos",
+    "16": "Mix black and heavy metal with folklore & mythology",
+    "17": "Külmking is inspired by Estonian folklore, binding ancient words with modern heavy metal",
+    "18": "Straight forward Estonian metal",
+    "19": "Tapper plays fantasy-rich metal, spiced with pagan, death and black metal",
+    "20": "Metal cowboys from deep south of Estonia",
+    "21": "Something hard, rockish, sexy & all of that also on stage... 100%",
+    "22": "An Estonian 5-piece balances a love affair between melodic rock and stoner roughhousing",
+    "23": "Dark & hypnotizing, dynamic & absorbing primal power",
+    "24": "Fast and hairy! This is Riser, an old school thrash and heavy metal band",
+    "25": "Timeless sounding black metal with beautiful female vocals",
+    "26": "The best hard rock in the world seen through the eyes of Coverage",
+    "27": "4 horsemen of death hitting their instruments hard, bringing fourth the best of the best by Metallica",
+    "28": "The Saturday morning gets delivered a startling blow when the one and only festival jam band starts to play!",
+    "29": "",
+    "30": "",
+    "31": ""
   }
 }

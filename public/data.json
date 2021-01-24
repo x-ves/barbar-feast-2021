@@ -13,7 +13,7 @@
     {
         "id": 2,
         "name": "Kurjam",
-        "genre": "punk rock",
+        "genre": "party punk rock",
         "country": "EST",
         "imgUrl": "https://s.err.ee/photo/crop/2017/10/13/413712hcd48t28.jpg",
         "webSite": "",
@@ -24,7 +24,7 @@
     {
         "id": 3,
         "name": "Goresoerd",
-        "genre": "Death / Groove metal",
+        "genre": "metal / hardcore",
         "country": "EST",
         "imgUrl": "https://www.goresoerd.com/newimages/GS19.jpg",
         "webSite": "",
@@ -46,7 +46,7 @@
     {
         "id": 5,
         "name": "Horror Dance Squad",
-        "genre": "Modern metal",
+        "genre": "Modern metal / new school",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -68,7 +68,7 @@
     {
         "id": 7,
         "name": "Hetero",
-        "genre": "Hard rock",
+        "genre": "Hard rock / heavy metal",
         "country": "EST",
         "imgUrl": "https://scontent.frix7-1.fna.fbcdn.net/v/t1.0-9/13000152_1017143951701194_543146604314846970_n.jpg?_nc_cat=104_nc_sid=9267fe&_nc_ohc=wTn1NKgqNlAAX9Z2ZAw&_nc_ht=scontent.frix7-1.fna&oh=b8f56a2a2b52968094a42f163e8c4bb1&oe=5F7B8BB3",
         "webSite": "",
@@ -79,7 +79,7 @@
     {
         "id": 8,
         "name": "Redneck Rampage",
-        "genre": "Southern metal",
+        "genre": "Southern metal / groove",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -101,6 +101,7 @@
     {
         "id": 10,
         "name": "Dead Furies",
+        "genre": "Rock n' Roll",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -111,8 +112,8 @@
     {
         "id": 11,
         "name": "Roadkill",
-        "genre": "otsi žanrit",
-        "country": "EST",
+        "genre": "Trash / Death / Groove",
+        "country": "FIN/EST",
         "imgUrl": "",
         "webSite": "",
         "faceBook": "",
@@ -133,7 +134,7 @@
     {
         "id": 13,
         "name": "Teravmoon",
-        "genre": "Superherocomedyrock",
+        "genre": "Super hero comedy rock",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -144,7 +145,7 @@
     {
         "id": 14,
         "name": "Pime",
-        "genre": "",
+        "genre": "Melodic black metal",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -155,7 +156,7 @@
     {
         "id": 15,
         "name": "SOLD",
-        "genre": "",
+        "genre": "Melodic modern metal",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -166,7 +167,7 @@
     {
         "id": 16,
         "name": "Ulguränd",
-        "genre": "",
+        "genre": "Black / heavy / folk metal",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -177,7 +178,7 @@
     {
         "id": 17,
         "name": "Külmking",
-        "genre": "",
+        "genre": "Pagan / melodic death / heavy metal",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -188,7 +189,7 @@
     {
         "id": 18,
         "name": "Kolmteist",
-        "genre": "",
+        "genre": "Metal",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -199,7 +200,7 @@
     {
         "id": 19,
         "name": "Tapper",
-        "genre": "",
+        "genre": "Pagan / Death / Black metal",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -210,7 +211,7 @@
     {
         "id": 20,
         "name": "Defeatem",
-        "genre": "",
+        "genre": "Heavy / Metal",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -221,7 +222,7 @@
     {
         "id": 21,
         "name": "No More Fridays",
-        "genre": "",
+        "genre": "Hard rock",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -232,7 +233,7 @@
     {
         "id": 22,
         "name": "Desert Queen",
-        "genre": "",
+        "genre": "Atmospheric riff rock",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -243,7 +244,7 @@
     {
         "id": 23,
         "name": "The Lou Lous",
-        "genre": "",
+        "genre": "Alternative / Progressive rock",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -254,7 +255,7 @@
     {
         "id": 24,
         "name": "Riser",
-        "genre": "",
+        "genre": "Hard rock / Heavy / Thrash metal",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -265,7 +266,7 @@
     {
         "id": 25,
         "name": "ITK",
-        "genre": "",
+        "genre": "Black metal",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -276,7 +277,7 @@
     {
         "id": 26,
         "name": "AC/DC Tribute: Coverage",
-        "genre": "",
+        "genre": "AC/DC cover band",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -287,7 +288,7 @@
     {
         "id": 27,
         "name": "Metallica Tribute",
-        "genre": "",
+        "genre": "Metallica cover band",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -298,7 +299,7 @@
     {
         "id": 28,
         "name": "The Grand Feast Jam Band",
-        "genre": "",
+        "genre": "???",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -309,7 +310,7 @@
     {
         "id": 29,
         "name": "DJ Uims",
-        "genre": "",
+        "genre": "???",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -320,7 +321,7 @@
     {
         "id": 30,
         "name": "DJ Taat",
-        "genre": "",
+        "genre": "???",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
@@ -331,7 +332,7 @@
     {
         "id": 31,
         "name": "DJ TBA",
-        "genre": "",
+        "genre": "???",
         "country": "EST",
         "imgUrl": "",
         "webSite": "",
