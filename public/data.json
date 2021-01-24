@@ -27,10 +27,10 @@
         "genre": "metal / hardcore",
         "country": "EST",
         "imgUrl": "https://www.goresoerd.com/newimages/GS19.jpg",
-        "webSite": "",
-        "faceBook": "",
-        "spotify": "",
-        "bandCamp": ""
+        "webSite": "https://www.goresoerd.com/",
+        "faceBook": "https://www.facebook.com/goresoerd/",
+        "spotify": "https://open.spotify.com/artist/6NdZxzh7mv5n8MZry6xpxQ",
+        "bandCamp": "https://goresoerd.bandcamp.com/"
     },
     {
         "id": 4,
@@ -40,39 +40,39 @@
         "imgUrl": "http://herald.ee/wp-content/uploads/2010/12/pp-59.jpg",
         "webSite": "https://herald.ee/",
         "faceBook": "https://www.facebook.com/heraldmetal",
-        "spotify": "",
-        "bandCamp": ""
+        "spotify": "https://open.spotify.com/artist/4HBkflAK9r8MZP57QarafA",
+        "bandCamp": "https://heraldmetal.bandcamp.com/"
     },
     {
         "id": 5,
         "name": "Horror Dance Squad",
         "genre": "Modern metal / new school",
         "country": "EST",
-        "imgUrl": "",
-        "webSite": "",
-        "faceBook": "",
-        "spotify": "",
-        "bandCamp": ""
+        "imgUrl": "https://f4.bcbits.com/img/0021907189_10.jpg",
+        "webSite": "https://horrordancesquad.com/",
+        "faceBook": "https://www.facebook.com/HorrorDanceSquadOfficial/",
+        "spotify": "https://open.spotify.com/artist/79AnfSN4MrNqKwBle2yRTj",
+        "bandCamp": "https://horrordancesquad.bandcamp.com/"
     },
     {
         "id": 6,
         "name": "Nihilistikrypt",
         "genre": "Death metal",
         "country": "EST",
-        "imgUrl": "",
+        "imgUrl": "https://scontent-hel3-1.xx.fbcdn.net/v/t1.0-9/49842963_2164187673638660_2568175978111041536_o.jpg?_nc_cat=103&ccb=2&_nc_sid=8bfeb9&_nc_ohc=BcOD7w-IbiIAX__8MFx&_nc_ht=scontent-hel3-1.xx&oh=46ed2c72cda662f91f1684b94154e769&oe=60338C0E",
         "webSite": "",
-        "faceBook": "",
-        "spotify": "",
-        "bandCamp": ""
+        "faceBook": "https://www.facebook.com/nihilistikrypt/",
+        "spotify": "https://open.spotify.com/artist/7rSGgblYawdThBYWmDVZDc",
+        "bandCamp": "https://nihilistikrypt.bandcamp.com/"
     },
     {
         "id": 7,
         "name": "Hetero",
         "genre": "Hard rock / heavy metal",
         "country": "EST",
-        "imgUrl": "https://scontent.frix7-1.fna.fbcdn.net/v/t1.0-9/13000152_1017143951701194_543146604314846970_n.jpg?_nc_cat=104_nc_sid=9267fe&_nc_ohc=wTn1NKgqNlAAX9Z2ZAw&_nc_ht=scontent.frix7-1.fna&oh=b8f56a2a2b52968094a42f163e8c4bb1&oe=5F7B8BB3",
+        "imgUrl": "https://scontent-hel3-1.xx.fbcdn.net/v/t1.0-9/75594449_1309459935884479_9129583548976594944_n.png?_nc_cat=100&ccb=2&_nc_sid=a610ef&_nc_ohc=xO6Tv7PZIWQAX-E3y9a&_nc_ht=scontent-hel3-1.xx&oh=73a8110aca34b88ae1dacce97cae7af3&oe=60311372",
         "webSite": "",
-        "faceBook": "",
+        "faceBook": "https://www.facebook.com/Hetero-155647651184166",
         "spotify": "",
         "bandCamp": ""
     },
@@ -81,21 +81,21 @@
         "name": "Redneck Rampage",
         "genre": "Southern metal / groove",
         "country": "EST",
-        "imgUrl": "",
-        "webSite": "",
-        "faceBook": "",
-        "spotify": "",
-        "bandCamp": ""
+        "imgUrl": "https://redneckrampage.ee/app/uploads/2018/07/RR_backstage.jpg",
+        "webSite": "https://redneckrampage.ee/",
+        "faceBook": "https://www.facebook.com/redneckrampageband/",
+        "spotify": "https://open.spotify.com/artist/26ixzR4pmalnLthPcwkkEn",
+        "bandCamp": "https://redneckrampage.bandcamp.com/"
     },
     {
         "id": 9,
         "name": "Boogie Company",
         "genre": "Rockabilly",
         "country": "EST",
-        "imgUrl": "",
-        "webSite": "",
-        "faceBook": "",
-        "spotify": "",
+        "imgUrl": "https://scontent-hel3-1.xx.fbcdn.net/v/t1.0-9/74366039_10157477664835049_2460030531253829632_o.jpg?_nc_cat=104&ccb=2&_nc_sid=e3f864&_nc_ohc=cqSoHOj1oQAAX8NQZeR&_nc_ht=scontent-hel3-1.xx&oh=321f8cbf48a10ad95d627db0e27d7ba9&oe=6031FF9A",
+        "webSite": "http://www.boogie.ip.ee/",
+        "faceBook": "https://www.facebook.com/boogiecompany/",
+        "spotify": "https://open.spotify.com/artist/4jsMYmmtiqBhOGeUJ7jcXk",
         "bandCamp": ""
     },
     {
@@ -103,11 +103,11 @@
         "name": "Dead Furies",
         "genre": "Rock n' Roll",
         "country": "EST",
-        "imgUrl": "",
+        "imgUrl": "https://img.discogs.com/TQuXxRcRXJqEphZLCcQmzugjIUo=/600x399/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-5271286-1496300687-7827.jpeg.jpg",
         "webSite": "",
-        "faceBook": "",
-        "spotify": "",
-        "bandCamp": ""
+        "faceBook": "https://www.facebook.com/deadfuries/",
+        "spotify": "https://open.spotify.com/artist/29YJ0bHjNTUurv0i6m6m7D",
+        "bandCamp": "https://deadfuries.bandcamp.com/"
     },
     {
         "id": 11,
