@@ -9,7 +9,8 @@
     </div>
     <band-modal ref="bandModal">
             <template v-slot:header>
-                <img class="card__img" :src="imgUrl" />
+                <iframe width="560" height="315" :src="vidUrl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+                <!-- <img class="card__img" :src="imgUrl" /> -->
                 <h3>{{ name }}</h3>
                 <span>({{ genre }})</span>
             </template>
@@ -43,6 +44,7 @@ export default {
         name: String,
         genre: String,
         imgUrl: String,
+        vidUrl: String,
         webSite: String,
         faceBook: String,
         bandCamp: String,
