@@ -1,17 +1,6 @@
 [
     {
         "id": 1,
-        "name": "Metsatöll",
-        "genre": "folk metal",
-        "country": "EST",
-        "imgUrl": "/Metsatoll.jpg",
-        "webSite": "http://metsatoll.ee/",
-        "faceBook": "https://www.facebook.com/Metsatoll",
-        "spotify": "https://open.spotify.com/artist/5LJPlSHiYtJQ7mvVfDPVkT",
-        "bandCamp": ""
-    },
-    {
-        "id": 2,
         "name": "Kurjam",
         "genre": "party punk rock",
         "country": "EST",
@@ -20,6 +9,17 @@
         "faceBook": "https://www.facebook.com/kurjamband",
         "spotify": "https://open.spotify.com/artist/5ekQYueJQGzFShQfEyedxB",
         "bandCamp": "https://kurjam.bandcamp.com/"
+    },
+    {
+        "id": 2,
+        "name": "Metsatöll",
+        "genre": "folk metal",
+        "country": "EST",
+        "imgUrl": "/Metsatoll.jpg",
+        "webSite": "http://metsatoll.ee/",
+        "faceBook": "https://www.facebook.com/Metsatoll",
+        "spotify": "https://open.spotify.com/artist/5LJPlSHiYtJQ7mvVfDPVkT",
+        "bandCamp": ""
     },
     {
         "id": 3,
@@ -56,17 +56,6 @@
     },
     {
         "id": 6,
-        "name": "Nihilistikrypt",
-        "genre": "Death metal",
-        "country": "EST",
-        "imgUrl": "/Nihilistikrypt.jpg",
-        "webSite": "",
-        "faceBook": "https://www.facebook.com/nihilistikrypt/",
-        "spotify": "https://open.spotify.com/artist/7rSGgblYawdThBYWmDVZDc",
-        "bandCamp": "https://nihilistikrypt.bandcamp.com/"
-    },
-    {
-        "id": 7,
         "name": "Hetero",
         "genre": "Hard rock / heavy metal",
         "country": "EST",
@@ -75,6 +64,17 @@
         "faceBook": "https://www.facebook.com/Hetero-155647651184166",
         "spotify": "",
         "bandCamp": ""
+    },
+    {
+        "id": 7,
+        "name": "Nihilistikrypt",
+        "genre": "Death metal",
+        "country": "EST",
+        "imgUrl": "/Nihilistikrypt.jpg",
+        "webSite": "",
+        "faceBook": "https://www.facebook.com/nihilistikrypt/",
+        "spotify": "https://open.spotify.com/artist/7rSGgblYawdThBYWmDVZDc",
+        "bandCamp": "https://nihilistikrypt.bandcamp.com/"
     },
     {
         "id": 8,
@@ -89,17 +89,6 @@
     },
     {
         "id": 9,
-        "name": "Boogie Company",
-        "genre": "Rockabilly",
-        "country": "EST",
-        "imgUrl": "/BoogieCompany.jpg",
-        "webSite": "http://www.boogie.ip.ee/",
-        "faceBook": "https://www.facebook.com/boogiecompany/",
-        "spotify": "https://open.spotify.com/artist/4jsMYmmtiqBhOGeUJ7jcXk",
-        "bandCamp": ""
-    },
-    {
-        "id": 10,
         "name": "Dead Furies",
         "genre": "Rock n' Roll",
         "country": "EST",
@@ -110,7 +99,7 @@
         "bandCamp": "https://deadfuries.bandcamp.com/"
     },
     {
-        "id": 11,
+        "id": 10,
         "name": "Killhall",
         "genre": "Trash / Death / Groove",
         "country": "FIN/EST",
@@ -121,18 +110,18 @@
         "bandCamp": ""
     },
     {
-        "id": 12,
-        "name": "Dreadpin",
-        "genre": "Progressive metal",
+        "id": 11,
+        "name": "Boogie Company",
+        "genre": "Rockabilly",
         "country": "EST",
-        "imgUrl": "/Dreadpin.jpg",
-        "webSite": "",
-        "faceBook": "https://www.facebook.com/Dreadpin",
-        "spotify": "https://open.spotify.com/artist/7K0SLSDwqbbzMlvyLXZrf4",
+        "imgUrl": "/BoogieCompany.jpg",
+        "webSite": "http://www.boogie.ip.ee/",
+        "faceBook": "https://www.facebook.com/boogiecompany/",
+        "spotify": "https://open.spotify.com/artist/4jsMYmmtiqBhOGeUJ7jcXk",
         "bandCamp": ""
     },
     {
-        "id": 13,
+        "id": 12,
         "name": "Teravmoon",
         "genre": "Super hero comedy rock",
         "country": "EST",
@@ -143,15 +132,26 @@
         "bandCamp": ""
     },
     {
-        "id": 14,
-        "name": "Pime",
-        "genre": "Melodic black metal",
+        "id": 13,
+        "name": "Dreadpin",
+        "genre": "Progressive metal",
         "country": "EST",
-        "imgUrl": "/Pime.jpg",
+        "imgUrl": "/Dreadpin.jpg",
         "webSite": "",
-        "faceBook": "https://www.facebook.com/PimeOfficial",
-        "spotify": "https://open.spotify.com/artist/21rjsLLQPidtOU5VicDeoO",
-        "bandCamp": "https://pime.bandcamp.com/"
+        "faceBook": "https://www.facebook.com/Dreadpin",
+        "spotify": "https://open.spotify.com/artist/7K0SLSDwqbbzMlvyLXZrf4",
+        "bandCamp": ""
+    },
+    {
+        "id": 14,
+        "name": "Val Tvoar",
+        "genre": "",
+        "country": "EST",
+        "imgUrl": "",
+        "webSite": "",
+        "faceBook": "",
+        "spotify": "",
+        "bandCamp": ""
     },
     {
         "id": 15,
@@ -166,17 +166,39 @@
     },
     {
         "id": 16,
-        "name": "Ulguränd",
-        "genre": "Black / heavy / folk metal",
+        "name": "Pime",
+        "genre": "Melodic black metal",
         "country": "EST",
-        "imgUrl": "/Ulguränd.jpg",
+        "imgUrl": "/Pime.jpg",
         "webSite": "",
-        "faceBook": "https://www.facebook.com/Ulgurand/",
-        "spotify": "",
-        "bandCamp": ""
+        "faceBook": "https://www.facebook.com/PimeOfficial",
+        "spotify": "https://open.spotify.com/artist/21rjsLLQPidtOU5VicDeoO",
+        "bandCamp": "https://pime.bandcamp.com/"
     },
     {
         "id": 17,
+        "name": "Desert Queen",
+        "genre": "Atmospheric riff rock",
+        "country": "EST",
+        "imgUrl": "/DesertQueen.jpg",
+        "webSite": "",
+        "faceBook": "https://www.facebook.com/DesertQueenOfficial/",
+        "spotify": "https://open.spotify.com/artist/2ftL9ze1Z3XAzIYkJ0gQiX",
+        "bandCamp": "https://desertqueen.bandcamp.com/"
+    },
+    {
+        "id": 18,
+        "name": "Defeatem",
+        "genre": "Heavy / Metal",
+        "country": "EST",
+        "imgUrl": "/Defeatem.jpg",
+        "webSite": "",
+        "faceBook": "https://www.facebook.com/defeatem/",
+        "spotify": "https://open.spotify.com/artist/56ZIPSBQAyy9VOEXY7VTrq",
+        "bandCamp": "https://defeatem.bandcamp.com/"
+    },
+    {
+        "id": 19,
         "name": "Külmking",
         "genre": "Pagan / melodic death / heavy metal",
         "country": "EST",
@@ -187,7 +209,18 @@
         "bandCamp": "https://kylmking.bandcamp.com/"
     },
     {
-        "id": 18,
+        "id": 20,
+        "name": "Ulguränd",
+        "genre": "Black / heavy / folk metal",
+        "country": "EST",
+        "imgUrl": "/Ulguränd.jpg",
+        "webSite": "",
+        "faceBook": "https://www.facebook.com/Ulgurand/",
+        "spotify": "",
+        "bandCamp": ""
+    },
+    {
+        "id": 21,
         "name": "Kolmteist",
         "genre": "Metal",
         "country": "EST",
@@ -198,84 +231,29 @@
         "bandCamp": "https://kylmking.bandcamp.com/"
     },
     {
-        "id": 19,
+        "id": 22,
         "name": "Tapper",
         "genre": "Pagan / Death / Black metal",
         "country": "EST",
         "imgUrl": "/Tapper.jpg",
         "webSite": "",
-        "faceBook": "",
-        "spotify": "",
+        "faceBook": "https://www.facebook.com/BandTapper",
+        "spotify": "https://open.spotify.com/artist/0oY4Xdw6tyUM2o6xgakcxw",
         "bandCamp": ""
     },
     {
-        "id": 20,
-        "name": "Defeatem",
-        "genre": "Heavy / Metal",
-        "country": "EST",
-        "imgUrl": "/Defeatem.jpg",
-        "webSite": "",
-        "faceBook": "",
-        "spotify": "",
-        "bandCamp": ""
-    },
-    {
-        "id": 21,
+        "id": 23,
         "name": "No More Fridays",
         "genre": "Hard rock",
         "country": "EST",
         "imgUrl": "/NoMoreFridays.jpg",
         "webSite": "",
-        "faceBook": "",
-        "spotify": "",
-        "bandCamp": ""
-    },
-    {
-        "id": 22,
-        "name": "Desert Queen",
-        "genre": "Atmospheric riff rock",
-        "country": "EST",
-        "imgUrl": "/DesertQueen.jpg",
-        "webSite": "",
-        "faceBook": "",
-        "spotify": "",
-        "bandCamp": ""
-    },
-    {
-        "id": 23,
-        "name": "The Lou Lous",
-        "genre": "Alternative / Progressive rock",
-        "country": "EST",
-        "imgUrl": "/TheLouLous.jpg",
-        "webSite": "",
-        "faceBook": "",
-        "spotify": "",
-        "bandCamp": ""
+        "faceBook": "https://www.facebook.com/Nomorefridays",
+        "spotify": "https://open.spotify.com/artist/7s9Q9uZN8kmGHaofi16xmJ",
+        "bandCamp": "https://nomorefridays.bandcamp.com/"
     },
     {
         "id": 24,
-        "name": "Riser",
-        "genre": "Hard rock / Heavy / Thrash metal",
-        "country": "EST",
-        "imgUrl": "/Riser.jpg",
-        "webSite": "",
-        "faceBook": "",
-        "spotify": "",
-        "bandCamp": ""
-    },
-    {
-        "id": 25,
-        "name": "ITK",
-        "genre": "Black metal",
-        "country": "EST",
-        "imgUrl": "/Itk.jpg",
-        "webSite": "",
-        "faceBook": "",
-        "spotify": "",
-        "bandCamp": ""
-    },
-    {
-        "id": 26,
         "name": "AC/DC Tribute: Coverage",
         "genre": "AC/DC cover band",
         "country": "EST",
@@ -286,7 +264,7 @@
         "bandCamp": ""
     },
     {
-        "id": 27,
+        "id": 25,
         "name": "Metallica Tribute",
         "genre": "Metallica cover band",
         "country": "EST",
@@ -297,11 +275,33 @@
         "bandCamp": ""
     },
     {
-        "id": 28,
-        "name": "The Grand Feast Jam Band",
-        "genre": "???",
+        "id": 26,
+        "name": "The Lou Lous",
+        "genre": "Alternative / Progressive rock",
         "country": "EST",
-        "imgUrl": "",
+        "imgUrl": "/TheLouLous.jpg",
+        "webSite": "",
+        "faceBook": "https://www.facebook.com/loulousband/",
+        "spotify": "",
+        "bandCamp": ""
+    },
+    {
+        "id": 27,
+        "name": "Riser",
+        "genre": "Hard rock / Heavy / Thrash metal",
+        "country": "EST",
+        "imgUrl": "/Riser.jpg",
+        "webSite": "",
+        "faceBook": "https://www.facebook.com/RiserEst/",
+        "spotify": "",
+        "bandCamp": ""
+    },
+    {
+        "id": 28,
+        "name": "ITK",
+        "genre": "Black metal",
+        "country": "EST",
+        "imgUrl": "/Itk.jpg",
         "webSite": "",
         "faceBook": "",
         "spotify": "",
@@ -309,17 +309,6 @@
     },
     {
         "id": 29,
-        "name": "DJ Andres Uibo",
-        "genre": "???",
-        "country": "EST",
-        "imgUrl": "",
-        "webSite": "",
-        "faceBook": "",
-        "spotify": "",
-        "bandCamp": ""
-    },
-    {
-        "id": 30,
         "name": "DJ Taat",
         "genre": "???",
         "country": "EST",
@@ -330,8 +319,8 @@
         "bandCamp": ""
     },
     {
-        "id": 31,
-        "name": "DJ TBA",
+        "id": 30,
+        "name": "DJ Andres Uibo",
         "genre": "???",
         "country": "EST",
         "imgUrl": "",
