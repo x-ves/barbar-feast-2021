@@ -145,13 +145,13 @@
     {
         "id": 14,
         "name": "Val Tvoar",
-        "genre": "",
+        "genre": "Stoner rock",
         "country": "EST",
-        "imgUrl": "",
+        "imgUrl": "/ValTvoar.jpg",
         "webSite": "",
-        "faceBook": "",
-        "spotify": "",
-        "bandCamp": ""
+        "faceBook": "https://www.facebook.com/ValTvoarBand/",
+        "spotify": "https://open.spotify.com/artist/5th9PEl5ahydz4BfNtDq5j",
+        "bandCamp": "https://valtvoar.bandcamp.com/"
     },
     {
         "id": 15,
@@ -202,7 +202,7 @@
         "name": "Külmking",
         "genre": "Pagan / melodic death / heavy metal",
         "country": "EST",
-        "imgUrl": "",
+        "imgUrl": "/Külmking.jpg",
         "webSite": "",
         "faceBook": "https://www.facebook.com/kylmking",
         "spotify": "https://open.spotify.com/artist/0NNSgyuuISPPGanPRQbcv3",
