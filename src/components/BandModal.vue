@@ -170,6 +170,7 @@ export default {
             display: flex;
             flex-direction: column;
             align-items: stretch;
+            text-align: center;
         }
 
         &__footer {

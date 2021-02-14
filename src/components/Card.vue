@@ -9,8 +9,7 @@
     </div>
     <band-modal ref="bandModal">
             <template v-slot:header>
-                <iframe width="560" height="315" :src="vidUrl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
-                <!-- <img class="card__img" :src="imgUrl" /> -->
+                <iframe class="card__vid" width="560" height="315" :src="vidUrl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
                 <h3>{{ name }}</h3>
                 <span>({{ genre }})</span>
             </template>
@@ -71,6 +70,10 @@ export default {
             object-fit: cover;
             height: 12rem;
             filter: grayscale(100%);
+        }
+
+        &__vid {
+            margin: 0 auto;
         }
 
         &__desc {
