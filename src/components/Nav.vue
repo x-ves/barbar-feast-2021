@@ -44,7 +44,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(rgb(46, 112, 168), rgb(0, 204, 255));
+  background: linear-gradient(rgba(182, 23, 23, 0.95), rgba(101, 39, 39, 0.95));
   color: rgb(255, 255, 255);
   flex-direction: column-reverse;
 
