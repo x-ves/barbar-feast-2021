@@ -12,7 +12,8 @@
     "nav": {
       "home": "Kotisivu",
       "about": "Festivaalista",
-      "location": "Missä?"
+      "program": "Aikataulu",
+      "info": "Info"
     },
     "counter": {
       "gates": "Portit avataan",

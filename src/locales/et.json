@@ -12,7 +12,8 @@
   "nav": {
     "home": "Avaleht",
     "about": "Festivalist",
-    "location": "Kus?"
+    "program": "Kava",
+    "info": "Info"
   },
   "counter": {
     "gates": "Väravate avamiseni",

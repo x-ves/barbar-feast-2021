@@ -29,6 +29,18 @@ const routes = [
         name: "bands",
         component: () =>
         import(/* webpackChunkName: "bands" */ "../views/Bands.vue")
+      },
+      {
+        path: "program",
+        name: "program",
+        component: () =>
+        import(/* webpackChunkName: "program" */ "../views/Program.vue")
+      },
+      {
+        path: "info",
+        name: "info",
+        component: () =>
+        import(/* webpackChunkName: "info" */ "../views/Info.vue")
       }
     ]
   }

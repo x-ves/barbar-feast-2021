@@ -11,7 +11,8 @@
   },
   "nav": {
     "home": "Home",
-    "location": "Where?"
+    "program": "Program",
+    "info": "Info"
   },
   "counter": {
     "gates": "The gates open in",

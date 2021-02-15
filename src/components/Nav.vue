@@ -5,6 +5,8 @@
         <LocalizedLink class="nav__links__link" to="/">{{ $t("nav.home") }}</LocalizedLink>
         <LocalizedLink class="nav__links__link" to="/bands">{{ $t("content.lineup") }}</LocalizedLink>
         <a class="nav__links__link" href="https://www.ticketer.ee/barbar-feast-2021" target="_blank">{{ $t("content.tickets2") }}</a>
+        <LocalizedLink class="nav__links__link" to="/program">{{ $t("nav.program") }}</LocalizedLink>
+        <LocalizedLink class="nav__links__link" to="/info">{{ $t("nav.info") }}</LocalizedLink>
       </div>
       <span class="nav__icon" @click="openMenu">
         <font-awesome-icon :icon="['fas', 'bars']"></font-awesome-icon>
