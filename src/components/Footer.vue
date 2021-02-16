@@ -29,7 +29,7 @@ export default {
 .footer {
     width: 100%;
     padding: 1.5rem;
-    background: linear-gradient(rgb(0, 204, 255), rgb(46, 112, 168));
+    background: linear-gradient(rgb(182, 23, 23), rgb(101, 39, 39));
     color: rgb(255, 255, 255);
     letter-spacing: 1px;
     display: flex;

@@ -12,10 +12,10 @@
         <TicketsButton />
       </div>
     </section>
-    <section id="lineup" class="lineup">
+<!--     <section id="lineup" class="lineup">
       <h1 class="lineup__title">{{ $t("content.lineup") }}</h1>
       <BandList />
-    </section>
+    </section> -->
     <section id="location" class="location">
       <div class="location__slides">
         <div class="location__slides__slider">
@@ -52,7 +52,7 @@
 <script>
 // @ is an alias to /src
 import Counter from "@/components/Counter.vue";
-import BandList from "@/components/BandList.vue";
+/* import BandList from "@/components/BandList.vue"; */
 import GoogleMap from "@/components/GoogleMap.vue";
 import TicketsButton from "@/components/TicketsButton.vue";
 import FAQ from "@/components/FAQ.vue";
@@ -60,7 +60,7 @@ import Carousel from "@/components/Carousel.vue";
 
 export default {
   name: "Home",
-  components: { Counter, BandList, GoogleMap, TicketsButton, FAQ, Carousel }
+  components: { Counter/* , BandList */, GoogleMap, TicketsButton, FAQ, Carousel }
 };
 </script>
 
@@ -102,7 +102,7 @@ body {
         font-size: 2.3rem;
         font-weight: 800;
         color: rgb(255, 255, 255);
-        -webkit-text-stroke: 1.5px rgb(248, 1, 0);
+/*         -webkit-text-stroke: 1.5px rgb(0, 0, 0); */
         line-height: 1.1;
         padding: 0 0.2rem;
         text-transform: uppercase;
@@ -113,7 +113,7 @@ body {
 
 .lineup {
   padding: 2rem 0;
-  background: rgb(230, 248, 255);
+  background: rgb(142,20,20);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -160,7 +160,7 @@ body {
   font-size: 1.1rem;
   display: flex;
   flex-direction: column;
-  background: rgb(255, 255, 255);
+  background: rgb(142,20,20);
 
   a {
     color: rgb(0, 204, 255);
@@ -204,7 +204,7 @@ body {
 
 .sponsors {
   padding: 1rem 0;
-  background: rgb(230, 248, 255);
+  background: rgb(142,20,20);
   color: rgb(0, 204, 255);
   text-align: center;
 
@@ -226,8 +226,8 @@ body {
   }
 
   &__content {
-    padding: 0;
-    width: 50%;
+    padding: 2rem auto;
+    width: 70%;
 
     &__brief {
       font-size: 1.1rem;
@@ -235,6 +235,7 @@ body {
       &__slogan {
         font-size: 3rem;
         line-height: 1.1;
+        margin-bottom: 2rem;
       }
     }
   }
