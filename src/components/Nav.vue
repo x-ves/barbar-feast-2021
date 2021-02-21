@@ -45,7 +45,7 @@ export default {
   align-items: center;
   justify-content: space-between;
   background: linear-gradient(rgba(182, 23, 23, 0.95), rgba(101, 39, 39, 0.95));
-  color: rgb(255, 255, 255);
+  color: var(--main-text-color);
   flex-direction: column-reverse;
 
   &__langSwitcher {
@@ -59,7 +59,7 @@ export default {
     text-align: center;
 
    &__link {
-      color: rgb(245, 245, 245);
+      color: var(--main-text-color);
       text-transform: uppercase;
       text-decoration: none;
       letter-spacing: 1px;

@@ -10,21 +10,22 @@ export default {
 
 <style lang="scss">
     .ticketsButton {
-        width: fit-content;
+        width: 100%;
         margin: 1rem auto;
         padding: 0.25rem;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         text-decoration: none;
-        color: rgb(0, 204, 255);
-        border: 2px solid rgb(0, 204, 255);
+        color: var(--darkest-of-the-dark);
+        border: 1rem dashed var(--darkest-of-the-dark);
+        background: rgba(49, 5, 5, 0.3);
         border-radius: 3px;
         transition: all 0.3s;
         text-transform: uppercase;
-        font-weight: 400;
+        font-weight: 600;
 
         &:hover {
             color: white;
-            background: rgb(0, 204, 255);
+            background: var(--darkest-of-the-dark);
         }
     }
 </style>

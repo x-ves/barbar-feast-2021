@@ -86,7 +86,11 @@ export default {
         flex-direction: column;
         margin: 0;
         align-self: center;
-        width: 18rem;
+        width: fit-content;
+        background: rgba(63, 2, 2, 0.062);
+        border: 1rem dashed var(--darkest-of-the-dark);
+        padding: 1rem;
+        width: 100%;
 
         &__title {
             margin: 0 0 1rem 0;
@@ -103,14 +107,15 @@ export default {
                 flex-direction: column;
                 align-content: center;
                 padding: 0.25rem;
-                border: 1px solid rgb(0, 0, 0);
-                background: rgba(255, 255, 255, 0.9);
-                color: rgb(0, 0, 0);
+/*                 border: 1px solid rgb(255, 255, 255); */
+                background: rgba(63, 2, 2, 0.062);
+                box-shadow: 0px 0px 3px rgb(150, 29, 29);
+                color: var(--main-text-color);
                 border-radius: 3px;
 
                 & span:nth-of-type(2) {
                     letter-spacing: 1px;
-                    color: rgb(100, 100, 100);
+                    color: var(--main-text-color);
                     font-size: 0.9rem;
                 }
             }
@@ -128,7 +133,7 @@ export default {
 
         &__title {
             margin: 0 0 0.5rem 0;
-            font-size: 1.5rem;
+            font-size: 2.5rem;
             font-weight: 500;
         }
 
@@ -142,12 +147,10 @@ export default {
                 align-content: center;
                 margin: 0.25rem;
                 padding: 0.5rem;
-                border: 1px solid black;
-                border-radius: 3px;
 
                 & span:nth-of-type(2) {
                     letter-spacing: 1px;
-                    color: rgb(100, 100, 100)
+                    font-size: 1rem;
                 }
             }
 

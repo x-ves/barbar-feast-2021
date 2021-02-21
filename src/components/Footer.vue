@@ -29,8 +29,8 @@ export default {
 .footer {
     width: 100%;
     padding: 1.5rem;
-    background: linear-gradient(rgb(182, 23, 23), rgb(101, 39, 39));
-    color: rgb(255, 255, 255);
+    background: linear-gradient(var(--main-bg-color), rgb(101, 39, 39));
+    color: var(--main-text-color);
     letter-spacing: 1px;
     display: flex;
     flex-direction: column;
@@ -62,7 +62,7 @@ export default {
 
             a {
                 text-decoration: none;
-                color: rgb(255, 255, 255);
+                color: var(--main-text-color);
                 font-weight: 500;
 
                 &:hover {
@@ -81,7 +81,7 @@ export default {
 
         a {
             text-decoration: none;
-            color: rgb(255, 255, 255);
+            color: var(--main-text-color);
             font-weight: 500;
 
             &:hover {

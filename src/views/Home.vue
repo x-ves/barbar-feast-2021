@@ -4,7 +4,7 @@
       <img src="@/assets/bf_pageheader_3.png" alt="">
       <div class="welcome__content">
         <div class="welcome__content__brief">
-          <span class="welcome__content__brief__slogan">{{ $t("content.slogan") }}</span>
+<!--           <span class="welcome__content__brief__slogan">{{ $t("content.slogan") }}</span> -->
 <!--      <span>@ {{ $t("location.location") }}</span>
           <span>8.-10. {{ $t("content.july") }}</span> -->
         </div>
@@ -67,7 +67,9 @@ export default {
 <style lang="scss">
 
 body {
-  background:rgb(182,23,23);
+/*   background: var(--main-bg-color); */
+  background: url("/img-noise-1200x1200.png");
+  background-color: var(--main-bg-color);
 }
 
 .welcome {
@@ -78,7 +80,6 @@ body {
   text-align: center;
   justify-content: space-between;
   text-transform: uppercase;
-  background: rgb(182,23,23);
 
   img {
     width: 100%;
@@ -101,7 +102,7 @@ body {
         margin: 0;
         font-size: 2.3rem;
         font-weight: 800;
-        color: rgb(255, 255, 255);
+        color: var(--main-text-color);
 /*         -webkit-text-stroke: 1.5px rgb(0, 0, 0); */
         line-height: 1.1;
         padding: 0 0.2rem;
@@ -113,7 +114,7 @@ body {
 
 .lineup {
   padding: 2rem 0;
-  background: rgb(142,20,20);
+  background: var(--secondary-bg-color);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -122,13 +123,13 @@ body {
     margin: 0 0 1rem 0;
     font-size: 2rem;
     text-align: center;
-    color: rgb(0, 204, 255);
+    color: var(--secondary-text-color);
     text-transform: uppercase;
   }
 }
 
 .faq {
-  color: rgb(0, 204, 255);
+  color: var(--secondary-text-color);
   padding: 1rem 0;
 
   &__title {
@@ -160,10 +161,10 @@ body {
   font-size: 1.1rem;
   display: flex;
   flex-direction: column;
-  background: rgb(142,20,20);
+  background: var(--secondary-bg-color);
 
   a {
-    color: rgb(0, 204, 255);
+    color: var(--secondary-text-color);
     text-decoration: none;
     font-weight: 500;
 
@@ -187,7 +188,7 @@ body {
   }
 
   &__title {
-    color: rgb(0, 204, 255);
+    color: var(--secondary-text-color);
     margin: 1rem;
     font-size: 2rem;
     text-align: center;
@@ -204,12 +205,12 @@ body {
 
 .sponsors {
   padding: 1rem 0;
-  background: rgb(142,20,20);
-  color: rgb(0, 204, 255);
+  background: var(--secondary-bg-color);
+  color: var(--secondary-text-color);
   text-align: center;
 
   &__title {
-      color: rgb(0, 204, 255);
+      color: var(--secondary-text-color);
       margin: 1rem;
       font-size: 2rem;
       text-transform: uppercase;

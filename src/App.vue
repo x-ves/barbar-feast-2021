@@ -33,6 +33,15 @@ export default {
 
 <style lang="scss">
 
+  :root {
+    --main-bg-color: rgb(182,23,23);
+    --secondary-bg-color: rgb(142,20,20);
+    --third-bg-color: rgb(43, 27, 27);
+    --main-text-color: rgba(234,233,221,255);
+    --secondary-text-color: rgb(50, 212, 248);
+    --darkest-of-the-dark: rgb(49, 5, 5);
+  }
+
   *,
   *::before,
   *::after {
@@ -42,7 +51,7 @@ export default {
   html, body {
     height: 100%;
     width: 100%;
-    color: white;
+    color: var(--main-text-color);
   }
 
   Nav {
@@ -55,8 +64,8 @@ export default {
     padding: 0;
 
     ::selection {
-      background: rgb(0, 204, 255);
-      color: rgb(255, 255, 255);
+      background: var(--main-bg-color);
+      color: var(--main-text-color);
     }
   }
 

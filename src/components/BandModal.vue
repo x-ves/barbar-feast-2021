@@ -70,7 +70,7 @@ export default {
         }
 
         &__dialog {
-            background: rgb(253, 253, 253);
+            background: rgb(97, 37, 37);
             position: relative;
             width: 600px;
             margin: 5rem auto;
@@ -86,7 +86,7 @@ export default {
         }
 
         .arrowButton {
-            color: rgba(0, 204, 255, 0.5);
+            color: var(--secondary-text-color);
             border: none;
             background: transparent;
             font-size: 2.5rem;
@@ -97,7 +97,7 @@ export default {
             transition: color 0.2s;
 
             &:hover {
-                color: rgb(0, 204, 255);
+                color: var(--secondary-text-color);
             }
         }
 
@@ -109,14 +109,14 @@ export default {
                 justify-content: space-evenly;
 
                 &__icon {
-                    color: rgba(0, 204, 255, 0.7);
+                    color: var(--secondary-text-color);
                     font-size: 1.5rem;
                     cursor: pointer;
                     transition: color 0.2s;
                     vertical-align: middle;
 
                     &:hover {
-                        color: rgb(0, 204, 255);
+                        color: var(--secondary-text-color);
                     }
                 }
             }
@@ -150,7 +150,7 @@ export default {
                 margin: 0.5rem 0 0 0;
                 font-size: 2rem;
                 text-transform: uppercase;
-                color: rgb(0, 205, 255);
+                color: var(--secondary-text-color);
                 text-align: center;
             }
 

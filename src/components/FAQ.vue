@@ -46,8 +46,8 @@ export default {
 
     &__question {
         padding: 0.5rem;
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 204, 255);
+        background-color: var(--secondary-bg-color);
+        color: var(--main-text-color);
         font-weight: 500;
         cursor: pointer;
         transition: all 0.1s;
@@ -57,21 +57,21 @@ export default {
         }
 
         &:hover {
-            background-color: rgb(0, 204, 255);
-            color: rgb(255, 255, 255);
+            background-color: var(--third-bg-color);
+            color: var(--main-text-color);
         }
     }
 
     &[open] > &__question {
-        background-color: rgb(0, 204, 255);
-            color: rgb(255, 255, 255);
+        background-color: var(--third-bg-color);
+            color: var(--main-text-color);
         }
 
     &__answer {
         margin: 0;
         padding: 0.5rem 1.5rem;
-        background: rgb(250, 250, 250);
-        color: rgb(0, 0, 0);
+        background: var(--secondary-bg-color);
+        color: var(--main-text-color);
     }
     }
 }

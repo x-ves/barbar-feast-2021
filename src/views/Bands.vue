@@ -18,9 +18,10 @@ export default {
 
   #bands {
     padding: 3rem 0;
+    background: var(--third-bg-color);
 
     h1 {
-      color: rgb(0, 204, 255);
+      color: var(--secondary-text-color);
       text-align: center;
       margin: 1rem 0 0.5rem 0;
       text-transform: uppercase;
