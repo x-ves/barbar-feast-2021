@@ -1,7 +1,10 @@
 <template>
   <div id="home">
     <section id="welcome" class="welcome">
-      <img src="@/assets/bf_pageheader_3.png" alt="">
+      <picture class="welcome__img">
+        <source media="(min-width:1024px)" srcset="@/assets/bf_pageheader_3.png">
+        <img src="@/assets/bf_eventheader_3.png" alt="">
+      </picture>
       <div class="welcome__content">
         <div class="welcome__content__brief">
 <!--           <span class="welcome__content__brief__slogan">{{ $t("content.slogan") }}</span> -->
@@ -81,8 +84,12 @@ body {
   justify-content: space-between;
   text-transform: uppercase;
 
-  img {
+  &__img {
     width: 100%;
+
+    & img {
+      width: 100%;
+    }
   }
 
   &__content {
@@ -222,10 +229,6 @@ body {
 .welcome {
   padding-top: 2.5rem;
 
-  img {
-    display: block;
-  }
-
   &__content {
     padding: 2rem auto;
     width: 70%;
@@ -273,10 +276,6 @@ body {
 
 .welcome {
 /*   flex-direction: row; */
-
-  img {
-    width: 100%;
-  }
 
   &__content {
     &__brief {
