@@ -10,14 +10,13 @@ export default {
 
 <style lang="scss">
     .ticketsButton {
-        width: 100%;
+        width: fit-content;
         margin: 1rem auto;
         padding: 0.25rem;
         font-size: 2.5rem;
         text-decoration: none;
-        color: var(--darkest-of-the-dark);
-        border: 1rem dashed var(--darkest-of-the-dark);
-        background: rgba(49, 5, 5, 0.3);
+        color: var(--main-text-color);
+        background: linear-gradient(var(--main-btn-bg), var(--secondary-btn-bg));
         border-radius: 3px;
         transition: all 0.3s;
         text-transform: uppercase;
@@ -25,7 +24,17 @@ export default {
 
         &:hover {
             color: white;
-            background: var(--darkest-of-the-dark);
+            box-shadow: 0px 0px 5px var(--secondary-btn-bg);
         }
+    }
+
+    @media only screen and (min-width: 768px) {
+        .ticketsButton {
+            width: 100%;
+        }
+    }
+
+    @media only screen and (min-width: 1024px) {
+
     }
 </style>
