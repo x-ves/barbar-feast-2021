@@ -10,10 +10,10 @@ export default {
 
 <style lang="scss">
     .ticketsButton {
-        width: fit-content;
+        width: 100%;
         margin: 1rem auto;
         padding: 0.25rem;
-        font-size: 2.5rem;
+        font-size: 2rem;
         text-decoration: none;
         color: var(--main-text-color);
         background: linear-gradient(var(--main-btn-bg), var(--secondary-btn-bg));
@@ -30,7 +30,7 @@ export default {
 
     @media only screen and (min-width: 768px) {
         .ticketsButton {
-            width: 100%;
+            font-size: 2.5rem;
         }
     }
 

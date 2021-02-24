@@ -37,7 +37,7 @@ export default {
     --main-bg-color: rgb(182,23,23);
     --secondary-bg-color: rgb(142,20,20);
     --third-bg-color: rgb(66, 40, 40);
-    --main-text-color: rgba(234,233,221,255);
+    --main-text-color: rgb(234, 233, 221);
     --secondary-text-color: rgb(114, 198, 218);
     --darkest-of-the-dark: rgb(43, 27, 27);
     --main-btn-bg: rgb(66, 40, 40);

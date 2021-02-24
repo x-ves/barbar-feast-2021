@@ -87,15 +87,16 @@ export default {
         margin: 0;
         align-self: center;
         width: fit-content;
-        background: rgba(63, 2, 2, 0.062);
-        border: 1rem dashed var(--darkest-of-the-dark);
+        background: var(--main-bg-color);
+        border: 0.65rem dashed var(--darkest-of-the-dark);
         padding: 1rem;
         width: 100%;
 
         &__title {
+            color: var(--main-text-color);
             margin: 0 0 1rem 0;
             font-size: 1.4rem;
-            font-weight: 400;
+            font-weight: 600;
         }
 
         &__time {
@@ -105,10 +106,9 @@ export default {
             &__days, &__hours, &__minutes, &__seconds {
                 display: flex;
                 flex-direction: column;
-                align-content: center;
                 padding: 0.25rem;
-/*                 border: 1px solid rgb(255, 255, 255); */
-                background: rgba(63, 2, 2, 0.062);
+                margin: 0.2rem;
+                background: linear-gradient(var(--main-btn-bg), var(--secondary-btn-bg));
                 box-shadow: 0px 0px 3px rgb(150, 29, 29);
                 color: var(--main-text-color);
                 border-radius: 3px;
@@ -130,6 +130,7 @@ export default {
     .counter {
         display: flex;
         flex-direction: column;
+        border: 1rem dashed var(--darkest-of-the-dark);
 
         &__title {
             margin: 0 0 0.5rem 0;
@@ -162,6 +163,10 @@ export default {
 }}
 
 @media only screen and (min-width: 1024px) {
+
+    .counter {
+        border: 1rem dashed var(--darkest-of-the-dark);
+    }
 
 }
 
