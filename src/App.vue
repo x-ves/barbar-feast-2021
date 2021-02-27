@@ -38,7 +38,8 @@ export default {
     --secondary-bg-color: rgb(142,20,20);
     --third-bg-color: rgb(66, 40, 40);
     --main-text-color: rgb(234, 233, 221);
-    --secondary-text-color: rgb(114, 198, 218);
+    --secondary-text-color: rgb(104, 225, 255);
+    --hover-text-color: rgb(234, 233, 221);
     --darkest-of-the-dark: rgb(43, 27, 27);
     --main-btn-bg: rgb(66, 40, 40);
     --secondary-btn-bg: rgb(43, 27, 27);
@@ -66,7 +67,7 @@ export default {
     padding: 0;
 
     ::selection {
-      background: var(--main-bg-color);
+      background: var(--third-bg-color);
       color: var(--main-text-color);
     }
   }

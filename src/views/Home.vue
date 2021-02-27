@@ -177,6 +177,7 @@ body {
 
     &:hover {
       text-decoration: underline;
+      color: var(--hover-text-color);
     }
   }
 

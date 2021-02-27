@@ -18,7 +18,8 @@ export default {
 
   #bands {
     padding: 3rem 0;
-    background: var(--third-bg-color);
+    background: url("/img-noise-1200x1200.png");
+    background-color: var(--main-bg-color);
 
     h1 {
       color: var(--secondary-text-color);

@@ -60,7 +60,7 @@ export default {
         z-index: 9;
 
         &__backdrop {
-            background: rgba(0, 0, 0, 0.3);
+            background: rgba(0, 0, 0, 0.5);
             position: fixed;
             top: 0;
             right: 0;
@@ -70,9 +70,10 @@ export default {
         }
 
         &__dialog {
-            background: rgb(97, 37, 37);
+            background: var(--darkest-of-the-dark);
             position: relative;
-            width: 600px;
+            width: fit-content;
+            max-width: 600px;
             margin: 5rem auto;
             padding: 1rem;
             display: flex;
@@ -81,7 +82,7 @@ export default {
             z-index: 2;
 
             @media screen and (max-width: 992px) {
-                width: 90%;
+                width: 95%;
             }
         }
 
@@ -97,26 +98,27 @@ export default {
             transition: color 0.2s;
 
             &:hover {
-                color: var(--secondary-text-color);
+                color: var(--hover-text-color);
             }
         }
 
         .bandModal {
 
             &__socials {
-                width: 5rem;
+                width: fit-content;
                 display: flex;
                 justify-content: space-evenly;
 
                 &__icon {
                     color: var(--secondary-text-color);
                     font-size: 1.5rem;
+                    margin: 0 0.15rem;
                     cursor: pointer;
                     transition: color 0.2s;
                     vertical-align: middle;
 
                     &:hover {
-                        color: var(--secondary-text-color);
+                        color: var(--hover-text-color);
                     }
                 }
             }
@@ -171,6 +173,8 @@ export default {
             flex-direction: column;
             align-items: stretch;
             text-align: center;
+            width: 90%;
+            align-self: center;
         }
 
         &__footer {

@@ -1,21 +1,7 @@
 <template>
     <div class="program">
-        <div class="program__bands">
-            <div class="program__bands__day1">
-                <ul>
-                    <li>a</li>
-                    <li>b</li>
-                    <li>c</li>
-                    <li>d</li>
-                    <li>e</li>
-                    <li>f</li>
-                    <li>g</li>
-                    <li>h</li>
-                    <li>i</li>
-                    <li>j</li>
-                </ul>
-            </div>
-        </div>
+        <h1>{{ $t("content.construction") }}</h1>
+        <img src="/metalconstruction.gif" alt="">
     </div>
 </template>
 
@@ -26,5 +12,16 @@ export default {
 </script>
 
 <style lang="scss">
+    .program {
+        padding: 3rem 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
+        img {
+            width: 650px;
+        }
+    }
 </style>

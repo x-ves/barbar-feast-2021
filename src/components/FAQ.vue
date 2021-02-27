@@ -70,7 +70,7 @@ export default {
     &__answer {
         margin: 0;
         padding: 0.5rem 1.5rem;
-        background: var(--secondary-bg-color);
+        background: var(--darkest-of-the-dark);
         color: var(--main-text-color);
     }
     }

@@ -59,12 +59,21 @@ export default {
         height: 16rem;
         background: var(--secondary-bg-color);
         border-radius: 4px;
-        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 5px rgba(34, 1, 1, 0.3);
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         text-transform: capitalize;
         cursor: pointer;
+        transition: 0.3s all;
+
+        &:hover {
+            background: var(--main-bg-color);
+
+            .card__img {
+                filter: grayscale(50%);
+            }
+        }
 
         &__img {
             object-fit: cover;
