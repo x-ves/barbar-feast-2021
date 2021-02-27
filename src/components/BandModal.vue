@@ -59,6 +59,10 @@ export default {
         left: 0;
         z-index: 9;
 
+        iframe {
+            max-width: 100%;
+        }
+
         &__backdrop {
             background: rgba(0, 0, 0, 0.5);
             position: fixed;
