@@ -57,7 +57,7 @@ export default {
         margin: 0.5rem;
         width: 18rem;
         height: 16rem;
-        background: var(--secondary-bg-color);
+        background: var(--third-bg-color);
         border-radius: 4px;
         box-shadow: 0 0 5px rgba(34, 1, 1, 0.3);
         display: flex;
@@ -68,7 +68,7 @@ export default {
         transition: 0.3s all;
 
         &:hover {
-            background: var(--main-bg-color);
+            background: rgb(85, 49, 49);
 
             .card__img {
                 filter: grayscale(50%);

@@ -141,6 +141,7 @@ export default {
             width: 100%;
             align-self: center;
             justify-self: center;
+            filter: grayscale(25%);
         }
 
         &:first-of-type, &:last-of-type {

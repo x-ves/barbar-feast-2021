@@ -1,7 +1,9 @@
 <template>
     <div id="bands">
+      <div class="border">
         <h1>{{ $t("content.lineup") }}</h1>
         <Cards />
+      </div>
     </div>
 </template>
 
@@ -16,10 +18,14 @@ export default {
 
 <style lang="scss">
 
+  .border {
+    border: 1rem dashed var(--darkest-of-the-dark);
+  }
+
   #bands {
     padding: 3rem 0;
     background: url("/img-noise-1200x1200.png");
-    background-color: var(--main-bg-color);
+    background-color: var(--secondary-bg-color);
 
     h1 {
       color: var(--secondary-text-color);

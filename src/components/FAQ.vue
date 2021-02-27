@@ -39,14 +39,15 @@ export default {
 .FAQ {
     width: 40rem;
     height: fit-content;
-    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.222);
-    padding: 0;
+    padding: 0.5rem;
+    border: 1rem dashed var(--darkest-of-the-dark);
+    background: var(--main-bg-color);
 
     &__content {
 
     &__question {
         padding: 0.5rem;
-        background-color: var(--secondary-bg-color);
+        background-color: var(--darkest-of-the-dark);
         color: var(--main-text-color);
         font-weight: 500;
         cursor: pointer;

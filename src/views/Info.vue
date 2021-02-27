@@ -19,6 +19,7 @@ export default {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background: var(--secondary-bg-color);
 
         img {
             width: 650px;

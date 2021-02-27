@@ -6,11 +6,6 @@
         <img src="@/assets/bf_eventheader_3.png" alt="">
       </picture>
       <div class="welcome__content">
-        <div class="welcome__content__brief">
-<!--           <span class="welcome__content__brief__slogan">{{ $t("content.slogan") }}</span> -->
-<!--      <span>@ {{ $t("location.location") }}</span>
-          <span>8.-10. {{ $t("content.july") }}</span> -->
-        </div>
         <Counter />
         <TicketsButton />
       </div>
@@ -99,23 +94,6 @@ body {
     justify-content: space-evenly;
     align-content: space-between;
     font-weight: 500;
-
-    &__brief {
-      margin-top: 0.5rem;
-      display: flex;
-      flex-direction: column;
-
-      &__slogan {
-        margin: 0;
-        font-size: 2.3rem;
-        font-weight: 800;
-        color: var(--main-text-color);
-/*         -webkit-text-stroke: 1.5px rgb(0, 0, 0); */
-        line-height: 1.1;
-        padding: 0 0.2rem;
-        text-transform: uppercase;
-      }
-    }
   }
 }
 
@@ -141,13 +119,13 @@ body {
 
   &__title {
     font-size: 2rem;
-    margin: 0.5rem;
+    margin: 1rem 0 0 0;
     text-align: center;
     text-transform: uppercase;
   }
 
   &__wrapper {
-    margin: 1rem;
+    margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
@@ -168,7 +146,7 @@ body {
   font-size: 1.1rem;
   display: flex;
   flex-direction: column;
-  background: var(--secondary-bg-color);
+  background: radial-gradient(var(--main-bg-color), var(--secondary-bg-color));
 
   a {
     color: var(--secondary-text-color);
@@ -213,7 +191,7 @@ body {
 
 .sponsors {
   padding: 1rem 0;
-  background: var(--secondary-bg-color);
+  background: radial-gradient(var(--main-bg-color), var(--secondary-bg-color));
   color: var(--secondary-text-color);
   text-align: center;
 
@@ -233,16 +211,6 @@ body {
   &__content {
     padding: 2rem auto;
     width: 70%;
-
-    &__brief {
-      font-size: 1.1rem;
-
-      &__slogan {
-        font-size: 3rem;
-        line-height: 1.1;
-        margin-bottom: 2rem;
-      }
-    }
   }
 }
 
@@ -274,18 +242,6 @@ body {
 }
 
 @media only screen and (min-width: 1024px) {
-
-.welcome {
-/*   flex-direction: row; */
-
-  &__content {
-    &__brief {
-      &__slogan {
-        font-size: 3rem;
-      }
-    }
-  }
-}
 
 .location {
   font-size: 1rem;
