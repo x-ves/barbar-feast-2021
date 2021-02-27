@@ -48,7 +48,7 @@ export default {
 
         &:hover {
             cursor: pointer;
-            background-color:  rgba(46, 111, 168, 0.333);
+            background-color: rgba(66, 40, 40, 0.333);
         }
 
         &:focus {

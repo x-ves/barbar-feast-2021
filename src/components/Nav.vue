@@ -67,7 +67,7 @@ export default {
       transition: 0.3s all;
 
       &:hover {
-        background-color: rgba(46, 111, 168, 0.333);
+        background-color: rgba(66, 40, 40, 0.333);
       }
     }
   }
