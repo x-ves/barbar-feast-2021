@@ -40,7 +40,10 @@
   },
   "location": {
     "location": "Viikingite Küla, Kose vald",
-    "header": "Asukoht"
+    "header": "Asukoht",
+    "desc": "Kus? Viikingite Külas - Kose vallas, täpsemalt Saula külas. Festivali raames on meile väljastatud kaks lava - üks neist asub küla linnuses, teine jõe ääres. Lisaks lavadele on meil ka turuala merchi, toidu ja jookide müümiseks, palju tegevusi ning tasuta telkla!",
+    "more": "Rohkem infot Viikingite Küla kohta leiab küla",
+    "link": "kodulehelt"
   },
   "sponsors": {
     "title": "Festivali toetavad"

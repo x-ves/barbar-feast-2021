@@ -39,7 +39,10 @@
   },
   "location": {
     "location": "Vikings Village, Kose parish",
-    "header": "Whereabouts"
+    "header": "Whereabouts",
+    "desc": "Where? In the Vikings Village - Kose parish, precisely in the Saula village. We have two stages - one located in the castle, the other right next to the river. In addition to the stages we have a marketplace area for selling merchandise, food and drinks, a lot of different activities and a camping area for additional costs other than the festival's pass itself.",
+    "more": "For more info about Vikings Village check out their",
+    "link": "website"
   },
   "sponsors": {
     "title": "Festival supporters"

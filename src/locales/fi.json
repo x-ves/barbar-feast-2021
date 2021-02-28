@@ -40,7 +40,10 @@
     },
     "location": {
       "location": "Viikinkikylä, Kosen seurakunta",
-      "header": "Sijainti"
+      "header": "Sijainti",
+      "desc": "",
+      "more": "",
+      "link": ""
     },
     "sponsors": {
       "title": "Festivaalia tukevat"

@@ -21,12 +21,9 @@
         </div>
         <div class="location__slides__text">
           <h1 class="location__title">{{ $t("location.header") }}</h1>
-          <p class="location__desc">Barbar Feast leiab 2021. aastal aset Kose vallas Saula küla piirides asuvas Viikingite külas. <br><br>
-          Küla asub Pirita jõe ääres ning pakub aastaringselt oma külastajatele kehakinnitust, vaatamisväärsusi, elamusmajutust ja erinevaid 8.-11. saj eesti viikingikultuurist inspireeritud vaba aja veetmise võimalusi. <br><br>
+          <p class="location__desc">{{ $t("location.desc") }} <br><br>
 
-          Rohkem infot ja pilte Viikingite küla kohta leiab nende <a href="https://www.viikingitekyla.ee/" target="_blank">kodulehelt</a>. <br><br>
-
-          Lisaks Viikingite külale leidub Kose vallas ka muid vaatamisväärsusi nagu Saula siniallikad, Tuhala nõiakaev, Kose-Uuemõisa park, ja mitmeid teisigi.
+          {{ $t("location.more") }} <a href="https://www.viikingitekyla.ee/" target="_blank">{{ $t("location.link") }}</a>. <br><br>
           </p>
         </div>
       </div>
