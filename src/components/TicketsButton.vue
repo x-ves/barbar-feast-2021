@@ -16,15 +16,15 @@ export default {
         font-size: 2rem;
         text-decoration: none;
         color: var(--main-text-color);
-        background: linear-gradient(var(--main-btn-bg), var(--secondary-btn-bg));
+        background: radial-gradient(var(--main-btn-bg), var(--secondary-btn-bg));
         border-radius: 3px;
         transition: all 0.3s;
         text-transform: uppercase;
         font-weight: 600;
 
         &:hover {
-            color: white;
-            box-shadow: 0px 0px 5px var(--secondary-btn-bg);
+            box-shadow: 0px 0px 7px var(--main-btn-bg);
+            background: radial-gradient(var(--secondary-btn-bg), var(--secondary-btn-bg));
         }
     }
 
