@@ -186,6 +186,7 @@ body {
     padding: 1rem;
     width: fit-content;
     align-self: center;
+      border: 1rem dashed var(--darkest-of-the-dark);
   }
 }
 

@@ -20,6 +20,9 @@ export default {
 
   .border {
     border: 1rem dashed var(--darkest-of-the-dark);
+    width: 97%;
+    margin: 1rem auto;
+    padding: 0.5rem;
   }
 
   #bands {
