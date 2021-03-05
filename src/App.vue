@@ -34,9 +34,11 @@ export default {
 <style lang="scss">
 
   :root {
-    --main-bg-color: rgb(182,23,23);
-    --secondary-bg-color: rgb(142,20,20);
+    --main-bg-color: rgb(182, 23, 23);
+    --secondary-bg-color: rgb(142, 20, 20);
     --third-bg-color: rgb(66, 40, 40);
+    --card-bg-color: rgb(107, 14, 14);
+    --card-bg-hover: rgb(161, 20, 20);
     --main-text-color: rgb(234, 233, 221);
     --secondary-text-color: rgb(59, 212, 220);
     --hover-text-color: rgb(104, 255, 255);

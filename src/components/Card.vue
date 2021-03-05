@@ -55,20 +55,21 @@ export default {
 <style lang="scss">
     .card {
         margin: 0.5rem;
-        width: 18rem;
-        height: 16rem;
-        background: var(--third-bg-color);
-        border-radius: 4px;
+        width: 17rem;
+        height: 15rem;
+        font-size: 0.9rem;
+        background: var(--card-bg-color);
         box-shadow: 0 0 5px rgba(34, 1, 1, 0.3);
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        padding-bottom: 0.75rem;
         text-transform: capitalize;
         cursor: pointer;
         transition: 0.3s all;
 
         &:hover {
-            background: rgb(85, 49, 49);
+            background: var(--card-bg-hover);
 
             .card__img {
                 filter: grayscale(50%);
@@ -112,6 +113,7 @@ export default {
         .card {
             width: 20rem;
             height: 18rem;
+            font-size: 1rem;
 
             &__img {
                 height: 14rem;

@@ -74,7 +74,7 @@ export default {
         }
 
         &__dialog {
-            background: var(--darkest-of-the-dark);
+            background: var(--card-bg-color);
             position: relative;
             width: fit-content;
             max-width: 600px;
