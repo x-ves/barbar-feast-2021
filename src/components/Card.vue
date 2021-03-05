@@ -94,7 +94,7 @@ export default {
   width: 17rem;
   height: 15rem;
   font-size: 0.9rem;
-  background: var(--card-bg-color);
+  background: radial-gradient(var(--card-bg-hover), var(--card-bg-color));
   box-shadow: 0 0 5px rgba(34, 1, 1, 0.3);
   display: flex;
   flex-direction: column;

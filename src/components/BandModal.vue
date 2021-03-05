@@ -70,7 +70,7 @@ export default {
   }
 
   &__dialog {
-    background: var(--card-bg-color);
+    background: linear-gradient(var(--card-bg-hover), var(--card-bg-color));
     position: relative;
     width: fit-content;
     max-width: 600px;
@@ -177,7 +177,6 @@ export default {
   }
 
   &__footer {
-    padding: 10px 20px 20px;
     display: flex;
     justify-content: space-between;
   }

@@ -18,9 +18,9 @@ export default {
 
 <style lang="scss">
 .border {
-  border: 1rem dashed var(--darkest-of-the-dark);
+  border: 0.65rem dashed var(--darkest-of-the-dark);
   width: 97%;
-  margin: 1rem auto;
+  margin: 0.5rem auto;
   padding: 0.5rem;
 }
 
@@ -38,6 +38,9 @@ export default {
 }
 
 @media only screen and (min-width: 768px) {
+.border {
+  border: 1rem dashed var(--darkest-of-the-dark);
+}
 }
 
 @media only screen and (min-width: 1024px) {

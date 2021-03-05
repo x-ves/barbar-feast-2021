@@ -100,7 +100,7 @@ export default {
 
   &__time {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 
     &__days,
     &__hours,
@@ -109,7 +109,7 @@ export default {
       display: flex;
       flex-direction: column;
       padding: 0.25rem;
-      margin: 0.2rem;
+      margin: 0.15rem;
       background: linear-gradient(var(--main-btn-bg), var(--secondary-btn-bg));
       box-shadow: 0px 0px 3px rgb(150, 29, 29);
       color: var(--main-text-color);

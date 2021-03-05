@@ -104,6 +104,7 @@ body {
     justify-content: space-evenly;
     align-content: space-between;
     font-weight: 500;
+    width: 97%;
   }
 }
 
@@ -142,7 +143,7 @@ body {
 
     &__faq {
       margin: 1.5rem 0 0 0;
-      font-size: 1.1rem;
+      font-size: 1rem;
     }
 
     &__skull {
@@ -180,6 +181,8 @@ body {
 
     &__text {
       justify-content: center;
+      width: 97%;
+      margin: 0 auto;
     }
   }
 
@@ -196,7 +199,7 @@ body {
     padding: 1rem;
     width: fit-content;
     align-self: center;
-    border: 1rem dashed var(--darkest-of-the-dark);
+    border: 0.65rem dashed var(--darkest-of-the-dark);
   }
 }
 
@@ -250,6 +253,13 @@ body {
 }
 
 @media only screen and (min-width: 1024px) {
+
+  .welcome {
+    &__desc {
+      border: 1rem dashed var(--darkest-of-the-dark);
+    }
+  }
+
   .location {
     font-size: 1rem;
 

@@ -33,10 +33,10 @@ export default {};
 
 <style lang="scss">
 .FAQ {
-  width: 40rem;
+  width: 97%;
   height: fit-content;
   padding: 0.5rem;
-  border: 1rem dashed var(--darkest-of-the-dark);
+  border: 0.65rem dashed var(--darkest-of-the-dark);
   background: var(--main-bg-color);
 
   &__content {
@@ -69,6 +69,19 @@ export default {};
       background: var(--darkest-of-the-dark);
       color: var(--main-text-color);
     }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .FAQ {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .FAQ {
+    border: 1rem dashed var(--darkest-of-the-dark);
+    width: 50%;
   }
 }
 </style>
