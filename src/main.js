@@ -4,11 +4,30 @@ import router from "./router";
 import store from "./store";
 import i18n from "./i18n";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faBars, faTimes, faLongArrowAltLeft, faHome } from "@fortawesome/free-solid-svg-icons";
-import  { faFacebookSquare, faInstagram, faBandcamp, faSpotify } from "@fortawesome/free-brands-svg-icons";
+import {
+  faBars,
+  faTimes,
+  faLongArrowAltLeft,
+  faHome
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  faFacebookSquare,
+  faInstagram,
+  faBandcamp,
+  faSpotify
+} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add(faFacebookSquare, faInstagram, faBandcamp, faSpotify, faBars, faTimes, faLongArrowAltLeft, faHome);
+library.add(
+  faFacebookSquare,
+  faInstagram,
+  faBandcamp,
+  faSpotify,
+  faBars,
+  faTimes,
+  faLongArrowAltLeft,
+  faHome
+);
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 

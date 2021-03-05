@@ -3,10 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Root from "./Root";
 import i18n, { loadLocaleMessagesAsync } from "@/i18n";
-import {
-  setDocumentLang,
-  setDocumentTitle
-} from "@/util/i18n/document";
+import { setDocumentLang, setDocumentTitle } from "@/util/i18n/document";
 
 Vue.use(VueRouter);
 
@@ -28,27 +25,26 @@ const routes = [
         path: "bands",
         name: "bands",
         component: () =>
-        import(/* webpackChunkName: "bands" */ "../views/Bands.vue")
+          import(/* webpackChunkName: "bands" */ "../views/Bands.vue")
       },
       {
         path: "program",
         name: "program",
         component: () =>
-        import(/* webpackChunkName: "program" */ "../views/Program.vue")
+          import(/* webpackChunkName: "program" */ "../views/Program.vue")
       },
       {
         path: "info",
         name: "info",
         component: () =>
-        import(/* webpackChunkName: "info" */ "../views/Info.vue")
+          import(/* webpackChunkName: "info" */ "../views/Info.vue")
       }
     ]
   }
-
 ];
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: "history",
   base: process.env.BASE_URL,
   routes
 });

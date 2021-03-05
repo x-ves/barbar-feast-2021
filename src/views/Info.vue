@@ -1,28 +1,28 @@
 <template>
-    <div class="info">
-        <h1>{{ $t("content.construction") }}</h1>
-        <img src="/metalconstruction.gif" alt="">
-    </div>
+  <div class="info">
+    <h1>{{ $t("content.construction") }}</h1>
+    <img src="/metalconstruction.gif" alt="" />
+  </div>
 </template>
 
 <script>
 export default {
-    name: "Info"
-}
+  name: "Info"
+};
 </script>
 
 <style lang="scss">
-    .info {
-        padding: 3rem 0;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: var(--secondary-bg-color);
+.info {
+  padding: 3rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--secondary-bg-color);
 
-        img {
-            width: 650px;
-        }
-    }
+  img {
+    width: 650px;
+  }
+}
 </style>

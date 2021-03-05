@@ -21,8 +21,8 @@ const startingLocale = getStartingLocale();
 const i18n = new VueI18n({
   locale: startingLocale,
   fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || "en",
-  messages: {},
-})
+  messages: {}
+});
 
 const loadedLanguages = [];
 
@@ -42,8 +42,8 @@ export function loadLocaleMessagesAsync(locale) {
   }
 
   // if the language hasn't been loaded yet
-  return import (
-  /* webpackChunkName: "locale-[request]" */ `@/locales/${locale}.json`
+  return import(
+    /* webpackChunkName: "locale-[request]" */ `@/locales/${locale}.json`
   ).then(messages => {
     i18n.setLocaleMessage(locale, messages.default);
 
@@ -53,7 +53,7 @@ export function loadLocaleMessagesAsync(locale) {
 
     EventBus.$emit("i18n-load-complete");
     return Promise.resolve(locale);
-  })
+  });
 }
 
 loadLocaleMessagesAsync(startingLocale);

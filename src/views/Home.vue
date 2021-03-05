@@ -2,15 +2,18 @@
   <div id="home">
     <section id="welcome" class="welcome">
       <picture class="welcome__img">
-        <source media="(min-width:1024px)" srcset="@/assets/bf_pageheader_3.png">
-        <img src="@/assets/bf_eventheader_3.png" alt="">
+        <source
+          media="(min-width:1024px)"
+          srcset="@/assets/bf_pageheader_3.png"
+        />
+        <img src="@/assets/bf_eventheader_3.png" alt="" />
       </picture>
       <div class="welcome__content">
         <Counter />
         <TicketsButton />
       </div>
     </section>
-<!--     <section id="lineup" class="lineup">
+    <!--     <section id="lineup" class="lineup">
       <h1 class="lineup__title">{{ $t("content.lineup") }}</h1>
       <BandList />
     </section> -->
@@ -21,9 +24,14 @@
         </div>
         <div class="location__slides__text">
           <h1 class="location__title">{{ $t("location.header") }}</h1>
-          <p class="location__desc">{{ $t("location.desc") }} <br><br>
+          <p class="location__desc">
+            {{ $t("location.desc") }} <br /><br />
 
-          {{ $t("location.more") }} <a href="https://www.viikingitekyla.ee/" target="_blank">{{ $t("location.link") }}</a>. <br><br>
+            {{ $t("location.more") }}
+            <a href="https://www.viikingitekyla.ee/" target="_blank">{{
+              $t("location.link")
+            }}</a
+            >. <br /><br />
           </p>
         </div>
       </div>
@@ -55,14 +63,19 @@ import Carousel from "@/components/Carousel.vue";
 
 export default {
   name: "Home",
-  components: { Counter/* , BandList */, GoogleMap, TicketsButton, FAQ, Carousel }
+  components: {
+    Counter /* , BandList */,
+    GoogleMap,
+    TicketsButton,
+    FAQ,
+    Carousel
+  }
 };
 </script>
 
 <style lang="scss">
-
 body {
-/*   background: var(--main-bg-color); */
+  /*   background: var(--main-bg-color); */
   background: url("/img-noise-1200x1200.png");
   background-color: var(--main-bg-color);
 }
@@ -135,7 +148,6 @@ body {
     &__skull {
       display: none;
     }
-
   }
 }
 
@@ -160,7 +172,8 @@ body {
     display: flex;
     flex-direction: column-reverse;
 
-    &__slider, &__text {
+    &__slider,
+    &__text {
       display: flex;
       flex-direction: column;
     }
@@ -183,7 +196,7 @@ body {
     padding: 1rem;
     width: fit-content;
     align-self: center;
-      border: 1rem dashed var(--darkest-of-the-dark);
+    border: 1rem dashed var(--darkest-of-the-dark);
   }
 }
 
@@ -194,73 +207,66 @@ body {
   text-align: center;
 
   &__title {
-      color: var(--secondary-text-color);
-      margin: 1rem;
-      font-size: 2rem;
-      text-transform: uppercase;
+    color: var(--secondary-text-color);
+    margin: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
   }
 }
 
 @media only screen and (min-width: 768px) {
+  .welcome {
+    padding-top: 2.5rem;
 
-.welcome {
-  padding-top: 2.5rem;
-
-  &__content {
-    padding: 2rem auto;
-    width: 70%;
-  }
-}
-
-.location {
-
-  &__slides {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  &__desc {
-    width: 43rem;
-  }
-}
-
-.faq {
-  &__title {
-    font-size: 2rem;
-  }
-  &__wrapper {
-    &__skull {
-      display: block;
-      width: 14rem;
-      margin: 0.5rem;
+    &__content {
+      padding: 2rem auto;
+      width: 70%;
     }
   }
-}
 
+  .location {
+    &__slides {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    &__desc {
+      width: 43rem;
+    }
+  }
+
+  .faq {
+    &__title {
+      font-size: 2rem;
+    }
+    &__wrapper {
+      &__skull {
+        display: block;
+        width: 14rem;
+        margin: 0.5rem;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 1024px) {
+  .location {
+    font-size: 1rem;
 
-.location {
-  font-size: 1rem;
-
-  &__slides {
-    flex-direction: row-reverse;
+    &__slides {
+      flex-direction: row-reverse;
+    }
   }
-}
 
-.faq {
-  &__wrapper {
-    &__faq {
-      font-size: 1rem;
+  .faq {
+    &__wrapper {
+      &__faq {
+        font-size: 1rem;
+      }
     }
   }
 }
 
-}
-
 @media only screen and (min-width: 1440px) {
-
 }
-
 </style>
