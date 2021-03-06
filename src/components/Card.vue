@@ -10,6 +10,7 @@
     <band-modal ref="bandModal">
       <template v-slot:header>
         <iframe
+          v-if="vidUrl"
           class="card__vid"
           width="560"
           height="315"
@@ -18,6 +19,7 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         />
+        <img class="card__modalImg" v-else :src="imgUrl">
         <h3>{{ name }}</h3>
         <span>({{ genre }})</span>
       </template>
@@ -118,6 +120,12 @@ export default {
     filter: grayscale(100%);
   }
 
+  &__modalImg {
+    margin: 0 auto;
+    width: 100%;
+    object-fit: cover;
+  }
+
   &__vid {
     margin: 0 auto;
   }
@@ -152,6 +160,10 @@ export default {
 
     &__img {
       height: 14rem;
+    }
+
+    &__modalImg {
+      object-fit: contain
     }
   }
 }

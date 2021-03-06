@@ -179,6 +179,7 @@ export default {
   &__footer {
     display: flex;
     justify-content: space-between;
+    height: 1.7rem;
   }
 }
 
