@@ -1,18 +1,16 @@
 {
   "app": {
-    "title": "Barbar Feast 2021 | Ametlik"
+    "title": "Barbar Feast 2021 - KOLM PÄEVA KODUMAIST KÜTET"
   },
   "content": {
     "slogan": "Kolm päeva kodumaist kütet",
     "lineup": "Bändid",
-    "july": "juuli",
     "tickets": "Osta pilet",
     "tickets2": "Piletid",
     "construction": "Varuge veidi kannatust, selle lehe kallal käib töö"
   },
   "nav": {
     "home": "Avaleht",
-    "about": "Festivalist",
     "program": "Kava",
     "info": "Lisainfo"
   },
@@ -28,25 +26,25 @@
     "q1": "Kus festival toimub?",
     "a1": "Barbar Feast 2021 leiab aset põnevas Viikingite külas, ümbritsetuna Kose vallas asuva Saula küla kaunist loodusest.",
     "q2": "Kus magada saab?",
-    "a2": "Viikingite küla pakub elamusmajutust erinevates majades, majakestes ja saunades. Samuti on võimalik kasutada telklat, mis on festivali raames TASUTA. Telkida saab nii omas telgis kui rentida külalt muinas- või viikingtelke.",
+    "a2": "Kuigi Viikingite Küla pakub aastaringset elamusmajutust, on neil kõik kohad selleks korraks täitunud. Küll aga on võimalik kasutada telklat, mis on festivali raames TASUTA (festivalipassi hinnas sees).",
     "q3": "Kas oma jookidega saab sisse?",
-    "a3": "Ei.",
+    "a3": "Ei. Janu kustutamiseks leiate abivahendeid festivali turualalt, kust leiate lisaks teadatuntud klassikutele mitmeid kohalikke õlletootjaid.",
     "q4": "Kas Eero maksab võla ära?",
     "a4": "See pole HRL!",
     "q5": "Kas kaardiga saab maksta?",
-    "a5": "Tõenäoliselt, kuid me soovitame sellegipoolest ka sularaha kaasa võtta juhuks, kui tekib elektrikatkestus või mõni muu tehniline rike.",
+    "a5": "Absoluutselt, kuid sellegipoolest soovitame ka sularaha kaasa võtta.",
     "q6": "Kas ma võin...?",
-    "a6": "Kui see pole vastuolus Viikingite küla kodukorraga, siis tõenäoliselt küll."
+    "a6": "Kui see pole vastuolus Viikingite küla kodukorraga, Eesti Vabariigi põhiseadusega ega riku sind ümbritsevate inimeste ja loomade tervist, vara ega heaolu, siis tõenäoliselt küll. Kui aga mõtteis on miskit pöörast, palun anna meile sellest varakult ette teada."
   },
   "location": {
-    "location": "Viikingite Küla, Kose vald",
     "header": "Asukoht",
-    "desc": "Kus? Viikingite Külas - Kose vallas, täpsemalt Saula külas. Festivali raames on meile väljastatud kaks lava - üks neist asub küla linnuses, teine jõe ääres. Lisaks lavadele on meil ka turuala merchi, toidu ja jookide müümiseks, palju tegevusi ning tasuta telkla!",
+    "desc": "Barbar Feast 2021 leiab aset Viikingite Külas - Kose vallas, täpsemalt Saula külas. Festivali raames on meile väljastatud kaks lava - üks neist asub küla linnuses, teine jõe ääres. Lisaks lavadele on meil ka turuala merchi, toidu ja jookide müümiseks, plaanis palju ägedaid tegevusi ning tasuta (st festivalipassi hinnas sees) telkimisala!",
     "more": "Rohkem infot Viikingite Küla kohta leiab küla",
     "link": "kodulehelt"
   },
   "sponsors": {
-    "title": "Festivali toetavad"
+    "title": "Festivali toetavad",
+    "upcoming": "Info festivali toetajate kohta lisandub peagi!"
   },
   "footer": {
     "msg": "Barbar Feasti toob teieni rokiklubi Barbar!",
@@ -83,6 +81,6 @@
     "27": "Kiired ja karvased! See on Riser, vanakooli thrashi ja heavy metalit viljelev bänd",
     "28": "Eesti keele sünge kõla toob esile sümfooniline ja aegumatult kõlav black metaliga",
     "29": "Kui sulle meeldib vanakooli heavy siis DJ Taat on sinu saatan plaadimängija taga",
-    "30": "Mees kes ei jäta ühtegi kivi pööramata! Läbimõeldud kava arvestab iga rock & metal melomaani soovunelmatega & vaibib nagu kurat"
+    "30": "Mees, kes ei jäta ühtegi kivi pööramata! Läbimõeldud kava arvestab iga rock & metal melomaani soovunelmatega & vaibib nagu kurat"
   }
 }

@@ -46,7 +46,7 @@
     <section id="sponsors" class="sponsors">
       <h1 class="sponsors__title">{{ $t("sponsors.title") }}</h1>
       <div class="sponsors_wrapper">
-        Siia tulevad sponsorite logod.
+        {{ $t("sponsors.upcoming") }}
       </div>
     </section>
   </div>
@@ -108,7 +108,7 @@ body {
   }
 }
 
-.lineup {
+/* .lineup {
   padding: 2rem 0;
   background: var(--secondary-bg-color);
   display: flex;
@@ -122,7 +122,7 @@ body {
     color: var(--secondary-text-color);
     text-transform: uppercase;
   }
-}
+} */
 
 .faq {
   color: var(--secondary-text-color);
@@ -262,6 +262,12 @@ body {
 
   .location {
     font-size: 1rem;
+    align-items: center;
+
+    &__desc {
+      margin: 0 5rem;
+      width: 35rem;
+    }
 
     &__slides {
       flex-direction: row-reverse;

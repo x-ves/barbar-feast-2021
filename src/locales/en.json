@@ -1,11 +1,10 @@
 {
   "app": {
-    "title": "Barbar Feast 2021 | Official"
+    "title": "Barbar Feast 2021 - THREE DAYS OF TRUE ESTONIAN HEAT"
   },
   "content": {
     "slogan": "Three days of true Estonian heat",
     "lineup": "Lineup",
-    "july": "july",
     "tickets": "Buy a ticket",
     "tickets2": "Tickets",
     "construction": "Please remain patient, we're currently working on this page"
@@ -27,15 +26,15 @@
     "q1": "Where does the festival take place?",
     "a1": "Barbar Feast 2021 takes place in the exciting Viking Village surrounded by the beautiful nature of Saula village in Kose parish.",
     "q2": "Where can we sleep?",
-    "a2": "The Viking Village offers all kinds of experiential accommodation in different houses, saunas, cabins, aswell as tents (either your own or their historically authentic and Viking tents).",
+    "a2": "While the Viking Village offers all kinds of experiential accommodation all year round, all spots have been filled for now. Nevertheless we welcome you to our camping grounds free of charge (other than the festival pass).",
     "q3": "Are we allowed in with our own drinks?",
-    "a3": "No.",
+    "a3": "No. You can find tools for quenching your thirst in the festival's market area, where you will find several local brewers in addition to the well-known classics.",
     "q4": "Will Eero pay his debt?",
     "a4": "This is not HRL!",
-    "q5": "Can I pay for stuff with debit?",
-    "a5": "Probably, but we advise you to have some cash on you in case of power outages and other unexpected bugs.",
+    "q5": "Can I pay for stuff with plastic?",
+    "a5": "Absolutely! Still we advise you to have some cash on you aswell.",
     "q6": "Can we...?",
-    "a6": "As long as it's not against the rules of the Viking Village, probably."
+    "a6": "As long as it's not against the rules of the Vikings Village, the Constitution of the Republic of Estonia and does not violate or harm the health, property or well-being of the people and animals around you, you can. However, if there is anything crazy on your mind, please let us know well in advance."
   },
   "location": {
     "location": "Vikings Village, Kose parish",
@@ -45,7 +44,8 @@
     "link": "website"
   },
   "sponsors": {
-    "title": "Festival supporters"
+    "title": "Festival supporters",
+    "upcoming": "Information about our supporters will be added shortly!"
   },
   "footer": {
     "msg": "Barbar Feast is brought to you by rock club Barbar!",

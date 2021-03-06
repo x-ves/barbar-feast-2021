@@ -39,8 +39,8 @@ export default {
   --card-bg-color: rgb(107, 14, 14);
   --card-bg-hover: rgb(161, 20, 20);
   --main-text-color: rgb(234, 233, 221);
-  --secondary-text-color: rgb(104, 255, 255);
-  --hover-text-color: rgb(59, 212, 220);
+  --secondary-text-color: rgb(146, 221, 222);
+  --hover-text-color: rgb(114, 196, 202);
   --darkest-of-the-dark: rgb(43, 27, 27);
   --main-btn-bg: rgb(66, 40, 40);
   --secondary-btn-bg: rgb(43, 27, 27);

@@ -1,18 +1,16 @@
 {
   "app": {
-    "title": "Barbar Feast 2021 | Virallinen"
+    "title": "Barbar Feast 2021 - KOLME PÄIVÄÄ VIROLAISTA LÄMMITYSTÄ"
   },
   "content": {
     "slogan": "Kolme päivää Virolaista lämmitystä",
     "lineup": "Esiintyjät",
-    "july": "heinäkuu",
     "tickets": "Osta lippu",
     "tickets2": "Liput",
     "construction": "Odota hetki!"
   },
     "nav": {
       "home": "Kotisivu",
-      "about": "Festivaalista",
       "program": "Aikataulu",
       "info": "Info"
     },
