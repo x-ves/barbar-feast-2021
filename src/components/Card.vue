@@ -19,7 +19,7 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         />
-        <img class="card__modalImg" v-else :src="imgUrl">
+        <img class="card__modalImg" v-else :src="imgUrl" />
         <h3>{{ name }}</h3>
         <span>({{ genre }})</span>
       </template>
@@ -163,7 +163,7 @@ export default {
     }
 
     &__modalImg {
-      object-fit: contain
+      object-fit: contain;
     }
   }
 }

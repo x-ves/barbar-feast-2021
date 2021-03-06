@@ -253,7 +253,6 @@ body {
 }
 
 @media only screen and (min-width: 1024px) {
-
   .welcome {
     &__desc {
       border: 1rem dashed var(--darkest-of-the-dark);

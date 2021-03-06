@@ -1,7 +1,7 @@
 <template>
   <div class="info">
-      <h1>{{ $t("content.construction") }}</h1>
-      <img src="/metalconstruction.gif" alt="" style="width: 650px" />
+    <h1>{{ $t("content.construction") }}</h1>
+    <img src="/metalconstruction.gif" alt="" style="width: 650px" />
     <!-- <InfoCards /> -->
   </div>
 </template>
@@ -10,8 +10,8 @@
 /* import InfoCards from "@/components/InfoCards.vue"; */
 
 export default {
-  name: "Info",
-/*   components: { InfoCards } */
+  name: "Info"
+  /*   components: { InfoCards } */
 };
 </script>
 
