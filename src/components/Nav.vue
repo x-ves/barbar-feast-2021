@@ -72,6 +72,7 @@ export default {
 
     &__link {
       color: var(--main-text-color);
+      font-size: 1.2rem;
       text-transform: uppercase;
       text-decoration: none;
       letter-spacing: 1px;
@@ -89,6 +90,7 @@ export default {
     cursor: pointer;
     padding: 10px;
     transition: all 0.4s;
+    font-size: 1.2rem;
   }
 }
 
@@ -109,6 +111,10 @@ export default {
       display: flex;
       flex-direction: row;
       justify-content: flex-end;
+
+      &__link {
+        font-size: 1rem;
+      }
     }
   }
 }

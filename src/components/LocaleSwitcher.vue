@@ -35,7 +35,7 @@ export default {
     background: none;
     padding: 10px 44%;
     font-family: inherit;
-    font-size: inherit;
+    font-size: 1.2rem;
     line-height: inherit;
     outline: none;
     transition: 0.3s all;
@@ -89,6 +89,7 @@ export default {
     select {
       width: fit-content;
       padding: 10px 1.8rem 10px 10px;
+      font-size: 1rem;
     }
 
     .custom-arrow {

@@ -3,6 +3,7 @@ module.exports = {
     config.plugins.delete("prefetch");
   },
   pluginOptions: {
+    publicPath: "",
     i18n: {
       locale: "et",
       fallbackLocale: "en",

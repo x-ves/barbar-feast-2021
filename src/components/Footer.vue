@@ -7,7 +7,7 @@
         <br />
         <p>
           {{ $t("footer.phone") }}:
-          <strong><a href="tel:+37258518184">+372 5851 8184</a></strong> <br />
+          <strong><a href="tel:+37258377788">+372 5837 7788</a></strong> <br />
           {{ $t("footer.mail") }}:
           <strong
             ><a href="mailto:barbarestonia@gmail.com"
