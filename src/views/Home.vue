@@ -81,7 +81,7 @@ body {
 }
 
 .welcome {
-  padding-top: 2.8rem;
+  padding-top: 2.7rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,7 +98,7 @@ body {
   }
 
   &__content {
-    padding-top: 1rem;
+    padding: 1.5rem 0;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -126,11 +126,11 @@ body {
 
 .faq {
   color: var(--secondary-text-color);
-  padding: 1rem 0;
+  padding: 2rem 0;
 
   &__title {
     font-size: 2rem;
-    margin: 1rem 0 0 0;
+    margin: 0;
     text-align: center;
     text-transform: uppercase;
   }
@@ -153,6 +153,7 @@ body {
 }
 
 .location {
+  padding: 1rem 0 0 0;
   font-size: 1.1rem;
   display: flex;
   flex-direction: column;
@@ -204,14 +205,14 @@ body {
 }
 
 .sponsors {
-  padding: 1rem 0;
+  padding: 2rem 0;
   background: radial-gradient(var(--main-bg-color), var(--secondary-bg-color));
   color: var(--secondary-text-color);
   text-align: center;
 
   &__title {
     color: var(--secondary-text-color);
-    margin: 1rem;
+    margin: 0 0 1rem 0;
     font-size: 2rem;
     text-transform: uppercase;
   }
@@ -228,6 +229,7 @@ body {
   }
 
   .location {
+
     &__slides {
       display: flex;
       justify-content: space-evenly;
@@ -262,6 +264,7 @@ body {
   .location {
     font-size: 1rem;
     align-items: center;
+    padding: 0;
 
     &__desc {
       margin: 0 5rem;

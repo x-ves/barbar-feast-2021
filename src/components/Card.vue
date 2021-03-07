@@ -95,7 +95,8 @@ export default {
   margin: 0.5rem;
   width: 17rem;
   height: 15rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  line-height: 1.1;
   background: radial-gradient(var(--card-bg-hover), var(--card-bg-color));
   box-shadow: 0 0 5px rgba(34, 1, 1, 0.3);
   display: flex;
@@ -134,6 +135,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 0.25rem;
 
     h3 {
       margin: 0;
