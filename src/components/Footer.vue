@@ -10,8 +10,8 @@
           <strong><a href="tel:+37258377788">+372 5837 7788</a></strong> <br />
           {{ $t("footer.mail") }}:
           <strong
-            ><a href="mailto:barbarestonia@gmail.com"
-              >barbarestonia@gmail.com</a
+            ><a href="mailto:info@barbarfeast.ee"
+              >info@barbarfeast.ee</a
             ></strong
           >
         </p>
