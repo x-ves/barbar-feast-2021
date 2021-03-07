@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <div v-if="isLoading">LOADING</div>
+    <div v-if="isLoading" style="display: flex;">
+      <img src="loadingPacman.svg" alt="" style="margin: 13rem auto;" />
+    </div>
     <div v-else>
       <Nav></Nav>
       <div class="container">

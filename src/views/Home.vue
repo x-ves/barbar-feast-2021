@@ -229,7 +229,6 @@ body {
   }
 
   .location {
-
     &__slides {
       display: flex;
       justify-content: space-evenly;

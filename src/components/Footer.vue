@@ -16,33 +16,33 @@
           >
         </p>
         <div class="footer__clubsocials">
-                  <span class="socsp"
-          ><font-awesome-icon
-            class="footer__socials__icon"
-            :icon="['fab', 'facebook-square']"
-          ></font-awesome-icon
-          ><a href="https://www.facebook.com/barbarestonia/" target="_blank"
-            >@barbarestonia</a
-          ></span
-        >
-        <span class="socsp"
-          ><font-awesome-icon
-            class="footer__socials__icon"
-            :icon="['fab', 'instagram']"
-          ></font-awesome-icon
-          ><a href="https://www.instagram.com/barbarestonia/" target="_blank"
-            >@barbarestonia</a
-          ></span
-        >
-        <span class="socsp"
-          ><font-awesome-icon
-            class="footer__socials__icon"
-            :icon="['fab', 'facebook-square']"
-          ></font-awesome-icon
-          ><a href="https://www.facebook.com/barbaramfiteater" target="_blank"
-            >@barbaramfiteater</a
-          ></span
-        >
+          <span class="socsp"
+            ><font-awesome-icon
+              class="footer__socials__icon"
+              :icon="['fab', 'facebook-square']"
+            ></font-awesome-icon
+            ><a href="https://www.facebook.com/barbarestonia/" target="_blank"
+              >@barbarestonia</a
+            ></span
+          >
+          <span class="socsp"
+            ><font-awesome-icon
+              class="footer__socials__icon"
+              :icon="['fab', 'instagram']"
+            ></font-awesome-icon
+            ><a href="https://www.instagram.com/barbarestonia/" target="_blank"
+              >@barbarestonia</a
+            ></span
+          >
+          <span class="socsp"
+            ><font-awesome-icon
+              class="footer__socials__icon"
+              :icon="['fab', 'facebook-square']"
+            ></font-awesome-icon
+            ><a href="https://www.facebook.com/barbaramfiteater" target="_blank"
+              >@barbaramfiteater</a
+            ></span
+          >
         </div>
       </div>
       <div class="footer__socials">
@@ -51,7 +51,9 @@
             class="footer__socials__icon"
             :icon="['fas', 'calendar-check']"
           ></font-awesome-icon
-          ><a href="https://www.facebook.com/events/1554988891317342" target="_blank"
+          ><a
+            href="https://www.facebook.com/events/1554988891317342"
+            target="_blank"
             >Barbar Feast 2021</a
           ></span
         >
@@ -85,7 +87,7 @@ export default {};
 <style lang="scss">
 .footer {
   width: 100%;
-    padding: 1.5rem;
+  padding: 1.5rem;
   background: linear-gradient(var(--main-bg-color), rgb(101, 39, 39));
   color: var(--main-text-color);
   letter-spacing: 1px;
