@@ -203,6 +203,14 @@ export default {};
       width: 125px;
     }
 
+    &__clubsocials {
+      width: fit-content;
+
+      span {
+        margin-left: 0.5rem;
+      }
+    }
+
     &__contacts {
       width: fit-content;
     }
