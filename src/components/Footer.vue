@@ -15,9 +15,8 @@
             ></strong
           >
         </p>
-      </div>
-      <div class="footer__socials">
-        <span class="socsp"
+        <div class="footer__clubsocials">
+                  <span class="socsp"
           ><font-awesome-icon
             class="footer__socials__icon"
             :icon="['fab', 'facebook-square']"
@@ -33,6 +32,36 @@
           ></font-awesome-icon
           ><a href="https://www.instagram.com/barbarestonia/" target="_blank"
             >@barbarestonia</a
+          ></span
+        >
+        <span class="socsp"
+          ><font-awesome-icon
+            class="footer__socials__icon"
+            :icon="['fab', 'facebook-square']"
+          ></font-awesome-icon
+          ><a href="https://www.facebook.com/barbaramfiteater" target="_blank"
+            >@barbaramfiteater</a
+          ></span
+        >
+        </div>
+      </div>
+      <div class="footer__socials">
+        <span class="socsp"
+          ><font-awesome-icon
+            class="footer__socials__icon"
+            :icon="['fas', 'calendar-check']"
+          ></font-awesome-icon
+          ><a href="https://www.facebook.com/events/1554988891317342" target="_blank"
+            >Barbar Feast 2021</a
+          ></span
+        >
+        <span class="socsp"
+          ><font-awesome-icon
+            class="footer__socials__icon"
+            :icon="['fab', 'facebook-square']"
+          ></font-awesome-icon
+          ><a href="https://www.facebook.com/barbarfeast/" target="_blank"
+            >@barbarfeast</a
           ></span
         >
         <span class="socsp"
@@ -99,13 +128,26 @@ export default {};
     }
   }
 
+  &__clubsocials {
+    margin: 0.25rem 0;
+    width: 18rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    & span:nth-of-type(2) {
+      margin-left: 0.5rem;
+    }
+  }
+
   &__socials {
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: left;
     width: fit-content;
-    height: 6rem;
+    height: 5rem;
 
     a {
       text-decoration: none;
@@ -120,7 +162,7 @@ export default {};
     &__icon {
       margin-right: 0.25rem;
       font-size: 1.25rem;
-      vertical-align: middle;
+      vertical-align: text-top;
     }
   }
 }
@@ -134,6 +176,10 @@ export default {};
     img {
       width: 150px;
       height: 150px;
+    }
+
+    &__socials {
+      margin: 0;
     }
 
     &__contacts {

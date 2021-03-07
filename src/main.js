@@ -8,7 +8,8 @@ import {
   faBars,
   faTimes,
   faLongArrowAltLeft,
-  faHome
+  faHome,
+  faCalendarCheck
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookSquare,
@@ -26,7 +27,8 @@ library.add(
   faBars,
   faTimes,
   faLongArrowAltLeft,
-  faHome
+  faHome,
+  faCalendarCheck
 );
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
