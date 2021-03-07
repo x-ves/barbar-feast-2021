@@ -85,7 +85,7 @@ export default {};
 <style lang="scss">
 .footer {
   width: 100%;
-  padding: 1.5rem;
+    padding: 1.5rem;
   background: linear-gradient(var(--main-bg-color), rgb(101, 39, 39));
   color: var(--main-text-color);
   letter-spacing: 1px;
@@ -129,7 +129,7 @@ export default {};
   }
 
   &__clubsocials {
-    margin: 0.25rem 0;
+    margin: 0.5rem 0 0.25rem 0;
     width: 18rem;
     display: flex;
     flex-wrap: wrap;
