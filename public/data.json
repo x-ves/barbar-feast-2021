@@ -98,7 +98,7 @@
     {
         "id": 9,
         "name": "Dead Furies",
-        "genre": "Rock n' Roll",
+        "genre": "Rock 'n' Roll",
         "country": "EST",
         "imgUrl": "/DeadFuries.jpg",
         "vidUrl": "https://www.youtube-nocookie.com/embed/ue7A-uTC3wo",
@@ -110,7 +110,7 @@
     {
         "id": 10,
         "name": "Killhall",
-        "genre": "Trash / Death / Groove",
+        "genre": "Thrash / Death / Groove",
         "country": "FIN/EST",
         "imgUrl": "/KillHall.jpg",
         "vidUrl": "",
@@ -170,7 +170,7 @@
     {
         "id": 15,
         "name": "SOLD",
-        "genre": "Melodic modern metal",
+        "genre": "Modern Melodic metal",
         "country": "EST",
         "imgUrl": "/SOLD.jpg",
         "vidUrl": "https://www.youtube-nocookie.com/embed/erFcswwoBVg",

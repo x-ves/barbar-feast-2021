@@ -26,7 +26,9 @@
           <h1 class="location__title">{{ $t("location.header") }}</h1>
           <p class="location__desc">
             {{ $t("location.desc") }} <br /><br />
-
+            {{ $t("location.event") }}
+            <a href="https://www.facebook.com/events/1554988891317342" target="_blank">{{ $t("location.eventlink") }}</a>
+            <br>
             {{ $t("location.more") }}
             <a href="https://www.viikingitekyla.ee/" target="_blank">{{
               $t("location.link")

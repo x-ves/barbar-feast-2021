@@ -1,86 +1,88 @@
 {
   "app": {
-    "title": "Barbar Feast 2021 - KOLME PÄIVÄÄ VIROLAISTA LÄMMITYSTÄ"
+    "title": "Barbar Feast 2021 - KOLME PÄIVÄÄ EESTILÄISTÄ TYKITYSTÄ"
   },
   "content": {
-    "slogan": "Kolme päivää Virolaista lämmitystä",
-    "lineup": "Esiintyjät",
-    "tickets": "Osta lippu",
+    "slogan": "Kolme päivää eestiläistä tykitystä",
+    "lineup": "Bändit",
+    "tickets": "Osta liput",
     "tickets2": "Liput",
-    "construction": "Odota hetki!"
+    "construction": "Ottakaa rauhallisesti esim Lonkeroa, sivut päivittyvät lähiaikoina"
   },
     "nav": {
       "home": "Kotisivu",
-      "program": "Aikataulu",
-      "info": "Info"
+      "program": "Ohjelma",
+      "info": "Lisätiedot"
     },
     "counter": {
-      "gates": "Portit avataan",
+      "gates": "Porttien aukeamiseen",
       "days": "päivää",
       "hours": "tuntia",
       "minutes": "minuuttia",
-      "seconds": "sekuntia"
+      "seconds": "sekunttia"
     },
     "faq": {
       "title": "Usein kysytyt kysymykset",
-      "q1": "Missä festivaali tapahtuu?",
-      "a1": "Barbar Feast 2021 järjestetään jännittävässä viikinkikylässä, joka sijaitsee Saulan kylän kauniissa luonnossa Kosen kunnassa.",
-      "q2": "Missä voimme nukkua?",
-      "a2": "Viikinkien kylä tarjoaa kaikenlaista kokemusmajoitusta erilaisissa taloissa ja mökeissä, saunoissa, mutta myös teltoissa (voit leiriytyä omassa teltassasi sekä muinaisissa ja viikinkiteltoissa).",
-      "q3": "Pääsetkö sisään juomiesi kanssa?",
-      "a3": "Ei.",
-      "q4": "Maksaako Eero velkansa?",
-      "a4": "Tämä ei ole HRL!",
-      "q5": "Voinko maksaa kortilla?",
-      "a5": "Todennäköisesti, mutta suosittelemme myös käteisen ottamista mukaan sähkökatkoksen tai muun teknisen vian sattuessa.",
-      "q6": "Voinko mä...?",
-      "a6": "Jos tämä ei ole ristiriidassa viikinkikylän sääntöjen kanssa, niin todennäköisesti."
+      "q1": "Missäs tää festari on?",
+      "a1": "Barbar Feast 2021 on luonnonkauniissa Viikinkien kylässä, Kose kunnassa, noin 30km etelään Tallinnasta kohti Tartua",
+      "q2": "Kuidas festivalile saab?",
+      "a2": "Jala, (mootor)rattaga, autoga (kohapeal valvega parkla), Festivali \"Hop On Fuck Off\" bussiga - info leia siit",
+      "q3": "Mites majoitus?",
+      "a3": "Viikinkien kylässä on moniakin mökkimajoituksia, mutta luulen, että kaikki varattu jo kun sinä tätä luet... Mutta, hei, telttakylät ovat täysin ilmaisia festaripassin ostaneille! Ja mikä olisikaan parempaa kuin after party telttojen luona!",
+      "q4": "Saako omat juomat tuoda mukana festarialueelle?",
+      "a4": "No hei, hyvä kysymys... Ei saa. Janon sammuttamiseksi välineet löytyvät festivaalialueelta, jossa useat paikalliset pienpanimot tarjoavat tuotteitaan edulliseen hintaan.",
+      "q5": "Mites korttimaksu festarialueella?",
+      "a5": "No tottakai, mutta aina on hyvä olla käteistä mukana.",
+      "q6": "Voinko minä...?",
+      "a6": "No tottakai, kunhan se ei ole Viikinkien kylän järjestyssääntöjen vastainen tai Eesti Tasavallan perustuslain vastainen asia ja ei häiritse lähiympäristössä olevia ihmisiä tai eläimiä, ja jos sinulla on mielessä jotain erikoista, niin anna meille infoa etukäteen, varmati löydämme ratkaisun."
     },
     "location": {
-      "location": "Viikinkikylä, Kosen seurakunta",
-      "header": "Sijainti",
-      "desc": "",
-      "more": "",
-      "link": ""
+      "header": "Paikka",
+      "desc": "Barbar Feast 2021 on tänä vuonna Viikinkien kylässä - Kose kunnassa, tarkalleen Saula kylässä. Festivaalilla on kaksi lavaa, siis artisteille, - toinen on linnakkeen sisällä ja toinen joen rannalla. Lisäksi festivaalialueelta löytyy myyntialue, josta saa ostaa bändikamaa, paitoja yms, sekä ruokaa ja juotavaa. Lisäksi kaikenlaista tekemistä pitkin päivää, jotka sisältyvät festaripassiin!",
+      "event": "Barbar Feast 2021 Facebook üritus leia",
+      "eventlink": "siit.",
+      "more": "Lisätietoja Viikinkien kylästä löydät",
+      "link": "kotisivulta"
     },
     "sponsors": {
-      "title": "Festivaalia tukevat"
+      "title": "Festivaalia tukevat",
+      "upcoming": "Tästä tulee myöhemmin infoa!"
     },
     "footer": {
-      "msg": "Barbar Feasti tuo sinulle rockklubin Barbar!",
+      "msg": "Barbar Feastin mahdollistaa Eestin kovin rockklubi Barbar!",
       "phone": "Tel",
-      "mail": "E-posti"
+      "mail": "E-mail"
     },
     "bands": {
-      "1": "",
-      "2": "",
-      "3": "",
-      "4": "",
-      "5": "",
-      "6": "",
-      "7": "",
-      "8": "",
-      "9": "",
-      "10": "",
-      "11": "",
-      "12": "",
-      "13": "",
-      "14": "",
-      "15": "",
-      "16": "",
-      "17": "",
-      "18": "",
-      "19": "",
-      "20": "",
-      "21": "",
-      "22": "",
-      "23": "",
-      "24": "",
-      "25": "",
-      "26": "",
-      "27": "",
-      "28": "",
-      "29": "",
-      "30": ""
+      "1": "Jos et ole ennen nähnyt Kurjam-ia, niin olet jäänyt paljosta paitsi. He lyövät aina ja aina vaan kovemmin, joka kerta! Autsh!",
+      "2": "Pidätkö eestiläisestä kansanperiteestä, karvaisista miehistä ja ulvovista susiata?",
+      "3": "Todella tarkka lyriikka, laadukas metallimusiikki ja täysillä eläytyminen - mitä muuta voi antaa?",
+      "4": "Paras festaribändi, pistää porukan liikkeelle jo ennen ensimmäistä huikkaa!",
+      "5": "Vuoden 2020 aktiivisin bändi on....armoton.",
+      "6": "Eestimetal scenen uranuurtajat ja jo 40 vuotta veivattu, eli 40 vuoden juhlavuosi kuten myös Metallicalla.",
+      "7": "He tuhoavat teidän korvatulpat, parasta death metallia sävytettynä naislaulajalla",
+      "8": "Tukevat riffit, kunnon jytinä ja vahva laulu pakottavat sinut laven eteen",
+      "9": "Kunnon lataus rock n´rolla Tallinnasta",
+      "10": "Neljä suomalaista ja yksi eestiläinen...saako he mitään aikaiseksi, no totta kai, kunnon METALLIMÄTTÖÄ!",
+      "11": "Porukan starttaajat nr 1. Eestissä! Legendat! Got rockabilly? Eikö ollut hyvä, hä?",
+      "12": "Lehmä- ja härkä rock, yleiskäyttörokkia - jopa isoäitisi pitäisi Teravmoonista",
+      "13": "Jos tykkäät Devin Townsend, Mastodon, Gojira & LOG niin tämä on sun juttu: DREADPIN",
+      "14": "SIIA KÄIB VAL TVOARI KIRJELDUS",
+      "15": "Helposti kuunneltava ja mukaansatempaava suosittu modernimetalliyhtye nais- sekä mieslaulajalla",
+      "16": "Perinteistä blackia, ilman mitään trickejä",
+      "17": "Rakkaussuhteen stoner, melodisen rockin ja raskaiden riffijen välillä.",
+      "18": "Kaukaa etelästä tulevat metallilänkkärit.",
+      "19": "Külmking ammentaa inspiraatiota virolaisesta kansanperinteestä ja yhdistää siihen modernin raskasmusiikkiin.",
+      "20": "Kansanperinnteellä historialla, ja mytologialla maustettua death metallia",
+      "21": "Suoraselkäistä Eesti-Metallia",
+      "22": "Tapper soittaa fantasiametallia, maustettuna pagan, death ja black metallilla.",
+      "23": "Jotain raskaampaa, rokkimaista sekä seksuaalisesti houkuttelevaa ja sitä myös 100% lavalla",
+      "24": "Coverage varmistaa, että saamme juhlia uudelleen ... maailman parhaan hard rockin tahdissa!",
+      "25": "4 kuolemanratsastajaa antavat soittimille kyytiä ja tuovat teille Metallican parhaimmiston",
+      "26": "Tumma, hypnotisoiva, dynaaminen sekä mukaansatempaavaa alkuvoimaa",
+      "27": "Nopeaa ja karvaista! Tämä on Riser, vanhan koulukunnan thrash- ja heavy metal -yhtye",
+      "28": "Eesti kielen synkkyys tuo esiin sinfonisen ja ajattoman black metallin",
+      "29": "Ja kuin tykkäät old school heavystä niin DJ Taat pyörittää sulle pirullisesti levyjä.",
+      "30": "Mies, joka ei jätä kiveäkään kääntämättä! Hyvin harkitussa suunnitelmassa otetaan huomioon jokaisen rock & metal -musiikin rakastajan toiveet"
     }
 }
