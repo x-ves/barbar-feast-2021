@@ -21,7 +21,7 @@
         $t("nav.info")
       }}</LocalizedLink>
     </div>
-    <span class="nav__icon" @click="openMenu">
+    <span class="nav__icon" @click="toggleMenu">
       <font-awesome-icon :icon="['fas', 'bars']"></font-awesome-icon>
     </span>
   </nav>
@@ -33,7 +33,7 @@ import LocalizedLink from "@/components/LocalizedLink";
 export default {
   components: { LocaleSwitcher, LocalizedLink },
   methods: {
-    openMenu: function() {
+    toggleMenu: function() {
       const navLinks = document.querySelector(".nav__links");
       const langSwitch = document.querySelector(".nav__langSwitcher");
       const linkStyle = window.getComputedStyle(navLinks);
