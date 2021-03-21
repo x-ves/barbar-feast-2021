@@ -160,5 +160,57 @@ export default {
       }
     }
   }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .carousel__view {
+      margin: 1rem auto;
+      width: inherit;
+    }
+
+  .carousel {
+    min-width: 30em;
+    min-height: 24em;
+    width: 100%;
+
+    &__controls {
+      min-width: 30em;
+      min-height: 28em;
+      width: fit-content;
+    }
+
+    .slide {
+      &__img {
+        min-height: 24em;
+        min-width: 30em;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+    .carousel__view {
+      margin: 1rem auto;
+      width: inherit;
+    }
+
+  .carousel {
+    min-width: 40em;
+    min-height: 24em;
+    width: 100%;
+
+    &__controls {
+      min-width: 40em;
+      min-height: 28em;
+      width: fit-content;
+    }
+
+    .slide {
+      &__img {
+        min-height: 24em;
+        min-width: 30em;
+      }
+    }
+  }
 }
 </style>

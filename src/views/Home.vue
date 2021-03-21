@@ -270,14 +270,21 @@ body {
     font-size: 1rem;
     align-items: center;
     padding: 0;
+    width: 100%;
 
     &__desc {
-      margin: 0 5rem;
-      width: 35rem;
+      width: fit-content;
+      max-width: 40rem;
+      width: 90%;
     }
 
     &__slides {
+      width: 100%;
       flex-direction: row-reverse;
+
+      &__slider {
+        width: 50%;
+      }
     }
   }
 
