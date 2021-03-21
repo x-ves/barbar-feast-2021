@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div v-if="isLoading" style="display: flex;">
-      <img src="loadingPacman.svg" alt="" style="margin: 13rem auto;" />
+      <img src="barbar1.png" class="loadImg" alt=""/>
     </div>
     <div v-else>
       <Nav></Nav>
@@ -80,5 +80,20 @@ body {
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+.loadImg {
+  margin: 13rem auto;
+  width: 200px;
+  -webkit-animation: rotation 3s infinite linear;
 }
 </style>
