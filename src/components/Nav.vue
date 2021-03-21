@@ -1,7 +1,7 @@
 <template>
   <nav class="nav">
     <LocaleSwitcher class="nav__langSwitcher" />
-    <div class="nav__links">
+    <div class="nav__links" @click="toggleMenu">
       <LocalizedLink class="nav__links__link" to="/">{{
         $t("nav.home")
       }}</LocalizedLink>
@@ -37,12 +37,15 @@ export default {
       const navLinks = document.querySelector(".nav__links");
       const langSwitch = document.querySelector(".nav__langSwitcher");
       const linkStyle = window.getComputedStyle(navLinks);
-      if (linkStyle.getPropertyValue("display") === "none") {
-        navLinks.style.display = "flex";
-        langSwitch.style.display = "block";
-      } else {
-        navLinks.style.display = "none";
-        langSwitch.style.display = "none";
+      const width = window.innerWidth;
+      if (width < 768) {
+        if (linkStyle.getPropertyValue("display") === "none") {
+          navLinks.style.display = "flex";
+          langSwitch.style.display = "block";
+        } else {
+          navLinks.style.display = "none";
+          langSwitch.style.display = "none";
+        }
       }
     }
   }
