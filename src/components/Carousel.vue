@@ -160,13 +160,13 @@ export default {
       }
     }
   }
-  }
+}
 
-  @media only screen and (min-width: 1024px) {
-    .carousel__view {
-      margin: 1rem auto;
-      width: inherit;
-    }
+@media only screen and (min-width: 1024px) {
+  .carousel__view {
+    margin: 1rem auto;
+    width: inherit;
+  }
 
   .carousel {
     min-width: 30em;
@@ -189,10 +189,10 @@ export default {
 }
 
 @media only screen and (min-width: 1300px) {
-    .carousel__view {
-      margin: 1rem auto;
-      width: inherit;
-    }
+  .carousel__view {
+    margin: 1rem auto;
+    width: inherit;
+  }
 
   .carousel {
     min-width: 40em;
