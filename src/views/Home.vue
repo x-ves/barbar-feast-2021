@@ -49,7 +49,7 @@
         <FAQ class="faq__wrapper__faq" />
       </div>
     </section>
-<!--     <section id="sponsors" class="sponsors">
+    <!--     <section id="sponsors" class="sponsors">
       <h1 class="sponsors__title">{{ $t("sponsors.title") }}</h1>
       <div class="sponsors_wrapper">
         {{ $t("sponsors.upcoming") }}

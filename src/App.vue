@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div v-if="isLoading" style="display: flex;">
-      <img src="barbar1.png" class="loadImg" alt=""/>
+      <img src="barbar1.png" class="loadImg" alt="" />
     </div>
     <div v-else>
       <Nav></Nav>
@@ -83,12 +83,12 @@ body {
 }
 
 @-webkit-keyframes rotation {
-		from {
-				-webkit-transform: rotate(0deg);
-		}
-		to {
-				-webkit-transform: rotate(359deg);
-		}
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
 }
 
 .loadImg {
