@@ -1,4 +1,6 @@
 <template>
+<div>
+<div class="nav__backdrop" v-if="menuOpen" @click="toggleMenu"></div>
   <nav class="nav">
     <LocaleSwitcher class="nav__langSwitcher" />
     <div class="nav__links" @click="toggleMenu">
@@ -25,12 +27,18 @@
       <font-awesome-icon :icon="['fas', 'bars']"></font-awesome-icon>
     </span>
   </nav>
+  </div>
 </template>
 
 <script>
 import LocaleSwitcher from "@/components/LocaleSwitcher";
 import LocalizedLink from "@/components/LocalizedLink";
 export default {
+  data() {
+    return {
+      menuOpen: false
+    };
+  },
   components: { LocaleSwitcher, LocalizedLink },
   methods: {
     toggleMenu: function() {
@@ -40,9 +48,11 @@ export default {
       const width = window.innerWidth;
       if (width < 768) {
         if (linkStyle.getPropertyValue("display") === "none") {
+          this.menuOpen = true;
           navLinks.style.display = "flex";
           langSwitch.style.display = "block";
         } else {
+          this.menuOpen = false;
           navLinks.style.display = "none";
           langSwitch.style.display = "none";
         }
@@ -62,6 +72,16 @@ export default {
   background: linear-gradient(rgba(182, 23, 23, 0.95), rgba(101, 39, 39, 0.95));
   color: var(--main-text-color);
   flex-direction: column-reverse;
+
+  &__backdrop {
+    background: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
 
   &__langSwitcher {
     display: none;
