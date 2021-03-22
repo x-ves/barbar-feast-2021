@@ -3,6 +3,7 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import i18n from "./i18n";
+import VueMeta from "vue-meta";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faBars,
@@ -30,6 +31,8 @@ library.add(
   faHome,
   faCalendarCheck
 );
+
+Vue.use(VueMeta);
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 

@@ -19,6 +19,15 @@ import Footer from "@/components/Footer";
 import EventBus from "@/EventBus";
 
 export default {
+  metaInfo() {
+    return {
+      title: this.$t("app.title"),
+      meta: {
+        name: "description",
+        content: this.$t("location.desc")
+      }
+    };
+  },
   data: () => ({
     isLoading: true
   }),
