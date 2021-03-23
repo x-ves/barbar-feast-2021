@@ -32,15 +32,16 @@ library.add(
   faCalendarCheck
 );
 
-Vue.use(VueMeta);
-
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
 Vue.config.productionTip = false;
+
+Vue.use(VueMeta);
 
 new Vue({
   router,
   store,
   i18n,
+  VueMeta,
   render: h => h(App)
 }).$mount("#app");

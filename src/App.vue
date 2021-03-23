@@ -22,10 +22,28 @@ export default {
   metaInfo() {
     return {
       title: this.$t("app.title"),
-      meta: {
-        name: "description",
-        content: this.$t("location.desc")
-      }
+      meta: [
+        {
+          name: "description",
+          content: this.$t("location.desc")
+        },
+        {
+          property: "og:title",
+          content: this.$t("app.title")
+        },
+        {
+          property: "og:site_name",
+          content: "Barbar Feast 2021"
+        },
+        {
+          property: "og:type",
+          content: "website"
+        },
+        {
+          name: "robots",
+          content: "index, follow"
+        }
+      ]
     };
   },
   data: () => ({

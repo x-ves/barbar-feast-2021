@@ -1,13 +1,11 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Meta from "vue-meta";
 import Home from "../views/Home.vue";
 import Root from "./Root";
 import i18n, { loadLocaleMessagesAsync } from "@/i18n";
 import { setDocumentLang, setDocumentTitle } from "@/util/i18n/document";
 
 Vue.use(VueRouter);
-Vue.use(Meta);
 
 const routes = [
   {
