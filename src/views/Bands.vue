@@ -12,7 +12,17 @@ import Cards from "@/components/Cards.vue";
 
 export default {
   name: "Lineup",
-  components: { Cards }
+  components: { Cards },
+  metaInfo() {
+    return {
+      meta: [
+        {
+          name: "robots",
+          content: "noindex, follow"
+        }
+      ]
+    };
+  }
 };
 </script>
 

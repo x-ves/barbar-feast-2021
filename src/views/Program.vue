@@ -9,7 +9,17 @@
 
 <script>
 export default {
-  name: "Program"
+  name: "Program",
+  metaInfo() {
+    return {
+      meta: [
+        {
+          name: "robots",
+          content: "noindex, follow"
+        }
+      ]
+    };
+  }
 };
 </script>
 

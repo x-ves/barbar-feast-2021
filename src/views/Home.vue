@@ -75,6 +75,29 @@ export default {
     TicketsButton,
     FAQ,
     Carousel
+  },
+  metaInfo() {
+    return {
+      title: this.$t("app.title"),
+      meta: [
+        {
+          name: "description",
+          content: this.$t("location.desc")
+        },
+        {
+          property: "og:title",
+          content: this.$t("app.title")
+        },
+        {
+          property: "og:type",
+          content: "website"
+        },
+        {
+          name: "robots",
+          content: "index, follow"
+        }
+      ]
+    };
   }
 };
 </script>

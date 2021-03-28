@@ -32,16 +32,12 @@ export default {
           content: this.$t("app.title")
         },
         {
-          property: "og:site_name",
-          content: "Barbar Feast 2021"
-        },
-        {
           property: "og:type",
           content: "website"
         },
         {
           name: "robots",
-          content: "index, follow"
+          content: "noindex, follow"
         }
       ]
     };

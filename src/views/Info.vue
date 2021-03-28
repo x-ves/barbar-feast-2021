@@ -12,7 +12,17 @@
 /* import InfoCards from "@/components/InfoCards.vue"; */
 
 export default {
-  name: "Info"
+  name: "Info",
+  metaInfo() {
+    return {
+      meta: [
+        {
+          name: "robots",
+          content: "noindex, follow"
+        }
+      ]
+    };
+  }
   /*   components: { InfoCards } */
 };
 </script>
