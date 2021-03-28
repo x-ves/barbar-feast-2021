@@ -37,7 +37,7 @@ export default {
         },
         {
           name: "robots",
-          content: "noindex, follow"
+          content: "index, follow"
         }
       ]
     };
