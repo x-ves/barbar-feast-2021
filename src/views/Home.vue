@@ -4,9 +4,9 @@
       <picture class="welcome__img">
         <source
           media="(min-width:1024px)"
-          srcset="@/assets/bf_pageheader_3.png"
+          srcset="@/assets/bf_pageheader_3.jpg"
         />
-        <img src="@/assets/bf_eventheader_3.png" alt="" />
+        <img src="@/assets/bf_eventheader_3.jpg" alt="" />
       </picture>
       <div class="welcome__content">
         <Counter />
