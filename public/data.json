@@ -217,15 +217,15 @@
     },
     {
         "id": 19,
-        "name": "Külmking",
-        "genre": "Pagan / melodic death / heavy metal",
+        "name": "Süngehel",
+        "genre": "Black / Death metal",
         "country": "EST",
-        "imgUrl": "/Külmking.jpg",
-        "vidUrl": "https://www.youtube-nocookie.com/embed/a7sT-runN-M",
+        "imgUrl": "/Süngehel.jpg",
+        "vidUrl": "https://www.youtube-nocookie.com/embed/0zsBTfzGPLc",
         "webSite": "",
-        "faceBook": "https://www.facebook.com/kylmking",
-        "spotify": "https://open.spotify.com/artist/0NNSgyuuISPPGanPRQbcv3",
-        "bandCamp": "https://kylmking.bandcamp.com/"
+        "faceBook": "https://www.facebook.com/Sungehel",
+        "spotify": "https://open.spotify.com/artist/1HhqgEl0i4wG5B7T2B1RW0",
+        "bandCamp": "https://sungehel666.bandcamp.com/"
     },
     {
         "id": 20,
@@ -253,18 +253,6 @@
     },
     {
         "id": 22,
-        "name": "Tapper",
-        "genre": "Pagan / Death / Black metal",
-        "country": "EST",
-        "imgUrl": "/Tapper.jpg",
-        "vidUrl": "https://www.youtube-nocookie.com/embed/hzeThbJ9_Ts",
-        "webSite": "",
-        "faceBook": "https://www.facebook.com/BandTapper",
-        "spotify": "https://open.spotify.com/artist/0oY4Xdw6tyUM2o6xgakcxw",
-        "bandCamp": ""
-    },
-    {
-        "id": 23,
         "name": "No More Fridays",
         "genre": "Hard rock",
         "country": "EST",
@@ -276,7 +264,7 @@
         "bandCamp": "https://nomorefridays.bandcamp.com/"
     },
     {
-        "id": 24,
+        "id": 23,
         "name": "AC/DC Tribute: Coverage",
         "genre": "AC/DC cover band",
         "country": "EST",
@@ -288,7 +276,7 @@
         "bandCamp": ""
     },
     {
-        "id": 25,
+        "id": 24,
         "name": "Metallica Tribute",
         "genre": "Metallica cover band",
         "country": "EST",
@@ -300,7 +288,7 @@
         "bandCamp": ""
     },
     {
-        "id": 26,
+        "id": 25,
         "name": "The Lou Lous",
         "genre": "Alternative / Progressive rock",
         "country": "EST",
@@ -312,7 +300,7 @@
         "bandCamp": ""
     },
     {
-        "id": 27,
+        "id": 26,
         "name": "Riser",
         "genre": "Hard rock / Heavy / Thrash metal",
         "country": "EST",
@@ -324,7 +312,7 @@
         "bandCamp": ""
     },
     {
-        "id": 28,
+        "id": 27,
         "name": "ITK",
         "genre": "Black metal",
         "country": "EST",
@@ -336,7 +324,7 @@
         "bandCamp": ""
     },
     {
-        "id": 29,
+        "id": 28,
         "name": "DJ Taat",
         "genre": "🤘🏼",
         "country": "EST",
@@ -348,11 +336,23 @@
         "bandCamp": ""
     },
     {
-        "id": 30,
+        "id": 29,
         "name": "DJ Andres Uibo",
         "genre": "🤘🏼",
         "country": "EST",
         "imgUrl": "/DJAU.jpg",
+        "vidUrl": "",
+        "webSite": "",
+        "faceBook": "",
+        "spotify": "",
+        "bandCamp": ""
+    },
+    {
+        "id": 30,
+        "name": "DJ Neil Savi",
+        "genre": "🤘🏼",
+        "country": "EST",
+        "imgUrl": "/DJNS.jpg",
         "vidUrl": "",
         "webSite": "",
         "faceBook": "",
