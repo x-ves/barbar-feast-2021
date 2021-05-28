@@ -1,8 +1,18 @@
 <template>
   <div class="program">
     <div class="program__content">
-      <h1>{{ $t("content.construction") }}</h1>
-      <img src="/metalconstruction.gif" alt="" />
+      <pre style="text-align:left;">
+      🤟 NELJAPÄEV "Mötör Feast" on pühendatud tsiklirahvale & rock'n'rollile
+      17:30 Tsikliparaadi algus Tallinnas (lisainfo tulekul)
+      19:00 Esimese päeva avamine Viikingite Külas
+      19:40 Bändid! Järjestus (esimene kuni viimane) Riser, No More Fridays, Metallica tribute, AC/DC tribute: Coverage, Teravmoon, DJ Neil Savi
+      🤟 REEDE "Viking Feast" on pühendatud 🇪🇪 keelsele raskemuusikale
+      10:00-16:30 #chilläx ja oleme uutele saabujatele avatud, meelelahutuslik programm (täpsustub)
+      16:30 Bändid! Itk, Kolmteist, Ulguränd, Pime, Hetero, Herald, Kurjam, Metsatöll, DJ Taat
+      🤟 LAUPÄEV "Barbar Feast" on pühendatud 🇪🇪 raskemuusikale
+      10:00-12:30 #chilläx ja oleme uutele saabujatele avatud, meelelahutuslik programm (täpsustub)
+      12:30 The Lou Lous, Desert Queen, Defeatem, Boogie Company, Sold, Val Tvoar, Dreadpin, Killhall, Süngehel, Dead Furies, Redneck Rampage, Nihilistikrypt, Horror Dance Squad, Goresoerd, DJ Andres Uibo
+      </pre>
     </div>
   </div>
 </template>
