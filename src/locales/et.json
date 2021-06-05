@@ -84,5 +84,14 @@
     "28": "Kui sulle meeldib vanakooli heavy siis DJ Taat on sinu saatan plaadimängija taga",
     "29": "Mees, kes ei jäta ühtegi kivi pööramata! Läbimõeldud kava arvestab iga rock & metal melomaani soovunelmatega & vaibib nagu kurat",
     "30": "DJ NEIL SAVI KIRJELDUS TULEB ÕIGE PEA"
+  },
+  "program": {
+    "thursday": "neljapäev, 08.07",
+    "friday": "reede, 09.07",
+    "saturday": "laupäev, 10.07",
+    "motorcycle": "Tsikliparaadi algus Tallinnas",
+    "entertainment": "Meelelahutuslik programm",
+    "start": "Esimese päeva avamine Viikingite külas",
+    "bands": "🤘🏼 BÄNDID LAVADEL 🤘🏼"
   }
 }
