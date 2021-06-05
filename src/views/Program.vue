@@ -9,11 +9,13 @@
           <ul>
             <li>17:30 {{ $t("program.motorcycle") }}</li>
             <li>19:00 {{ $t("program.start") }}</li>
+            <br />
             <li
-              style="text-transform: uppercase; color: var(--secondary-text-color); font-weight: 700"
+              style="text-transform: uppercase; color: var(--secondary-text-color); font-weight: 700; text-align: center"
             >
               {{ $t("program.bands") }}
             </li>
+            <br />
             <li>19:40 Riser</li>
             <li>??:?? No More Fridays</li>
             <li>??:?? Metallica tribute</li>
@@ -27,11 +29,13 @@
           <h3>VIKING FEAST</h3>
           <ul>
             <li>10:00 {{ $t("program.entertainment") }}</li>
+            <br />
             <li
-              style="text-transform: uppercase; color: var(--secondary-text-color); font-weight: 700"
+              style="text-transform: uppercase; color: var(--secondary-text-color); font-weight: 700; text-align: center"
             >
               {{ $t("program.bands") }}
             </li>
+            <br />
             <li>16:30 Itk</li>
             <li>??:?? Kolmteist</li>
             <li>??:?? Ulguränd</li>
@@ -48,11 +52,13 @@
           <h3>BARBAR FEAST</h3>
           <ul>
             <li>10:00 {{ $t("program.entertainment") }}</li>
+            <br />
             <li
-              style="text-transform: uppercase; color: var(--secondary-text-color); font-weight: 700"
+              style="text-transform: uppercase; color: var(--secondary-text-color); font-weight: 700; text-align: center"
             >
               {{ $t("program.bands") }}
             </li>
+            <br />
             <li>12:30 The Lou Lous</li>
             <li>??:?? Desert Queen</li>
             <li>??:?? Defeatem</li>
