@@ -187,19 +187,6 @@ export default {
   }
 }
 
-::-webkit-scrollbar {
-  background: var(--secondary-bg-color);
-  width: 0.75rem;
-
-  &-thumb {
-    background: var(--third-bg-color);
-
-    &:hover {
-      background: var(--darkest-of-the-dark);
-    }
-  }
-}
-
 @media only screen and (min-width: 1024px) {
   .program {
     &__content {

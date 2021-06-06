@@ -119,4 +119,18 @@ body {
   width: 200px;
   -webkit-animation: rotation 3s infinite linear;
 }
+
+
+::-webkit-scrollbar {
+  background: var(--secondary-bg-color);
+  width: 0.75rem;
+
+  &-thumb {
+    background: var(--third-bg-color);
+
+    &:hover {
+      background: var(--darkest-of-the-dark);
+    }
+  }
+}
 </style>
