@@ -120,7 +120,6 @@ body {
   -webkit-animation: rotation 3s infinite linear;
 }
 
-
 ::-webkit-scrollbar {
   background: var(--secondary-bg-color);
   width: 0.75rem;

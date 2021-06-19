@@ -42,6 +42,37 @@
         </div>
       </div>
       <GoogleMap />
+      <section class="bus">
+        <h1 class="bus__title">{{ $t("bus.title") }}</h1>
+        <div class="bus__wrapper">
+          <img class="bus__img" src="@/assets/festivalibuss.jpg" alt="" />
+          <p class="bus__desc">
+            <span v-if="this.$i18n.locale !== 'et'">
+              {{ $t("bus.content.price") }} <br /><br />
+              {{ $t("bus.content.booking.desc") }} <br />
+              {{ $t("bus.content.booking.desc2") }} <br />
+              {{ $t("bus.content.booking.name") }} <br />
+              {{ $t("bus.content.booking.phone") }} <br />
+              {{ $t("bus.content.booking.date") }} <br /><br />
+            </span>
+            {{ $t("bus.content.leave") }} <br /><br />
+            {{ $t("bus.content.thursday") }} <br />
+            {{ $t("bus.content.friday") }} <br />
+            {{ $t("bus.content.saturday") }} <br />
+            {{ $t("bus.content.sunday") }} <br /><br />
+            <span v-if="this.$i18n.locale !== 'et'">{{
+              $t("bus.content.ticket")
+            }}</span>
+            <span v-if="this.$i18n.locale === 'et'">
+              <a
+                target="_blank"
+                href="https://metaltravel.net/et/trip/festivalibuss-barbar-feastile/"
+                >{{ $t("bus.content.moreinfo") }}</a
+              >
+            </span>
+          </p>
+        </div>
+      </section>
     </section>
     <section id="faq" class="faq">
       <h1 class="faq__title">{{ $t("faq.title") }}</h1>
@@ -49,12 +80,53 @@
         <FAQ class="faq__wrapper__faq" />
       </div>
     </section>
-    <!--     <section id="sponsors" class="sponsors">
+    <section id="sponsors" class="sponsors">
       <h1 class="sponsors__title">{{ $t("sponsors.title") }}</h1>
       <div class="sponsors_wrapper">
-        {{ $t("sponsors.upcoming") }}
+        <a target="_blank" href="https://www.hbrebel.cz/en/"
+          ><img
+            class="sponsors__image"
+            src="@/assets/Rebel-transparent.png"
+            alt=""
+        /></a>
+        <a target="_blank" href="https://www.fireballwhisky.com/"
+          ><img
+            class="sponsors__image"
+            src="@/assets/Fireball-transparent.png"
+            alt=""
+        /></a>
+        <a target="_blank" href="https://www.facebook.com/roaddevilmc"
+          ><img
+            class="sponsors__image"
+            src="@/assets/Road-Devil-transparent.png"
+            alt=""
+        /></a>
+        <a target="_blank" href="https://puhastebeer.com/"
+          ><img
+            class="sponsors__image"
+            src="@/assets/Pühaste-transparent.png"
+            alt=""
+        /></a>
+        <a target="_blank" href="https://www.terminal.ee/"
+          ><img
+            class="sponsors__image"
+            src="@/assets/Terminal-transparent.png"
+            alt=""
+        /></a>
+        <a target="_blank" href="https://www.facebook.com/www.hairpoint.ee"
+          ><img
+            class="sponsors__image"
+            src="@/assets/Hairpoint-transparent.png"
+            alt=""
+        /></a>
+        <a target="_blank" href="https://www.facebook.com/barbarestonia"
+          ><img
+            class="sponsors__image"
+            src="@/assets/Barbar-transparent.png"
+            alt=""
+        /></a>
       </div>
-    </section> -->
+    </section>
   </div>
 </template>
 
@@ -137,8 +209,9 @@ body {
   }
 }
 
-/* .lineup {
+.bus {
   padding: 2rem 0;
+  width: 100%;
   background: var(--secondary-bg-color);
   display: flex;
   flex-direction: column;
@@ -151,7 +224,28 @@ body {
     color: var(--secondary-text-color);
     text-transform: uppercase;
   }
-} */
+
+  &__wrapper {
+    width: 95%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__desc {
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 100%;
+    align-self: center;
+    border: 0.65rem dashed var(--darkest-of-the-dark);
+  }
+
+  &__img {
+    width: 100%;
+  }
+}
 
 .faq {
   color: var(--secondary-text-color);
@@ -245,6 +339,19 @@ body {
     font-size: 2rem;
     text-transform: uppercase;
   }
+
+  &__wrapper {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &__image {
+    align-self: center;
+    justify-self: center;
+    width: 10rem;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -308,6 +415,24 @@ body {
       &__slider {
         width: 50%;
       }
+    }
+  }
+
+  .bus {
+    &__wrapper {
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-content: center;
+      align-self: center;
+    }
+
+    &__desc {
+      width: fit-content;
+      margin: 1rem;
+    }
+
+    &__img {
+      width: 50%;
     }
   }
 

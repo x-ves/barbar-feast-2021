@@ -44,8 +44,27 @@
     "more": "For more info about Vikings Village check out their",
     "link": "website"
   },
+  "bus": {
+    "title": "HOP ON FUCK OFF !FREE! FESTIVAL BUSS",
+    "content": {
+      "price": "The festival bus is free for all of the 3 day ticket buyers.",
+      "booking": {
+        "desc": "To book your free place write an email to barbarestonia@gmail.com",
+        "desc2": "The email Subject should be: HOFO; include the following in the email:",
+        "name": "- passenger(s) full name",
+        "phone": "- phone number",
+        "date": "- on which date you wish to travel"
+      },
+      "leave": "The buses leave like this:",
+      "thursday": "Thursday. 08.juuli. kl. 18.00 Rockclub Barbar – Viikingite küla (Barbar Feast)",
+      "friday": "Friday. 09.juuli kl. 15.00 Rockclub Barbar – Viikingite küla (Barbar Feast)",
+      "saturday": "Saturday. 10.juuli kl. 11.00 Rockclub Barbar – Viikingite küla (Barbar Feast)",
+      "sunday": "Sunday. 11.juuli kl. 11.00 Viikingite küla (Barbar Feast) – Rockiklubi Barbar",
+      "ticket": "ALL WHO DON'T HAVE 3 DAY TICKET GO BUY A 5€ BUS TICKET FROM ROCKCLUB BARBAR"
+    }
+  },
   "sponsors": {
-    "title": "Festival supporters",
+    "title": "Sponsors & supporters",
     "upcoming": "Information about our supporters will be added shortly!"
   },
   "footer": {
@@ -72,7 +91,7 @@
     "16": "Traditional black metal, no tricks",
     "17": "An Estonian 5-piece balances a love affair between melodic rock and stoner roughhousing",
     "18": "Metal cowboys from deep south of Estonia",
-    "19": "SÜNGEHEL DESCRIPTION COMING VERY SOON",
+    "19": "War demon Süngehel brings black metal rite to the barbarians",
     "20": "Mix black and heavy metal with folklore & mythology",
     "21": "Straight forward Estonian metal",
     "22": "Something hard, rockish, sexy & all of that also on stage... 100%",
@@ -83,7 +102,7 @@
     "27": "Timeless sounding black metal with beautiful female vocals",
     "28": "If you're into old school metal, DJ Taat's your DJ devil!",
     "29": "This man doesn't leave any stone unturned! His thought-through program is considerate of every rock & metal melomaniac's wishful thoughts & vibes in devilish ways",
-    "30": "DJ NEIL SAVI DESCRIPTION COMING VERY SOON"
+    "30": "Revisit 80's & 90's rock & metal hits! Best party vibe guaranteed!"
   },
   "program": {
     "thursday": "thursday, 08.07",

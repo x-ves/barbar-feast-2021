@@ -1,9 +1,13 @@
 <template>
   <div class="program">
-    <div class="border">
-      <h1 class="program__title">{{ $t("nav.program") }}</h1>
-      <div class="program__content">
-        <div class="program__content--card">
+    <!-- <div class="border"> -->
+    <!-- <h1 class="program__title">{{ $t("nav.program") }}</h1> -->
+    <div class="construction">
+      <h1>{{ $t("content.construction") }}</h1>
+      <img src="/metalconstruction.gif" alt="" />
+    </div>
+    <div class="program__content">
+      <!--  <div class="program__content--card">
           {{ $t("program.thursday") }}
           <h3>MÖTÖR FEAST</h3>
           <ul>
@@ -75,10 +79,10 @@
             <li>??:?? Goresoerd</li>
             <li>??:?? DJ Andres Uibo</li>
           </ul>
-        </div>
-      </div>
+        </div> -->
     </div>
   </div>
+  <!-- </div> -->
 </template>
 
 <script>
@@ -103,6 +107,21 @@ export default {
   width: 97%;
   margin: 0.5rem auto;
   padding: 0.5rem;
+}
+
+.construction {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  width: fit-content;
+  height: 28.5rem;
+
+  h1 {
+    font-size: 1.5rem;
+  }
 }
 
 .program {

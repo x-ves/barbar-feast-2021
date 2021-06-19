@@ -44,8 +44,19 @@
     "more": "Rohkem infot Viikingite Küla kohta leiab küla",
     "link": "kodulehelt"
   },
+  "bus": {
+    "title": "HOP ON FUCK OFF !TASUTA! FESTIVALIBUSS",
+    "content": {
+      "leave": "Festivalibussid väljuvad järgmiselt:",
+      "thursday": "N. 08.juuli. kl. 18.00 Rockiklubi Barbar – Viikingite küla",
+      "friday": "R. 09.juuli kl. 15.00 Rockiklubi Barbar – Viikingite küla",
+      "saturday": "L. 10.juuli kl. 11.00 Rockiklubi Barbar – Viikingite küla",
+      "sunday": "P. 11.juuli kl. 11.00 Viikingite küla – Rockiklubi Barbar",
+      "moreinfo": "Rohkem infot leia Metaltraveli lehelt (broneerimine jmt):"
+    }
+  },
   "sponsors": {
-    "title": "Festivali toetavad",
+    "title": "Sponsorid & toetajad",
     "upcoming": "Info festivali toetajate kohta lisandub peagi!"
   },
   "footer": {
@@ -72,7 +83,7 @@
     "16": "Traditsiooniline black, ilma trikkideta",
     "17": "Armuafäär stoneri, meloodilise rocki ja rusuvate riffide vahel",
     "18": "Kaugelt lõunast pärit metalkauboid",
-    "19": "SÜNGEHELI KIRJELDUS TULEB ÕIGE PEA",
+    "19": "Sõjadeemon Süngehel viib barbarite seas läbi black metal riituse",
     "20": "Folkloor, ajalugu ja mütoloogia vürtsitatud vaheda deathiga",
     "21": "Sirge seljaga Eesti metal",
     "22": "Midagi raskemat, rokilikku ja seksapiilset ning seda 100% ka lavalaudadel",
@@ -83,7 +94,7 @@
     "27": "Eesti keele sünge kõla toob esile sümfooniline ja aegumatult kõlav black metaliga",
     "28": "Kui sulle meeldib vanakooli heavy siis DJ Taat on sinu saatan plaadimängija taga",
     "29": "Mees, kes ei jäta ühtegi kivi pööramata! Läbimõeldud kava arvestab iga rock & metal melomaani soovunelmatega & vaibib nagu kurat",
-    "30": "DJ NEIL SAVI KIRJELDUS TULEB ÕIGE PEA"
+    "30": "Taasavasta 80-90ndate rock & metal hitte! Nostalgialaks on garanteeritud!"
   },
   "program": {
     "thursday": "neljapäev, 08.07",
