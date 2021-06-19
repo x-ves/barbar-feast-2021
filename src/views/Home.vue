@@ -427,7 +427,7 @@ body {
     }
 
     &__desc {
-      width: fit-content;
+      width: 45%;
       margin: 1rem;
     }
 
