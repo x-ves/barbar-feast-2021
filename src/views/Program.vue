@@ -15,7 +15,7 @@
               <span class="bluetext">17:00</span> {{ $t("program.opening") }}
             </li>
             <li>
-              <span class="bluetext">17:30</span>
+              <span class="bluetext">17:30 </span>
               <span v-html="$t('program.motorcycle')"></span>
             </li>
             <li>

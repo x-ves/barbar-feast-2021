@@ -5,14 +5,27 @@
       <div class="info__content">
         <div class="info__content--box">
           <ul>
-            <p class="info__content--desc" v-html="$t('info.desc')"></p><br /><br />
-            <li style="background:var(--secondary-bg-color);" v-html="$t('info.axe')"></li>
+            <p class="info__content--desc" v-html="$t('info.desc')"></p>
+            <br /><br />
+            <li
+              style="background:var(--secondary-bg-color);"
+              v-html="$t('info.axe')"
+            ></li>
             <li v-html="$t('info.splash')"></li>
-            <li style="background:var(--secondary-bg-color);" v-html="$t('info.rite')"></li>
+            <li
+              style="background:var(--secondary-bg-color);"
+              v-html="$t('info.rite')"
+            ></li>
             <li v-html="$t('info.market')"></li>
-            <li style="background:var(--secondary-bg-color);" v-html="$t('info.boat')"></li>
+            <li
+              style="background:var(--secondary-bg-color);"
+              v-html="$t('info.boat')"
+            ></li>
             <li v-html="$t('info.tentshop')"></li>
-            <li style="background:var(--secondary-bg-color);" v-html="$t('info.mc')"></li>
+            <li
+              style="background:var(--secondary-bg-color);"
+              v-html="$t('info.mc')"
+            ></li>
             <li v-html="$t('info.extra')"></li>
           </ul>
         </div>

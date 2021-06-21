@@ -6,7 +6,11 @@
           media="(min-width:1024px)"
           srcset="@/assets/bf_pageheader_3.jpg"
         />
-        <img src="@/assets/bf_eventheader_3.jpg" alt="" />
+        <source
+          media="(min-width:678px)"
+          srcset="@/assets/bf_eventheader_3.jpg"
+        />
+        <img src="@/assets/BFMobla.jpg" alt="" />
       </picture>
       <div class="welcome__content">
         <Counter />
