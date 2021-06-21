@@ -1,15 +1,27 @@
 <template>
   <div class="info">
-    <div class="info__content">
-      <h1>{{ $t("content.construction") }}</h1>
-      <img src="/metalconstruction.gif" alt="" />
+    <div class="border">
+      <h1 class="info__title">{{ $t("nav.info") }}</h1>
+      <div class="info__content">
+        <div class="info__content--box">
+        <span v-html="$t('info.desc')"></span>
+        <ul>
+          <li v-html="$t('info.axe')"></li>
+          <li v-html="$t('info.splash')"></li>
+          <li v-html="$t('info.rite')"></li>
+          <li v-html="$t('info.market')"></li>
+          <li v-html="$t('info.boat')"></li>
+          <li v-html="$t('info.tentshop')"></li>
+          <li v-html="$t('info.mc')"></li>
+          <li v-html="$t('info.extra')"></li>
+        </ul>
+        </div>
+      </div>
     </div>
-    <!-- <InfoCards /> -->
   </div>
 </template>
 
 <script>
-/* import InfoCards from "@/components/InfoCards.vue"; */
 
 export default {
   name: "Info",
@@ -28,33 +40,74 @@ export default {
 </script>
 
 <style lang="scss">
+
+.border {
+  border: 0.65rem dashed var(--darkest-of-the-dark);
+  width: 97%;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+}
+
+.bluetext {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+}
+
 .info {
   padding: 3rem 0;
+  font-weight: 500;
 
-  &__content {
+  &__title {
+    color: var(--secondary-text-color);
+    font-size: 2rem;
     text-align: center;
+    margin: 1rem 0 0.5rem 0;
+    text-transform: uppercase;
+  }
+
+    &__content {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     margin: 0 auto;
-    width: fit-content;
-    height: 28.5rem;
-  }
+    width: 95%;
 
-  h1 {
-    font-size: 1.5rem;
-  }
+    &--box {
+      background: var(--secondary-bg-color);
+      padding: 1rem;
+      width: 95%;
+      margin: 0.5rem;
+      position: relative;
+      color: var(--main-text-color);
+      box-shadow: 9px 10px 22px -8px var(--darkest-of-the-dark);
 
-  img {
-    width: 20rem;
+      ul {
+        list-style: none;
+      }
+    }
   }
 }
 
 @media only screen and (min-width: 768px) {
+  .border {
+    border: 1rem dashed var(--darkest-of-the-dark);
+  }
+
   .info {
-    img {
-      width: fit-content;
+    &__content {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .info {
+    &__content {
+      flex-wrap: wrap;
+      width: 95%;
     }
   }
 }

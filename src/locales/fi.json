@@ -108,9 +108,23 @@
       "thursday": "torstai, 08.07",
       "friday": "perjantai, 09.07",
       "saturday": "lauantai, 10.07",
-      "motorcycle": "Motorcycle parade starting from Tallinn",
+      "motorcycle": "Gathering for the Motorcycle Parade <br> Peetri Selver's parking lot, <a class='link' target='blank' href='https://www.google.com/maps/dir//Peetri+Selver+Parking,+Unnamed+Road,+Peetri,+75312+Harju+maakond/@59.4027332,24.8106423,16.76z/'>directions</a> <br> Organized by Road Devil MC <a class='link' href='tel:+3725111149'>(tel 5111149)</a>",
       "entertainment": "Entertainment program",
+      "opening": "Opening of festival grounds",
       "start": "Start of the first day in Vikings Village",
-      "bands": "🤘🏼 BANDS ON THE STAGES 🤘🏼"
+      "bands": "🤘🏼 BANDS ON THE STAGES 🤘🏼",
+      "riverstage": "(river stage)",
+      "fortstage": "(fortress stage)"
+    },
+    "info": {
+      "desc": "BARBAR FEAST is not only about heavy music, it’s also about having a LOT of fun! Here are few of the things going on at the festival grounds to make this weekend even more memorable for you:",
+      "axe": "- axe throwing & shooting arrows",
+      "splash": "",
+      "rite": "",
+      "market": "- market full of the countys best booze, mouth watering food, fancy clothes and hey – you can even dye your hair green :p",
+      "boat": "- taking a trip on a viking boat on a mystical river",
+      "tentshop": "- tenting area shop (open every day until 22:00) allows you to buy booze with the usual shop prices (to be consumed in the tenting area, not outside of it). That’s especially OK for your own booze is not allowed to the festival grounds and in the tenting area. However your own alcohol free drinks and food are more than welcome (in the tenting area)",
+      "mc": "- motorcycle club Road Devil guys will make the festival program even more magical with some cool games and whatnot – be ready for suprises!",
+      "extra": "+ spontanious swordfights, drinking & eating orgies etc. THAT IS BARBAR FEAST"
     }
 }

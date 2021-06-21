@@ -100,9 +100,23 @@
     "thursday": "neljapäev, 08.07",
     "friday": "reede, 09.07",
     "saturday": "laupäev, 10.07",
-    "motorcycle": "Tsikliparaadi algus Tallinnas",
+    "motorcycle": "Kogunemine Motoparaadiks* <br> Peetri Selveri parklas, <a class='link' target='blank' href='https://www.google.com/maps/dir//Peetri+Selver+Parking,+Unnamed+Road,+Peetri,+75312+Harju+maakond/@59.4027332,24.8106423,16.76z/'>juhised</a> <br> Läbi viib Road Devil motoklubi <a class='link' href='tel:+3725111149'>(tel 5111149)</a>",
     "entertainment": "Meelelahutuslik programm",
+    "opening": "Festivaliala avamine",
     "start": "Esimese päeva avamine Viikingite külas",
-    "bands": "🤘🏼 BÄNDID LAVADEL 🤘🏼"
+    "bands": "🤘🏼 BÄNDID LAVADEL 🤘🏼",
+    "riverstage": "(jõelava)",
+    "fortstage": "(linnuselava)"
+  },
+  "info": {
+    "desc": "Lisaks elava muusika nautimisele, on <span class='bluetext'>Barbar Feastil</span> võimalus enda aega mõnusalt sisustada küllaga! <br> Toome välja mõned pakutavad tegevused:",
+    "axe": "<span class='bluetext'>VISKA VEMPU</span> - vibu, ammu ja kirveloopimine (kõige kõveram käsi võidab)",
+    "splash": "<span class='bluetext'>PLÄRTSATUS</span> - festivali alal on kaunis jõgi milles palava ilma korral kümmelda saad!",
+    "rite": "<span class='bluetext'>RIITUS</span> - kui festivalimelust väsid või niisama jalga sirutada soovid siis võta ette retk Siniallikatele – pea seal maha riitus ja ohverda midagi… maagilist :p",
+    "market": "<span class='bluetext'>TURG</span> on Barbar Feasti lahutamatu osa, kus saad kaupmeestega karastava käraka, parimate roogade, peenete rõivaste ja barbar teab, mille osas veel käed lüüa… isegi juuksed saad pügatud!",
+    "boat": "<span class='bluetext'>VIIKINGILAEV</span> väljub Jõelava kõrvalt retkele mööda maalilist jõge. Astu ligi, astu laeva ja AHOI!",
+    "tentshop": "<span class='bluetext'>TELKLA POOD</span> - kui söögi ja alkoholivaba joogi saad kenasti telklasse sisse smuugeldada, siis alkoholi mitte. Endale meelepärase käraka võid osta poe hinnaga <span class='bluetext'>TELKLA POEST</span>. Kange käraka, veini ja lahja alkoholi valik, vesi, kerget nosimist - kõike seda seal leidub. Kasvõi kastide viisi. Festivali (telkla välisel) alal on ikka festivali hinnad (ja seal telkla poe kraami tarbimine lubatud ei ole). Telkla pood on avatud iga päev kuni 22:00.",
+    "mc": "<span class='bluetext'>MEHKELDA MOTOMEESTEGA</span> - Road Devil motoklubi muhedad mehed on Barbar Feasti koostööpartnerid ja aitavad festivali programmi veelgi kirjumaks muuta. Ole üllatusteks valmis!",
+    "extra": "<span class='bluetext'>LISAKS</span> spontaansed mõõgavõitlused, jooma & söömaorgiad ning, mis peamine – hea muusika, sõbrad & festivalisuvi!"
   }
 }
