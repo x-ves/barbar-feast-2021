@@ -51,6 +51,10 @@ export default {
   .border {
     border: 1rem dashed var(--darkest-of-the-dark);
   }
+
+  #bands {
+    font-size: 1.1rem;
+  }
 }
 
 @media only screen and (min-width: 1024px) {

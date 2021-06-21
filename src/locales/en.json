@@ -108,7 +108,7 @@
     "thursday": "thursday, 08.07",
     "friday": "friday, 09.07",
     "saturday": "saturday, 10.07",
-    "motorcycle": "Gathering for the Motorcycle Parade <br> Peetri Selver's parking lot, <a class='link' target='blank' href='https://www.google.com/maps/dir//Peetri+Selver+Parking,+Unnamed+Road,+Peetri,+75312+Harju+maakond/@59.4027332,24.8106423,16.76z/'>directions</a> <br> Organized by Road Devil MC <a class='link' href='tel:+3725111149'>(tel 5111149)</a>",
+    "motorcycle": "Gathering for the Motorcycle Parade <br> @ Peetri Selver's parking lot -> <a class='link' target='blank' href='https://www.google.com/maps/dir//Peetri+Selver+Parking,+Unnamed+Road,+Peetri,+75312+Harju+maakond/@59.4027332,24.8106423,16.76z/'>(directions)</a> <br> Organized by Road Devil MC <a class='link' href='tel:+3725111149'>(tel 5111149)</a>",
     "entertainment": "Entertainment program",
     "opening": "Opening of festival grounds",
     "start": "Start of the first day in Vikings Village",
@@ -117,14 +117,14 @@
     "fortstage": "(fortress stage)"
   },
   "info": {
-    "desc": "<span class='bluetext'>BARBAR FEAST</span> is not only about heavy music, it’s also about having a LOT of fun! <br> Here are few of the things going on at the festival grounds to make this weekend even more memorable for you:",
-    "axe": "<span class='bluetext'>THWACK!</span> - axe throwing & shooting arrows",
-    "splash": "<span class='bluetext'>SPLASH!</span> - there is a beautiful river in the festival area in which you can bathe during the hot weather!",
-    "rite": "<span class='bluetext'>RITE</span> - if you're tired of the festival or just want to stretch your legs, take a trip to the Blue Springs - have a ritual there and sacrifice something... magical :p",
-    "market": "<span class='bluetext'>MARKETPLACE</span> - market full of the countys best booze, mouth watering food, fancy clothes and hey – you can even dye your hair green :p",
-    "boat": "<span class='bluetext'>VIKING BOAT</span> - taking a trip on a viking boat on a mystical river",
-    "tentshop": "<span class='bluetext'>CAMPING AREA SHOP</span> - tenting area shop (open every day until 22:00) allows you to buy booze with the usual shop prices (to be consumed in the tenting area, not outside of it). That’s especially OK for your own booze is not allowed to the festival grounds and in the tenting area. However your own alcohol free drinks and food are more than welcome (in the tenting area)",
-    "mc": "<span class='bluetext'>FUN WITH THE MOTORCLUB</span> - motorcycle club Road Devil guys will make the festival program even more magical with some cool games and whatnot – be ready for suprises!",
-    "extra": "<span class='bluetext'>EXTRA</span> + spontanious swordfights, drinking & eating orgies etc. THAT IS BARBAR FEAST"
+    "desc": "<span class='bluetext'>BARBAR FEAST</span> is not only about heavy music, it’s also about having a LOT of fun! <br> Here are a few of the things going on at the festival grounds to make this weekend even more memorable for you:",
+    "axe": "<span class='bluetext'>GET SOME AXETION</span> - practice axe throwing & archery",
+    "splash": "<span class='bluetext'>REFRESH YOURSELF</span> - there is a beautiful river in the festival area in which you can bathe during the hot weather",
+    "rite": "<span class='bluetext'>RITE</span> - if you get tired of the festival or just want to stretch your legs, take a trip to the Saula Blue Springs - have a ritual there and sacrifice something... magical :p",
+    "market": "<span class='bluetext'>MARKET</span> - we have a market full of the country's best booze, mouth-watering food, fancy clothes, and hey – you can even dye your hair green :p",
+    "boat": "<span class='bluetext'>VIKING BOAT</span> - take a trip on a viking boat on a mystical river",
+    "tentshop": "<span class='bluetext'>CAMPING AREA SHOP</span> - the  camping area shop (open every day until 22:00) allows you to buy booze with regular shop prices (to be consumed in the camping area, not outside of it). <br> This is mostly because bringing your own booze to the festival grounds and the camping area is not allowed.   However, bringing your own non-alcoholic drinks and food are more than welcome (in the camping area)",
+    "mc": "<span class='bluetext'>HAVE FUN WITH THE MC</span> - the Road Devil MC guys will make the festival program even more magical with some cool games and whatnot – be ready for suprises!",
+    "extra": "<span class='bluetext'>EXTRA</span> keep your eyes open for any spontaneous swordfights, drinking & eating orgies etc. THAT'S WHAT BARBAR FEAST IS ALL ABOUT"
   }
 }

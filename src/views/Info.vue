@@ -4,17 +4,18 @@
       <h1 class="info__title">{{ $t("nav.info") }}</h1>
       <div class="info__content">
         <div class="info__content--box">
-        <ul>
-          <span v-html="$t('info.desc')"></span><br><br>
-          <li v-html="$t('info.axe')"></li>
-          <li v-html="$t('info.splash')"></li>
-          <li v-html="$t('info.rite')"></li>
-          <li v-html="$t('info.market')"></li>
-          <li v-html="$t('info.boat')"></li>
-          <li v-html="$t('info.tentshop')"></li>
-          <li v-html="$t('info.mc')"></li>
-          <li v-html="$t('info.extra')"></li>
-        </ul>
+          <ul>
+            <span class="info__content--desc" v-html="$t('info.desc')"></span
+            ><br /><br />
+            <li v-html="$t('info.axe')"></li>
+            <li v-html="$t('info.splash')"></li>
+            <li v-html="$t('info.rite')"></li>
+            <li v-html="$t('info.market')"></li>
+            <li v-html="$t('info.boat')"></li>
+            <li v-html="$t('info.tentshop')"></li>
+            <li v-html="$t('info.mc')"></li>
+            <li v-html="$t('info.extra')"></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -22,7 +23,6 @@
 </template>
 
 <script>
-
 export default {
   name: "Info",
   metaInfo() {
@@ -40,7 +40,6 @@ export default {
 </script>
 
 <style lang="scss">
-
 .border {
   border: 0.65rem dashed var(--darkest-of-the-dark);
   width: 97%;
@@ -65,7 +64,7 @@ export default {
     text-transform: uppercase;
   }
 
-    &__content {
+  &__content {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -75,7 +74,7 @@ export default {
 
     &--box {
       background: var(--secondary-bg-color);
-      padding: 1rem;
+      padding: 2rem 1rem 1rem 1rem;
       width: 95%;
       margin: 0.5rem;
       position: relative;
@@ -88,8 +87,8 @@ export default {
         margin: 0 auto;
         width: 95%;
 
-        li {
-          margin-top: 0.5rem;
+        li:not(:first-of-type) {
+          margin-top: 1rem;
         }
       }
     }
@@ -105,16 +104,20 @@ export default {
     &__content {
       flex-direction: row;
       flex-wrap: wrap;
+      font-size: 1.1rem;
     }
   }
 }
-
 
 @media only screen and (min-width: 1024px) {
   .info {
     &__content {
       flex-wrap: wrap;
       width: 95%;
+
+      &--box {
+        width: 65%;
+      }
     }
   }
 }

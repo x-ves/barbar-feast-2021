@@ -397,7 +397,7 @@ body {
   }
 
   .location {
-    font-size: 1rem;
+    font-size: 1.1rem;
     align-items: center;
     padding: 0;
     width: 100%;
@@ -428,7 +428,7 @@ body {
 
     &__desc {
       width: 45%;
-      margin: 1rem;
+      margin: 1.1rem;
     }
 
     &__img {
@@ -439,7 +439,7 @@ body {
   .faq {
     &__wrapper {
       &__faq {
-        font-size: 1rem;
+        font-size: 1.1rem;
       }
     }
   }

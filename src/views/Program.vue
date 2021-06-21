@@ -1,19 +1,26 @@
 <template>
   <div class="program">
     <div class="border">
-    <h1 class="program__title">{{ $t("nav.program") }}</h1>
-<!--     <div class="construction">
+      <h1 class="program__title">{{ $t("nav.program") }}</h1>
+      <!--     <div class="construction">
       <h1>{{ $t("content.construction") }}</h1>
       <img src="/metalconstruction.gif" alt="" />
     </div> -->
-    <div class="program__content">
+      <div class="program__content">
         <div class="program__content--card">
           {{ $t("program.thursday") }}
           <h3>MÖTÖR FEAST</h3>
           <ul>
-            <li><span class="bluetext">17:00</span> {{ $t("program.opening") }}</li>
-            <li><span class="bluetext">17:30</span> <span v-html="$t('program.motorcycle')"></span></li>
-            <li><span class="bluetext">19:00</span> {{ $t("program.start") }}</li>
+            <li>
+              <span class="bluetext">17:00</span> {{ $t("program.opening") }}
+            </li>
+            <li>
+              <span class="bluetext">17:30</span>
+              <span v-html="$t('program.motorcycle')"></span>
+            </li>
+            <li>
+              <span class="bluetext">19:00</span> {{ $t("program.start") }}
+            </li>
             <br />
             <li
               style="text-transform: uppercase; color: var(--secondary-text-color); font-weight: 700; text-align: center"
@@ -21,19 +28,39 @@
               {{ $t("program.bands") }}
             </li>
             <br />
-            <li><span class="bluetext">20:00</span> RISER {{ $t("program.riverstage") }}</li>
-            <li><span class="bluetext">21:00</span> NO MORE FRIDAYS {{ $t("program.riverstage") }}</li>
-            <li><span class="bluetext">22:10</span> METALLICA TRIBUTE {{ $t("program.riverstage") }}</li>
-            <li><span class="bluetext">23:20</span> AC/DC TRIBUTE: COVERAGE {{ $t("program.riverstage") }}</li>
-            <li><span class="bluetext">00:30</span> TERAVMOON {{ $t("program.riverstage") }}</li>
-            <li><span class="bluetext">01:30</span> DJ NEIL SAVI {{ $t("program.fortstage") }}</li>
+            <li>
+              <span class="bluetext">20:00</span> RISER
+              {{ $t("program.riverstage") }}
+            </li>
+            <li>
+              <span class="bluetext">21:00</span> NO MORE FRIDAYS
+              {{ $t("program.riverstage") }}
+            </li>
+            <li>
+              <span class="bluetext">22:10</span> METALLICA TRIBUTE
+              {{ $t("program.riverstage") }}
+            </li>
+            <li>
+              <span class="bluetext">23:20</span> AC/DC TRIBUTE: COVERAGE
+              {{ $t("program.riverstage") }}
+            </li>
+            <li>
+              <span class="bluetext">00:30</span> TERAVMOON
+              {{ $t("program.riverstage") }}
+            </li>
+            <li>
+              <span class="bluetext">01:30</span> DJ NEIL SAVI
+              {{ $t("program.fortstage") }}
+            </li>
           </ul>
         </div>
         <div class="program__content--card">
           {{ $t("program.friday") }}
           <h3>VIKING FEAST</h3>
           <ul>
-            <li><span class="bluetext">10:00</span> {{ $t("program.opening") }}</li>
+            <li>
+              <span class="bluetext">10:00</span> {{ $t("program.opening") }}
+            </li>
             <li>{{ $t("program.entertainment") }}</li>
             <br />
             <li
@@ -42,22 +69,51 @@
               {{ $t("program.bands") }}
             </li>
             <br />
-            <li><span class="bluetext">17:30</span> ITK {{ $t("program.riverstage") }}</li>
-            <li><span class="bluetext">18:20</span> KOLMTEIST {{ $t("program.fortstage") }}</li>
-            <li><span class="bluetext">19:10</span> ULGURÄND {{ $t("program.riverstage") }}</li>
-            <li><span class="bluetext">20:00</span> PIME {{ $t("program.fortstage") }}</li>
-            <li><span class="bluetext">20:50</span> HETERO {{ $t("program.riverstage") }}</li>
-            <li><span class="bluetext">21:50</span> HERALD {{ $t("program.fortstage") }}</li>
-            <li><span class="bluetext">22:50</span> KURJAM {{ $t("program.riverstage") }}</li>
-            <li><span class="bluetext">23:50</span> METSATÖLL {{ $t("program.fortstage") }}</li>
-            <li><span class="bluetext">01:30</span> DJ TAAT {{ $t("program.fortstage") }}</li>
+            <li>
+              <span class="bluetext">17:30</span> ITK
+              {{ $t("program.riverstage") }}
+            </li>
+            <li>
+              <span class="bluetext">18:20</span> KOLMTEIST
+              {{ $t("program.fortstage") }}
+            </li>
+            <li>
+              <span class="bluetext">19:10</span> ULGURÄND
+              {{ $t("program.riverstage") }}
+            </li>
+            <li>
+              <span class="bluetext">20:00</span> PIME
+              {{ $t("program.fortstage") }}
+            </li>
+            <li>
+              <span class="bluetext">20:50</span> HETERO
+              {{ $t("program.riverstage") }}
+            </li>
+            <li>
+              <span class="bluetext">21:50</span> HERALD
+              {{ $t("program.fortstage") }}
+            </li>
+            <li>
+              <span class="bluetext">22:50</span> KURJAM
+              {{ $t("program.riverstage") }}
+            </li>
+            <li>
+              <span class="bluetext">23:50</span> METSATÖLL
+              {{ $t("program.fortstage") }}
+            </li>
+            <li>
+              <span class="bluetext">01:30</span> DJ TAAT
+              {{ $t("program.fortstage") }}
+            </li>
           </ul>
         </div>
         <div class="program__content--card">
           {{ $t("program.saturday") }}
           <h3>BARBAR FEAST</h3>
           <ul>
-            <li><span class="bluetext">10:00</span> {{ $t("program.opening") }}</li>
+            <li>
+              <span class="bluetext">10:00</span> {{ $t("program.opening") }}
+            </li>
             <li>{{ $t("program.entertainment") }}</li>
             <br />
             <li
@@ -66,26 +122,71 @@
               {{ $t("program.bands") }}
             </li>
             <br />
-            <li><span class="bluetext">13:00</span> THE LOU LOUS {{ $t("program.riverstage") }}</li>
-            <li><span class="bluetext">13:50</span> DESERT QUEEN {{ $t("program.fortstage") }}</li>
-            <li><span class="bluetext">14:40</span> DEFEATEM {{ $t("program.riverstage") }}</li>
-            <li><span class="bluetext">15:30</span> BOOGIE COMPANY {{ $t("program.fortstage") }}</li>
-            <li><span class="bluetext">16:30</span> SOLD {{ $t("program.riverstage") }}</li>
-            <li><span class="bluetext">17:20</span> VAL TVOAR {{ $t("program.fortstage") }}</li>
-            <li><span class="bluetext">18:10</span> DREADPIN {{ $t("program.riverstage") }}</li>
-            <li><span class="bluetext">19:00</span> KILLHALL {{ $t("program.fortstage") }}</li>
-            <li><span class="bluetext">19:50</span> SÜNGEHEL {{ $t("program.riverstage") }}</li>
-            <li><span class="bluetext">20:40</span> HORROR DANCE SQUAD {{ $t("program.fortstage") }}</li>
-            <li><span class="bluetext">21:40</span> REDNECK RAMPAGE {{ $t("program.riverstage") }}</li>
-            <li><span class="bluetext">22:35</span> NIHILISTIKRYPT {{ $t("program.fortstage") }}</li>
-            <li><span class="bluetext">23:30</span> DEAD FURIES {{ $t("program.riverstage") }}</li>
-            <li><span class="bluetext">00:25</span> GORESOERD {{ $t("program.fortstage") }}</li>
-            <li><span class="bluetext">01:30</span> DJ ANDRES UIBO {{ $t("program.fortstage") }}</li>
+            <li>
+              <span class="bluetext">13:00</span> THE LOU LOUS
+              {{ $t("program.riverstage") }}
+            </li>
+            <li>
+              <span class="bluetext">13:50</span> DESERT QUEEN
+              {{ $t("program.fortstage") }}
+            </li>
+            <li>
+              <span class="bluetext">14:40</span> DEFEATEM
+              {{ $t("program.riverstage") }}
+            </li>
+            <li>
+              <span class="bluetext">15:30</span> BOOGIE COMPANY
+              {{ $t("program.fortstage") }}
+            </li>
+            <li>
+              <span class="bluetext">16:30</span> SOLD
+              {{ $t("program.riverstage") }}
+            </li>
+            <li>
+              <span class="bluetext">17:20</span> VAL TVOAR
+              {{ $t("program.fortstage") }}
+            </li>
+            <li>
+              <span class="bluetext">18:10</span> DREADPIN
+              {{ $t("program.riverstage") }}
+            </li>
+            <li>
+              <span class="bluetext">19:00</span> KILLHALL
+              {{ $t("program.fortstage") }}
+            </li>
+            <li>
+              <span class="bluetext">19:50</span> SÜNGEHEL
+              {{ $t("program.riverstage") }}
+            </li>
+            <li>
+              <span class="bluetext">20:40</span> HORROR DANCE SQUAD
+              {{ $t("program.fortstage") }}
+            </li>
+            <li>
+              <span class="bluetext">21:40</span> REDNECK RAMPAGE
+              {{ $t("program.riverstage") }}
+            </li>
+            <li>
+              <span class="bluetext">22:35</span> NIHILISTIKRYPT
+              {{ $t("program.fortstage") }}
+            </li>
+            <li>
+              <span class="bluetext">23:30</span> DEAD FURIES
+              {{ $t("program.riverstage") }}
+            </li>
+            <li>
+              <span class="bluetext">00:25</span> GORESOERD
+              {{ $t("program.fortstage") }}
+            </li>
+            <li>
+              <span class="bluetext">01:30</span> DJ ANDRES UIBO
+              {{ $t("program.fortstage") }}
+            </li>
           </ul>
         </div>
+      </div>
     </div>
   </div>
-</div>
 </template>
 
 <script>
@@ -114,6 +215,12 @@ export default {
 
 .link {
   color: var(--secondary-text-color);
+  text-decoration: none;
+
+  & :hover {
+    color: var(--hover-text-color);
+    text-decoration: underline;
+  }
 }
 
 .construction {
