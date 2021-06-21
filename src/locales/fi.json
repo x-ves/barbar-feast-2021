@@ -117,14 +117,14 @@
       "fortstage": "(fortress stage)"
     },
     "info": {
-      "desc": "BARBAR FEAST is not only about heavy music, it’s also about having a LOT of fun! Here are few of the things going on at the festival grounds to make this weekend even more memorable for you:",
-      "axe": "- axe throwing & shooting arrows",
-      "splash": "",
-      "rite": "",
-      "market": "- market full of the countys best booze, mouth watering food, fancy clothes and hey – you can even dye your hair green :p",
-      "boat": "- taking a trip on a viking boat on a mystical river",
-      "tentshop": "- tenting area shop (open every day until 22:00) allows you to buy booze with the usual shop prices (to be consumed in the tenting area, not outside of it). That’s especially OK for your own booze is not allowed to the festival grounds and in the tenting area. However your own alcohol free drinks and food are more than welcome (in the tenting area)",
-      "mc": "- motorcycle club Road Devil guys will make the festival program even more magical with some cool games and whatnot – be ready for suprises!",
-      "extra": "+ spontanious swordfights, drinking & eating orgies etc. THAT IS BARBAR FEAST"
+      "desc": "<span class='bluetext'>BARBAR FEAST</span> is not only about heavy music, it’s also about having a LOT of fun! <br> Here are few of the things going on at the festival grounds to make this weekend even more memorable for you:",
+      "axe": "<span class='bluetext'>THWACK!</span> - axe throwing & shooting arrows",
+      "splash": "<span class='bluetext'>SPLASH!</span> - there is a beautiful river in the festival area in which you can bathe during the hot weather!",
+      "rite": "<span class='bluetext'>RITE</span> - if you're tired of the festival or just want to stretch your legs, take a trip to the Blue Springs - have a ritual there and sacrifice something... magical :p",
+      "market": "<span class='bluetext'>MARKETPLACE</span> - market full of the countys best booze, mouth watering food, fancy clothes and hey – you can even dye your hair green :p",
+      "boat": "<span class='bluetext'>VIKING BOAT</span> - taking a trip on a viking boat on a mystical river",
+      "tentshop": "<span class='bluetext'>CAMPING AREA SHOP</span> - tenting area shop (open every day until 22:00) allows you to buy booze with the usual shop prices (to be consumed in the tenting area, not outside of it). That’s especially OK for your own booze is not allowed to the festival grounds and in the tenting area. However your own alcohol free drinks and food are more than welcome (in the tenting area)",
+      "mc": "<span class='bluetext'>FUN WITH THE MOTORCLUB</span> - motorcycle club Road Devil guys will make the festival program even more magical with some cool games and whatnot – be ready for suprises!",
+      "extra": "<span class='bluetext'>EXTRA</span> + spontanious swordfights, drinking & eating orgies etc. THAT IS BARBAR FEAST"
     }
 }

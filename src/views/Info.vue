@@ -4,8 +4,8 @@
       <h1 class="info__title">{{ $t("nav.info") }}</h1>
       <div class="info__content">
         <div class="info__content--box">
-        <span v-html="$t('info.desc')"></span>
         <ul>
+          <span v-html="$t('info.desc')"></span><br><br>
           <li v-html="$t('info.axe')"></li>
           <li v-html="$t('info.splash')"></li>
           <li v-html="$t('info.rite')"></li>
@@ -84,6 +84,13 @@ export default {
 
       ul {
         list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        width: 95%;
+
+        li {
+          margin-top: 0.5rem;
+        }
       }
     }
   }
