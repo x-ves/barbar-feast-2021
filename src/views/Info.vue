@@ -5,15 +5,14 @@
       <div class="info__content">
         <div class="info__content--box">
           <ul>
-            <span class="info__content--desc" v-html="$t('info.desc')"></span
-            ><br /><br />
-            <li v-html="$t('info.axe')"></li>
+            <p class="info__content--desc" v-html="$t('info.desc')"></p><br /><br />
+            <li style="background:var(--secondary-bg-color);" v-html="$t('info.axe')"></li>
             <li v-html="$t('info.splash')"></li>
-            <li v-html="$t('info.rite')"></li>
+            <li style="background:var(--secondary-bg-color);" v-html="$t('info.rite')"></li>
             <li v-html="$t('info.market')"></li>
-            <li v-html="$t('info.boat')"></li>
+            <li style="background:var(--secondary-bg-color);" v-html="$t('info.boat')"></li>
             <li v-html="$t('info.tentshop')"></li>
-            <li v-html="$t('info.mc')"></li>
+            <li style="background:var(--secondary-bg-color);" v-html="$t('info.mc')"></li>
             <li v-html="$t('info.extra')"></li>
           </ul>
         </div>
@@ -55,6 +54,8 @@ export default {
 .info {
   padding: 3rem 0;
   font-weight: 500;
+  background: url("/img-noise-1200x1200.png");
+  background-color: var(--secondary-bg-color);
 
   &__title {
     color: var(--secondary-text-color);
@@ -72,8 +73,14 @@ export default {
     margin: 0 auto;
     width: 95%;
 
+    &--desc {
+      margin: 0;
+      padding: 0 0.25rem;
+      display: inline-block;
+    }
+
     &--box {
-      background: var(--secondary-bg-color);
+      background: var(--card-bg-hover);
       padding: 2rem 1rem 1rem 1rem;
       width: 95%;
       margin: 0.5rem;
@@ -87,8 +94,18 @@ export default {
         margin: 0 auto;
         width: 95%;
 
-        li:not(:first-of-type) {
-          margin-top: 1rem;
+        li {
+          padding: 0.5rem;
+          border-left: 3px dashed var(--secondary-bg-color);
+          border-right: 3px dashed var(--secondary-bg-color);
+
+          &:first-of-type {
+            border-top: 3px dashed var(--secondary-bg-color);
+          }
+
+          &:last-of-type {
+            border-bottom: 3px dashed var(--secondary-bg-color);
+          }
         }
       }
     }

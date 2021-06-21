@@ -244,6 +244,8 @@ export default {
 
 .program {
   padding: 3rem 0;
+  background: url("/img-noise-1200x1200.png");
+  background-color: var(--secondary-bg-color);
 
   &__title {
     color: var(--secondary-text-color);
@@ -268,7 +270,7 @@ export default {
       text-align: center;
       transition: all 0.3s ease;
       display: block;
-      background-color: var(--secondary-bg-color);
+      background: linear-gradient(var(--card-bg-hover), var(--card-bg-color));
       margin: 0.5rem;
       position: relative;
       color: var(--main-text-color);
