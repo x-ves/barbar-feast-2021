@@ -47,9 +47,10 @@
       </div>
       <GoogleMap />
       <section class="bus">
-        <h1 class="bus__title">{{ $t("bus.title") }}</h1>
         <div class="bus__wrapper">
           <img class="bus__img" src="@/assets/festivalibuss.jpg" alt="" />
+          <div class="bus__content">
+          <h1 class="bus__title">{{ $t("bus.title") }}</h1>
           <p class="bus__desc">
             <span v-if="this.$i18n.locale !== 'et'">
               {{ $t("bus.content.price") }} <br /><br />
@@ -75,6 +76,7 @@
               >
             </span>
           </p>
+          </div>
         </div>
       </section>
     </section>
@@ -233,7 +235,7 @@ body {
     width: 95%;
     align-self: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
   }
@@ -430,13 +432,20 @@ body {
       align-self: center;
     }
 
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-content: center;
+    }
+
     &__desc {
-      width: 45%;
+      width: 90%;
       margin: 1.1rem;
     }
 
     &__img {
-      width: 50%;
+      width: 45%;
     }
   }
 

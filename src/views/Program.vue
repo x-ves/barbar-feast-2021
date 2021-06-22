@@ -50,7 +50,7 @@
             </li>
             <li>
               <span class="bluetext">01:30</span> DJ NEIL SAVI
-              {{ $t("program.fortstage") }}
+              {{ $t("program.riverstage") }}
             </li>
           </ul>
         </div>
