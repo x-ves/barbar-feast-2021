@@ -113,7 +113,7 @@
             src="@/assets/Pühaste-transparent.png"
             alt=""
         /></a>
-        <a target="_blank" href="https://www.terminal.ee/"
+        <a target="_blank" href="https://terminaloil.ee/"
           ><img
             class="sponsors__image"
             src="@/assets/Terminal-transparent.png"
