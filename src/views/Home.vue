@@ -50,32 +50,41 @@
         <div class="bus__wrapper">
           <img class="bus__img" src="@/assets/festivalibuss.jpg" alt="" />
           <div class="bus__content">
-          <h1 class="bus__title">{{ $t("bus.title") }}</h1>
-          <p class="bus__desc">
-            <span v-if="this.$i18n.locale !== 'et'">
-              {{ $t("bus.content.price") }} <br /><br />
-              {{ $t("bus.content.booking.desc") }} <br />
-              {{ $t("bus.content.booking.desc2") }} <br />
-              {{ $t("bus.content.booking.name") }} <br />
-              {{ $t("bus.content.booking.phone") }} <br />
-              {{ $t("bus.content.booking.date") }} <br /><br />
-            </span>
-            {{ $t("bus.content.leave") }} <br /><br />
-            {{ $t("bus.content.thursday") }} <br />
-            {{ $t("bus.content.friday") }} <br />
-            {{ $t("bus.content.saturday") }} <br />
-            {{ $t("bus.content.sunday") }} <br /><br />
-            <span v-if="this.$i18n.locale !== 'et'">{{
-              $t("bus.content.ticket")
-            }}</span>
-            <span v-if="this.$i18n.locale === 'et'">
-              <a
-                target="_blank"
-                href="https://metaltravel.net/et/trip/festivalibuss-barbar-feastile/"
-                >{{ $t("bus.content.moreinfo") }}</a
-              >
-            </span>
-          </p>
+            <h1 class="bus__title">{{ $t("bus.title") }}</h1>
+            <p class="bus__desc">
+              <span v-if="this.$i18n.locale !== 'et'">
+                {{ $t("bus.content.price") }} <br /><br />
+                {{ $t("bus.content.booking.desc") }} <br />
+                {{ $t("bus.content.booking.desc2") }} <br />
+                {{ $t("bus.content.booking.name") }} <br />
+                {{ $t("bus.content.booking.phone") }} <br />
+                {{ $t("bus.content.booking.date") }} <br /><br />
+              </span>
+              {{ $t("bus.content.leave") }} <br /><br />
+              {{ $t("bus.content.thursday") }} <br />
+              {{ $t("bus.content.friday") }} <br />
+              {{ $t("bus.content.saturday") }} <br />
+              {{ $t("bus.content.sunday") }} <br /><br />
+              <span v-if="this.$i18n.locale !== 'et'">{{
+                $t("bus.content.ticket")
+              }}</span>
+              <span v-if="this.$i18n.locale === 'et'">
+                <a
+                  target="_blank"
+                  href="https://metaltravel.net/et/trip/festivalibuss-barbar-feastile/"
+                  >{{ $t("bus.content.moreinfo") }}</a
+                >
+              </span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="parking">
+        <div class="parking__wrapper">
+          <img class="parking__img" src="parkla.png" alt="" />
+          <div class="parking__content">
+            <h1 class="parking__title">{{ $t("parking.title") }}</h1>
+            <p class="parking__desc" v-html="$t('parking.desc')"></p>
           </div>
         </div>
       </section>
@@ -219,6 +228,44 @@ body {
   padding: 2rem 0;
   width: 100%;
   background: var(--secondary-bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  &__title {
+    margin: 0 0 1rem 0;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--secondary-text-color);
+    text-transform: uppercase;
+  }
+
+  &__wrapper {
+    width: 95%;
+    align-self: center;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__desc {
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 100%;
+    align-self: center;
+    border: 0.65rem dashed var(--darkest-of-the-dark);
+  }
+
+  &__img {
+    width: 100%;
+  }
+}
+
+.parking {
+  padding: 2rem 0;
+  width: 100%;
+  background: radial-gradient(var(--main-bg-color), var(--secondary-bg-color));
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -446,6 +493,31 @@ body {
 
     &__img {
       width: 45%;
+    }
+  }
+
+  .parking {
+    &__wrapper {
+      flex-direction: row-reverse;
+      justify-content: space-evenly;
+      align-content: center;
+      align-self: center;
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-content: center;
+    }
+
+    &__desc {
+      width: 80%;
+      margin: 1.1rem;
+    }
+
+    &__img {
+      width: 40%;
     }
   }
 

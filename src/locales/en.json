@@ -26,7 +26,7 @@
     "q1": "Where does the festival take place?",
     "a1": "Barbar Feast 2021 will be held in picturesque Viking Village, only half an hour drive from Tallinn.",
     "q2": "How do I get there?",
-    "a2": "For those who come by car or motorcycle, the map above has links for directions (click on the red pin) - the destination is Viikingite küla, Saula, 75117 Harju maakond. There will also be a Festival Bus (named \"Hop On Fuck Off\") departing from in front of Rockclub Barbar (Rävala pst 8, 10145 Tallinn). Find more info about the bus right above! ⬆",
+    "a2": "For those who come by car or motorcycle, the map above has a link for directions (click on the red pin) - the destination is Viikingite küla, Saula, 75117 Harju maakond. You'll also find information about the parking lots above. ⬆ <br><br> There will also be a Festival Bus (named \"Hop On Fuck Off\") departing from in front of Rockclub Barbar (Rävala pst 8, 10145 Tallinn). Find more info about the bus right above! ⬆",
     "q3": "Where can I sleep?",
     "a3": "While the Viking Village offers all kinds of experiential accommodation all year round, all spots have been filled for now. Nevertheless we welcome you to our camping grounds free of charge (price included in the festival pass).",
     "q4": "Can I enter with my own drink?",
@@ -56,12 +56,16 @@
         "date": "- on which date you wish to travel"
       },
       "leave": "The buses leave like this:",
-      "thursday": "Thursday. 08.juuli. kl. 18.00 Rockclub Barbar – Viikingite küla (Barbar Feast)",
-      "friday": "Friday. 09.juuli kl. 15.00 Rockclub Barbar – Viikingite küla (Barbar Feast)",
-      "saturday": "Saturday. 10.juuli kl. 11.00 Rockclub Barbar – Viikingite küla (Barbar Feast)",
-      "sunday": "Sunday. 11.juuli kl. 11.00 Viikingite küla (Barbar Feast) – Rockiklubi Barbar",
+      "thursday": "Thursday. 8th of July at 18.00 Rockclub Barbar – Viikingite küla (Barbar Feast)",
+      "friday": "Friday. 9th of July at. 15.00 Rockclub Barbar – Viikingite küla (Barbar Feast)",
+      "saturday": "Saturday. 10th of July at 11.00 Rockclub Barbar – Viikingite küla (Barbar Feast)",
+      "sunday": "Sunday. 11th of July at 11.00 Viikingite küla (Barbar Feast) – Rockiklubi Barbar",
       "ticket": "ALL WHO DON'T HAVE 3 DAY TICKET GO BUY A 5€ BUS TICKET FROM ROCKCLUB BARBAR"
     }
+  },
+  "parking": {
+    "title": "Where can I park my vehicle?",
+    "desc": "Here's a map with the three nearest parking lots to the festival grounds: <br><br>TSIKLIPARKLA - Motorcycle parking lot (FREE)<br> PARKLA 24/7 VALVE - Parking lot with 24/7 surveillance (PAID)<br>VALVETA PARKLA - Parking lot without any surveillance (FREE)<br><br> PEASISSEPÄÄS - The main entrance to the grounds <br><br> For precise information about parking and it's cost (for the 24/7 surveillance lot) visit the ticket sales tent at the main entrance of the festival grounds"
   },
   "sponsors": {
     "title": "Sponsors & supporters",

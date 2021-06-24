@@ -6,7 +6,7 @@
     </details>
     <details class="FAQ__content">
       <summary class="FAQ__content__question">{{ $t("faq.q2") }}</summary>
-      <p class="FAQ__content__answer">{{ $t("faq.a2") }}</p>
+      <p class="FAQ__content__answer" v-html="$t('faq.a2')"></p>
     </details>
     <details class="FAQ__content">
       <summary class="FAQ__content__question">{{ $t("faq.q3") }}</summary>

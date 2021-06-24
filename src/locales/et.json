@@ -26,7 +26,7 @@
     "q1": "Kus festival toimub?",
     "a1": "BARBAR FEAST 2021 leiab aset maalilises Viikingite Külas, vaid poole tunni sõidu kaugusel Tallinnast",
     "q2": "Kuidas festivalile saab?",
-    "a2": "Jala, (mootor)rattaga, autoga (kohapeal valvega parkla) tulijale - ülal kaardil on link juhistele (vajuta punasele ikoonile) - sihtkoht on Viikingite küla, Saula, 75117 Harju maakond. Lisaks väljub Rockiklubi Barbar eest (Rävala pst 8, 10145 Tallinn) festivali buss \"Hop On Fuck Off\". Infot bussi kohta leiad ülalt! ⬆",
+    "a2": "Jala, (mootor)rattaga, autoga tulijale - ülal ⬆ musta taustaga kaardil on link juhistele (vajuta punasele ikoonile) - sihtkoht on Viikingite küla, Saula, 75117 Harju maakond. Samuti leiad ülalt ⬆ infot parklate kohta. <br><br> Lisaks väljub Rockiklubi Barbar eest (Rävala pst 8, 10145 Tallinn) festivali buss \"Hop On Fuck Off\". Infot bussi kohta leiad ülalt! ⬆",
     "q3": "Kus magada saab?",
     "a3": "Kuigi Viikingite Küla pakub aastaringset elamusmajutust, on neil kõik kohad selleks korraks täitunud. Küll aga on võimalik kasutada telklat, mis on festivali raames TASUTA (festivalipassi hinnas sees).",
     "q4": "Kas oma jookidega saab sisse?",
@@ -48,12 +48,16 @@
     "title": "HOP ON FUCK OFF !TASUTA! FESTIVALIBUSS",
     "content": {
       "leave": "Festivalibussid väljuvad järgmiselt:",
-      "thursday": "N. 08.juuli. kl. 18.00 Rockiklubi Barbar – Viikingite küla",
-      "friday": "R. 09.juuli kl. 15.00 Rockiklubi Barbar – Viikingite küla",
-      "saturday": "L. 10.juuli kl. 11.00 Rockiklubi Barbar – Viikingite küla",
-      "sunday": "P. 11.juuli kl. 11.00 Viikingite küla – Rockiklubi Barbar",
+      "thursday": "N. 8. juuli. kl 18.00 Rockiklubi Barbar – Viikingite küla",
+      "friday": "R. 9. juuli kl 15.00 Rockiklubi Barbar – Viikingite küla",
+      "saturday": "L. 10. juuli kl 11.00 Rockiklubi Barbar – Viikingite küla",
+      "sunday": "P. 11. juuli kl 11.00 Viikingite küla – Rockiklubi Barbar",
       "moreinfo": "Rohkem infot leia Metaltraveli lehelt (broneerimine jmt)"
     }
+  },
+  "parking": {
+    "title": "Kuhu ma oma masina pargin?",
+    "desc": "Kaardil näed kolme festivalialale lähimat parklat: <br><br>(TASUTA) TSIKLIPARKLA<br> (TASULINE) 24/7 VALVEGA PARKLA <br>(TASUTA) VALVETA PARKLA <br><br> Täpsema info teadasaamiseks parkimise ja selle maksumuse kohta (24/7 valvega parkla puhul) külasta peasissepääsu piletitelki"
   },
   "sponsors": {
     "title": "Sponsorid & toetajad",
