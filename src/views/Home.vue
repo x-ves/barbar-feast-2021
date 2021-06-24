@@ -81,7 +81,7 @@
       </section>
       <section class="parking">
         <div class="parking__wrapper">
-          <img class="parking__img" src="parkla.png" alt="" />
+          <img class="parking__img" src="/parkla.png" alt="" />
           <div class="parking__content">
             <h1 class="parking__title">{{ $t("parking.title") }}</h1>
             <p class="parking__desc" v-html="$t('parking.desc')"></p>
