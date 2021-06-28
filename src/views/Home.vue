@@ -65,9 +65,14 @@
               {{ $t("bus.content.friday") }} <br />
               {{ $t("bus.content.saturday") }} <br />
               {{ $t("bus.content.sunday") }} <br /><br />
-              <span v-if="this.$i18n.locale !== 'et'">{{
-                $t("bus.content.ticket")
-              }}</span>
+              <span v-if="this.$i18n.locale !== 'et'"
+                >{{ $t("bus.content.ticket") }}
+                <a
+                  target="_blank"
+                  href="https://metaltravel.net/en/buy-tickets/"
+                  >https://metaltravel.net/en/buy-tickets/</a
+                ></span
+              >
               <span v-if="this.$i18n.locale === 'et'">
                 <a
                   target="_blank"
