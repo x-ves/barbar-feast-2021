@@ -29,7 +29,7 @@
         <div class="location__slides__text">
           <h1 class="location__title">{{ $t("location.header") }}</h1>
           <p class="location__desc">
-            {{ $t("location.desc") }} <br /><br />
+            <span v-html="$t('location.desc')"></span> <br /><br />
             {{ $t("location.event") }}
             <a
               href="https://www.facebook.com/events/1554988891317342"
