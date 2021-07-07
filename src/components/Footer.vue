@@ -76,6 +76,12 @@
           ></span
         >
       </div>
+      <a target="_blank" href="https://xves.rocks"
+        ><img
+          style="position: fixed; right: 1px; bottom: 1px; width: 35px; height: 35px; transform: rotate(-45deg);"
+          src="https://xves.rocks/assets/1.png"
+          alt=""
+      /></a>
     </div>
   </footer>
 </template>

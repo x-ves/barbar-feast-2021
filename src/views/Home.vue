@@ -62,8 +62,8 @@
               </span>
               {{ $t("bus.content.leave") }} <br /><br />
               {{ $t("bus.content.thursday") }} <br />
-              {{ $t("bus.content.friday") }} <br />
-              {{ $t("bus.content.saturday") }} <br />
+              <!--               {{ $t("bus.content.friday") }} <br />
+              {{ $t("bus.content.saturday") }} <br /> -->
               {{ $t("bus.content.sunday") }} <br /><br />
               <span v-if="this.$i18n.locale !== 'et'"
                 >{{ $t("bus.content.ticket") }}
