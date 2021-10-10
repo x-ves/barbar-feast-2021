@@ -48,7 +48,12 @@
       <GoogleMap />
       <section class="bus">
         <div class="bus__wrapper">
-          <img class="bus__img" src="@/assets/festivalibuss.jpg" alt="" />
+          <img
+            class="bus__img"
+            src="@/assets/festivalibuss.jpg"
+            alt=""
+            loading="lazy"
+          />
           <div class="bus__content">
             <h1 class="bus__title">{{ $t("bus.title") }}</h1>
             <p class="bus__desc">
@@ -86,7 +91,7 @@
       </section>
       <section class="parking">
         <div class="parking__wrapper">
-          <img class="parking__img" src="/parkla.png" alt="" />
+          <img class="parking__img" src="/parkla.png" alt="" loading="lazy" />
           <div class="parking__content">
             <h1 class="parking__title">{{ $t("parking.title") }}</h1>
             <p class="parking__desc" v-html="$t('parking.desc')"></p>
@@ -108,42 +113,49 @@
             class="sponsors__image"
             src="@/assets/Rebel-transparent.png"
             alt=""
+            loading="lazy"
         /></a>
         <a target="_blank" href="https://www.fireballwhisky.com/"
           ><img
             class="sponsors__image"
             src="@/assets/Fireball-transparent.png"
             alt=""
+            loading="lazy"
         /></a>
         <a target="_blank" href="https://www.facebook.com/roaddevilmc"
           ><img
             class="sponsors__image"
             src="@/assets/Road-Devil-transparent.png"
             alt=""
+            loading="lazy"
         /></a>
         <a target="_blank" href="https://puhastebeer.com/"
           ><img
             class="sponsors__image"
             src="@/assets/Pühaste-transparent.png"
             alt=""
+            loading="lazy"
         /></a>
         <a target="_blank" href="https://terminaloil.ee/"
           ><img
             class="sponsors__image"
             src="@/assets/Terminal-transparent.png"
             alt=""
+            loading="lazy"
         /></a>
         <a target="_blank" href="https://www.facebook.com/www.hairpoint.ee"
           ><img
             class="sponsors__image"
             src="@/assets/Hairpoint-transparent.png"
             alt=""
+            loading="lazy"
         /></a>
         <a target="_blank" href="https://www.facebook.com/barbarestonia"
           ><img
             class="sponsors__image"
             src="@/assets/Barbar-transparent.png"
             alt=""
+            loading="lazy"
         /></a>
       </div>
     </section>

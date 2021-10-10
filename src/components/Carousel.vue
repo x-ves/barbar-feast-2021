@@ -2,7 +2,7 @@
   <div class="carousel__view">
     <transition-group class="carousel" tag="div">
       <div v-for="slide in slides" class="slide" :key="slide.id">
-        <img class="slide__img" :src="slide.imgUrl" />
+        <img class="slide__img" :src="slide.imgUrl" loading="lazy" />
       </div>
     </transition-group>
     <div class="carousel__controls">

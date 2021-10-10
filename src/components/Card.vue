@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="card" @click="$refs.bandModal.openModal()">
-      <img class="card__img" :src="imgUrl" />
+      <img class="card__img" :src="imgUrl" loading="lazy" />
       <div class="card__desc">
         <h3>{{ name }}</h3>
         <p>({{ genre }})</p>
@@ -18,6 +18,7 @@
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
+          loading="lazy"
         />
         <img class="card__modalImg" v-else :src="imgUrl" />
         <h3>{{ name }}</h3>

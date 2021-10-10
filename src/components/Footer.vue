@@ -1,7 +1,11 @@
 <template>
   <footer>
     <div class="footer">
-      <img src="@/assets/Barbar-transparent.png" alt="BarBar logo" />
+      <img
+        src="@/assets/Barbar-transparent.png"
+        alt="BarBar logo"
+        loading="lazy"
+      />
       <div class="footer__contacts">
         <h3>{{ $t("footer.msg") }}</h3>
         <br />
