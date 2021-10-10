@@ -8,13 +8,25 @@
           <button type="button" class="modal__close" @click="closeModal()">
             <font-awesome-icon :icon="['fas', 'times']"></font-awesome-icon>
           </button>
-          <img src="@/assets/Barbar-transparent.png" alt="Barbar Rockclub's logo, an accordion playing skeleton" style="width: 20rem; align-self: center;">
+          <img
+            src="@/assets/Barbar-transparent.png"
+            alt="Barbar Rockclub's logo, an accordion playing skeleton"
+            style="width: 20rem; align-self: center;"
+          />
         </div>
 
         <div class="modal__body">
           <h1>{{ $t("thx.header") }}</h1>
           <p v-html="$t('thx.content')"></p>
-          <span v-if="this.$i18n.locale === 'et'">Loe ka Madise festivalijärgseid tänusõnu <a href="https://www.facebook.com/events/1554988891317342?post_id=2151641501652075&view=permalink" target="_blank" style="color:var(--secondary-text-color)">siin!</a></span>
+          <span v-if="this.$i18n.locale === 'et'"
+            >Loe ka Madise festivalijärgseid tänusõnu
+            <a
+              href="https://www.facebook.com/events/1554988891317342?post_id=2151641501652075&view=permalink"
+              target="_blank"
+              style="color:var(--secondary-text-color)"
+              >siin!</a
+            ></span
+          >
         </div>
       </div>
     </div>
@@ -117,13 +129,13 @@ export default {
     }
   }
 
-    h1 {
-      margin: 0.5rem 0 0 0;
-      font-size: 2rem;
-      text-transform: uppercase;
-      color: var(--secondary-text-color);
-      text-align: center;
-    }
+  h1 {
+    margin: 0.5rem 0 0 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+    text-align: center;
+  }
 
   &__header {
     display: flex;
