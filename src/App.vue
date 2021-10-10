@@ -7,6 +7,7 @@
       <Nav></Nav>
       <div class="container">
         <router-view />
+        <thxModal></thxModal>
       </div>
       <Footer></Footer>
     </div>
@@ -16,6 +17,8 @@
 <script>
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import thxModal from "@/components/thxModal.vue";
+
 import EventBus from "@/EventBus";
 
 export default {
@@ -45,13 +48,14 @@ export default {
   data: () => ({
     isLoading: true
   }),
+  components: {
+    Nav,
+    Footer,
+    thxModal
+  },
   mounted() {
     EventBus.$on("i18n-load-start", () => (this.isLoading = true));
     EventBus.$on("i18n-load-complete", () => (this.isLoading = false));
-  },
-  components: {
-    Nav,
-    Footer
   }
 };
 </script>
