@@ -19,28 +19,23 @@ export default {
       slides: [
         {
           id: 1,
-          imgUrl:
-            "https://www.viikingitekyla.ee/wp-content/uploads/2017/02/20130528_205203.jpg"
+          imgUrl: "/droonipilt.jpg"
         },
         {
           id: 2,
-          imgUrl:
-            "https://www.viikingitekyla.ee/wp-content/uploads/2017/01/2-9.jpg"
+          imgUrl: "/kalamaja.jpg"
         },
         {
           id: 3,
-          imgUrl:
-            "https://www.viikingitekyla.ee/wp-content/uploads/2017/01/2-1.jpg"
+          imgUrl: "/kalamaja2.jpg"
         },
         {
           id: 4,
-          imgUrl:
-            "https://www.viikingitekyla.ee/wp-content/uploads/2017/01/M%C3%A4epealne-katusealune.jpg"
+          imgUrl: "/Mäepealne-katusealune.jpg"
         },
         {
           id: 5,
-          imgUrl:
-            "https://www.viikingitekyla.ee/wp-content/uploads/2017/01/5.jpg"
+          imgUrl: "/s88gilauad.jpg"
         }
       ],
       timer: null
